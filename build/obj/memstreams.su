@@ -1,0 +1,5 @@
+ChibiOS/os/hal/lib/streams/memstreams.c:66:14:put	4	static
+ChibiOS/os/hal/lib/streams/memstreams.c:76:14:get	0	static
+ChibiOS/os/hal/lib/streams/memstreams.c:56:15:reads	16	static
+ChibiOS/os/hal/lib/streams/memstreams.c:46:15:writes	16	static
+ChibiOS/os/hal/lib/streams/memstreams.c:103:6:msObjectInit	4	static

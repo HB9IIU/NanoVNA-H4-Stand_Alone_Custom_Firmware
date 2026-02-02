@@ -1,0 +1,9 @@
+common.c:33:9:my_atoi	8	static
+common.c:50:10:my_atoui	0	static
+common.c:72:7:my_atof	16	static
+common.c:107:6:strcmpi	8	static
+common.c:122:5:get_str_index	16	static
+common.c:162:5:parse_line	24	static
+common.c:184:6:swap_bytes	0	static
+common.c:192:5:packbits	24	static
+common.c:212:6:_delay_8t	0	static

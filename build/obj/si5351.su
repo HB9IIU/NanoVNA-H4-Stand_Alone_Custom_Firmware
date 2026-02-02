@@ -1,0 +1,15 @@
+si5351.c:74:10:si5351_get_frequency	0	static
+si5351.c:80:6:si5351_set_frequency_offset	8	static
+si5351.c:93:6:si5351_bulk_write	0	static
+si5351.c:202:13:si5351_setupPLL	24	static
+si5351.c:342:1:si5351_setupPLL_freq	24	static
+si5351.c:243:1:si5351_setupMultisynth	48	static
+si5351.c:331:1:si5351_set_frequency_fixedpll	32	static
+si5351.c:180:6:si5351_disable_output	16	static
+si5351.c:187:6:si5351_enable_output	16	static
+si5351.c:194:6:si5351_set_tcxo	4	static
+si5351.c:503:6:si5351_set_band_mode	0	static
+si5351.c:515:1:si5351_get_harmonic_lvl	8	static
+si5351.c:537:1:si5351_set_frequency	88	static
+si5351.c:88:6:si5351_set_power	0	static
+si5351.c:146:1:si5351_init	16	static

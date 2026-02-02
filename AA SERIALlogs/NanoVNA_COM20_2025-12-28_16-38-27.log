@@ -1,0 +1,236 @@
+16:38:27.613  [MLA] Resonance Freq: 14119175 Hz (idx=202)
+16:38:27.613  [MLA] Resonance SWR: 1.88 (idx=202)
+16:38:27.614  [MLA] BW(SWR<=2.0): f_low=14118894 Hz (idx=201), f_high=14119408 Hz (idx=203), BW=514 Hz (0.51 kHz)
+16:38:27.614  [MLA] Q@SWR2: f0=14119175 Hz, BW(SWR<=2)=514 Hz, Q=27469.2, BW/f0=0.004 %
+16:38:27.614  [MLA] Q@SWR2: f0=14119175 Hz, BW(SWR<=2)=514 Hz, Q=27469.2, BW/f0=0.004 %
+16:38:27.614  [MLA] Q rating: EXCELLENT (Q@SWR2=27469.2)
+16:38:27.714  [MLA] centered=1  res_idx=202  sweep_points=401  edge=80
+16:38:28.929  [MLA] Resonance Freq: 14118325 Hz (idx=198)
+16:38:28.929  [MLA] Resonance SWR: 1.88 (idx=198)
+16:38:28.929  [MLA] BW(SWR<=2.0): f_low=14118212 Hz (idx=198), f_high=14118542 Hz (idx=199), BW=330 Hz (0.33 kHz)
+16:38:28.929  [MLA] Q@SWR2: f0=14118325 Hz, BW(SWR<=2)=330 Hz, Q=42782.8, BW/f0=0.002 %
+16:38:28.930  [MLA] Q@SWR2: f0=14118325 Hz, BW(SWR<=2)=330 Hz, Q=42782.8, BW/f0=0.002 %
+16:38:28.930  [MLA] Q rating: EXCELLENT (Q@SWR2=42782.8)
+16:38:29.031  [MLA] centered=1  res_idx=198  sweep_points=401  edge=80
+16:38:30.246  [MLA] Resonance Freq: 14120450 Hz (idx=208)
+16:38:30.246  [MLA] Resonance SWR: 1.88 (idx=208)
+16:38:30.246  [MLA] BW(SWR<=2.0): f_low=14120164 Hz (idx=207), f_high=14120682 Hz (idx=209), BW=518 Hz (0.52 kHz)
+16:38:30.247  [MLA] Q@SWR2: f0=14120450 Hz, BW(SWR<=2)=518 Hz, Q=27259.6, BW/f0=0.004 %
+16:38:30.247  [MLA] Q@SWR2: f0=14120450 Hz, BW(SWR<=2)=518 Hz, Q=27259.6, BW/f0=0.004 %
+16:38:30.247  [MLA] Q rating: EXCELLENT (Q@SWR2=27259.6)
+16:38:30.347  [MLA] centered=1  res_idx=208  sweep_points=401  edge=80
+16:38:31.563  [MLA] Resonance Freq: 14118963 Hz (idx=201)
+16:38:31.563  [MLA] Resonance SWR: 1.88 (idx=201)
+16:38:31.564  [MLA] BW(SWR<=2.0): f_low=14118700 Hz (idx=200), f_high=14119258 Hz (idx=202), BW=558 Hz (0.56 kHz)
+16:38:31.564  [MLA] Q@SWR2: f0=14118963 Hz, BW(SWR<=2)=558 Hz, Q=25302.8, BW/f0=0.004 %
+16:38:31.564  [MLA] Q@SWR2: f0=14118963 Hz, BW(SWR<=2)=558 Hz, Q=25302.8, BW/f0=0.004 %
+16:38:31.564  [MLA] Q rating: EXCELLENT (Q@SWR2=25302.8)
+16:38:31.665  [MLA] centered=1  res_idx=201  sweep_points=401  edge=80
+16:38:32.879  [MLA] Resonance Freq: 14119600 Hz (idx=204)
+16:38:32.879  [MLA] Resonance SWR: 1.88 (idx=204)
+16:38:32.879  [MLA] BW(SWR<=2.0): f_low=14119390 Hz (idx=204), f_high=14119896 Hz (idx=205), BW=506 Hz (0.51 kHz)
+16:38:32.879  [MLA] Q@SWR2: f0=14119600 Hz, BW(SWR<=2)=506 Hz, Q=27904.3, BW/f0=0.004 %
+16:38:32.879  [MLA] Q@SWR2: f0=14119600 Hz, BW(SWR<=2)=506 Hz, Q=27904.3, BW/f0=0.004 %
+16:38:32.879  [MLA] Q rating: EXCELLENT (Q@SWR2=27904.3)
+16:38:32.981  [MLA] centered=1  res_idx=204  sweep_points=401  edge=80
+16:38:34.198  [MLA] Resonance Freq: 14120238 Hz (idx=207)
+16:38:34.198  [MLA] Resonance SWR: 1.88 (idx=207)
+16:38:34.198  [MLA] BW(SWR<=2.0): f_low=14120048 Hz (idx=207), f_high=14120532 Hz (idx=208), BW=484 Hz (0.48 kHz)
+16:38:34.198  [MLA] Q@SWR2: f0=14120238 Hz, BW(SWR<=2)=484 Hz, Q=29174.0, BW/f0=0.003 %
+16:38:34.198  [MLA] Q@SWR2: f0=14120238 Hz, BW(SWR<=2)=484 Hz, Q=29174.0, BW/f0=0.003 %
+16:38:34.198  [MLA] Q rating: EXCELLENT (Q@SWR2=29174.0)
+16:38:34.299  [MLA] centered=1  res_idx=207  sweep_points=401  edge=80
+16:38:35.511  [MLA] Resonance Freq: 14118750 Hz (idx=200)
+16:38:35.512  [MLA] Resonance SWR: 1.88 (idx=200)
+16:38:35.512  [MLA] BW(SWR<=2.0): f_low=14118626 Hz (idx=200), f_high=14118980 Hz (idx=201), BW=354 Hz (0.35 kHz)
+16:38:35.512  [MLA] Q@SWR2: f0=14118750 Hz, BW(SWR<=2)=354 Hz, Q=39883.5, BW/f0=0.003 %
+16:38:35.512  [MLA] Q@SWR2: f0=14118750 Hz, BW(SWR<=2)=354 Hz, Q=39883.5, BW/f0=0.003 %
+16:38:35.512  [MLA] Q rating: EXCELLENT (Q@SWR2=39883.5)
+16:38:35.612  [MLA] centered=1  res_idx=200  sweep_points=401  edge=80
+16:38:36.825  [MLA] Resonance Freq: 14119388 Hz (idx=203)
+16:38:36.826  [MLA] Resonance SWR: 1.88 (idx=203)
+16:38:36.826  [MLA] BW(SWR<=2.0): f_low=14119268 Hz (idx=203), f_high=14119612 Hz (idx=204), BW=344 Hz (0.34 kHz)
+16:38:36.826  [MLA] Q@SWR2: f0=14119388 Hz, BW(SWR<=2)=344 Hz, Q=41044.7, BW/f0=0.002 %
+16:38:36.826  [MLA] Q@SWR2: f0=14119388 Hz, BW(SWR<=2)=344 Hz, Q=41044.7, BW/f0=0.002 %
+16:38:36.826  [MLA] Q rating: EXCELLENT (Q@SWR2=41044.7)
+16:38:36.926  [MLA] centered=1  res_idx=203  sweep_points=401  edge=80
+16:38:38.139  [MLA] Resonance Freq: 14117900 Hz (idx=196)
+16:38:38.139  [MLA] Resonance SWR: 1.88 (idx=196)
+16:38:38.139  [MLA] BW(SWR<=2.0): f_low=14117786 Hz (idx=196), f_high=14118196 Hz (idx=197), BW=410 Hz (0.41 kHz)
+16:38:38.139  [MLA] Q@SWR2: f0=14117900 Hz, BW(SWR<=2)=410 Hz, Q=34433.9, BW/f0=0.003 %
+16:38:38.139  [MLA] Q@SWR2: f0=14117900 Hz, BW(SWR<=2)=410 Hz, Q=34433.9, BW/f0=0.003 %
+16:38:38.139  [MLA] Q rating: EXCELLENT (Q@SWR2=34433.9)
+16:38:38.241  [MLA] centered=1  res_idx=196  sweep_points=401  edge=80
+16:38:39.453  [MLA] Resonance Freq: 14118538 Hz (idx=199)
+16:38:39.453  [MLA] Resonance SWR: 1.88 (idx=199)
+16:38:39.453  [MLA] BW(SWR<=2.0): f_low=14118422 Hz (idx=199), f_high=14118832 Hz (idx=200), BW=410 Hz (0.41 kHz)
+16:38:39.454  [MLA] Q@SWR2: f0=14118538 Hz, BW(SWR<=2)=410 Hz, Q=34435.5, BW/f0=0.003 %
+16:38:39.454  [MLA] Q@SWR2: f0=14118538 Hz, BW(SWR<=2)=410 Hz, Q=34435.5, BW/f0=0.003 %
+16:38:39.454  [MLA] Q rating: EXCELLENT (Q@SWR2=34435.5)
+16:38:39.554  [MLA] centered=1  res_idx=199  sweep_points=401  edge=80
+16:38:40.766  [MLA] Resonance Freq: 14118538 Hz (idx=199)
+16:38:40.766  [MLA] Resonance SWR: 1.88 (idx=199)
+16:38:40.766  [MLA] BW(SWR<=2.0): f_low=14118274 Hz (idx=198), f_high=14118762 Hz (idx=200), BW=488 Hz (0.49 kHz)
+16:38:40.766  [MLA] Q@SWR2: f0=14118538 Hz, BW(SWR<=2)=488 Hz, Q=28931.4, BW/f0=0.003 %
+16:38:40.766  [MLA] Q@SWR2: f0=14118538 Hz, BW(SWR<=2)=488 Hz, Q=28931.4, BW/f0=0.003 %
+16:38:40.766  [MLA] Q rating: EXCELLENT (Q@SWR2=28931.4)
+16:38:40.867  [MLA] centered=1  res_idx=199  sweep_points=401  edge=80
+16:38:42.080  [MLA] Resonance Freq: 14119175 Hz (idx=202)
+16:38:42.080  [MLA] Resonance SWR: 1.88 (idx=202)
+16:38:42.080  [MLA] BW(SWR<=2.0): f_low=14118980 Hz (idx=202), f_high=14119406 Hz (idx=203), BW=426 Hz (0.43 kHz)
+16:38:42.080  [MLA] Q@SWR2: f0=14119175 Hz, BW(SWR<=2)=426 Hz, Q=33143.6, BW/f0=0.003 %
+16:38:42.080  [MLA] Q@SWR2: f0=14119175 Hz, BW(SWR<=2)=426 Hz, Q=33143.6, BW/f0=0.003 %
+16:38:42.080  [MLA] Q rating: EXCELLENT (Q@SWR2=33143.6)
+16:38:42.180  [MLA] centered=1  res_idx=202  sweep_points=401  edge=80
+16:38:43.392  [MLA] Resonance Freq: 14117688 Hz (idx=195)
+16:38:43.392  [MLA] Resonance SWR: 1.88 (idx=195)
+16:38:43.392  [MLA] BW(SWR<=2.0): f_low=14117510 Hz (idx=195), f_high=14117980 Hz (idx=196), BW=470 Hz (0.47 kHz)
+16:38:43.392  [MLA] Q@SWR2: f0=14117688 Hz, BW(SWR<=2)=470 Hz, Q=30037.6, BW/f0=0.003 %
+16:38:43.392  [MLA] Q@SWR2: f0=14117688 Hz, BW(SWR<=2)=470 Hz, Q=30037.6, BW/f0=0.003 %
+16:38:43.393  [MLA] Q rating: EXCELLENT (Q@SWR2=30037.6)
+16:38:43.494  [MLA] centered=1  res_idx=195  sweep_points=401  edge=80
+16:38:44.709  [MLA] Resonance Freq: 14120450 Hz (idx=208)
+16:38:44.709  [MLA] Resonance SWR: 1.89 (idx=208)
+16:38:44.709  [MLA] BW(SWR<=2.0): f_low=14120302 Hz (idx=208), f_high=14120674 Hz (idx=209), BW=372 Hz (0.37 kHz)
+16:38:44.709  [MLA] Q@SWR2: f0=14120450 Hz, BW(SWR<=2)=372 Hz, Q=37958.2, BW/f0=0.003 %
+16:38:44.710  [MLA] Q@SWR2: f0=14120450 Hz, BW(SWR<=2)=372 Hz, Q=37958.2, BW/f0=0.003 %
+16:38:44.710  [MLA] Q rating: EXCELLENT (Q@SWR2=37958.2)
+16:38:44.809  [MLA] centered=1  res_idx=208  sweep_points=401  edge=80
+16:38:46.026  [MLA] Resonance Freq: 14118963 Hz (idx=201)
+16:38:46.026  [MLA] Resonance SWR: 1.88 (idx=201)
+16:38:46.026  [MLA] BW(SWR<=2.0): f_low=14118772 Hz (idx=201), f_high=14119250 Hz (idx=202), BW=478 Hz (0.48 kHz)
+16:38:46.026  [MLA] Q@SWR2: f0=14118963 Hz, BW(SWR<=2)=478 Hz, Q=29537.6, BW/f0=0.003 %
+16:38:46.026  [MLA] Q@SWR2: f0=14118963 Hz, BW(SWR<=2)=478 Hz, Q=29537.6, BW/f0=0.003 %
+16:38:46.026  [MLA] Q rating: EXCELLENT (Q@SWR2=29537.6)
+16:38:46.127  [MLA] centered=1  res_idx=201  sweep_points=401  edge=80
+16:38:47.340  [MLA] Resonance Freq: 14118113 Hz (idx=197)
+16:38:47.341  [MLA] Resonance SWR: 1.89 (idx=197)
+16:38:47.341  [MLA] BW(SWR<=2.0): f_low=14118000 Hz (idx=197), f_high=14118400 Hz (idx=198), BW=400 Hz (0.40 kHz)
+16:38:47.341  [MLA] Q@SWR2: f0=14118113 Hz, BW(SWR<=2)=400 Hz, Q=35295.3, BW/f0=0.003 %
+16:38:47.341  [MLA] Q@SWR2: f0=14118113 Hz, BW(SWR<=2)=400 Hz, Q=35295.3, BW/f0=0.003 %
+16:38:47.341  [MLA] Q rating: EXCELLENT (Q@SWR2=35295.3)
+16:38:47.442  [MLA] centered=1  res_idx=197  sweep_points=401  edge=80
+16:38:48.655  [MLA] Resonance Freq: 14118750 Hz (idx=200)
+16:38:48.656  [MLA] Resonance SWR: 1.89 (idx=200)
+16:38:48.656  [MLA] BW(SWR<=2.0): f_low=14118638 Hz (idx=200), f_high=14119036 Hz (idx=201), BW=398 Hz (0.40 kHz)
+16:38:48.656  [MLA] Q@SWR2: f0=14118750 Hz, BW(SWR<=2)=398 Hz, Q=35474.2, BW/f0=0.003 %
+16:38:48.656  [MLA] Q@SWR2: f0=14118750 Hz, BW(SWR<=2)=398 Hz, Q=35474.2, BW/f0=0.003 %
+16:38:48.656  [MLA] Q rating: EXCELLENT (Q@SWR2=35474.2)
+16:38:48.756  [MLA] centered=1  res_idx=200  sweep_points=401  edge=80
+16:38:49.973  [MLA] Resonance Freq: 14118750 Hz (idx=200)
+16:38:49.973  [MLA] Resonance SWR: 1.88 (idx=200)
+16:38:49.973  [MLA] BW(SWR<=2.0): f_low=14118520 Hz (idx=199), f_high=14118974 Hz (idx=201), BW=454 Hz (0.45 kHz)
+16:38:49.973  [MLA] Q@SWR2: f0=14118750 Hz, BW(SWR<=2)=454 Hz, Q=31098.6, BW/f0=0.003 %
+16:38:49.973  [MLA] Q@SWR2: f0=14118750 Hz, BW(SWR<=2)=454 Hz, Q=31098.6, BW/f0=0.003 %
+16:38:49.973  [MLA] Q rating: EXCELLENT (Q@SWR2=31098.6)
+16:38:49.973  [MLA] centered=1  res_idx=200  sweep_points=401  edge=80
+16:38:51.285  [MLA] Resonance Freq: 14120025 Hz (idx=206)
+16:38:51.285  [MLA] Resonance SWR: 1.88 (idx=206)
+16:38:51.285  [MLA] BW(SWR<=2.0): f_low=14119910 Hz (idx=206), f_high=14120318 Hz (idx=207), BW=408 Hz (0.41 kHz)
+16:38:51.285  [MLA] Q@SWR2: f0=14120025 Hz, BW(SWR<=2)=408 Hz, Q=34607.9, BW/f0=0.003 %
+16:38:51.285  [MLA] Q@SWR2: f0=14120025 Hz, BW(SWR<=2)=408 Hz, Q=34607.9, BW/f0=0.003 %
+16:38:51.285  [MLA] Q rating: EXCELLENT (Q@SWR2=34607.9)
+16:38:51.286  [MLA] centered=1  res_idx=206  sweep_points=401  edge=80
+16:38:52.596  [MLA] Resonance Freq: 14118538 Hz (idx=199)
+16:38:52.596  [MLA] Resonance SWR: 1.88 (idx=199)
+16:38:52.597  [MLA] BW(SWR<=2.0): f_low=14118390 Hz (idx=199), f_high=14118768 Hz (idx=200), BW=378 Hz (0.38 kHz)
+16:38:52.597  [MLA] Q@SWR2: f0=14118538 Hz, BW(SWR<=2)=378 Hz, Q=37350.6, BW/f0=0.003 %
+16:38:52.597  [MLA] Q@SWR2: f0=14118538 Hz, BW(SWR<=2)=378 Hz, Q=37350.6, BW/f0=0.003 %
+16:38:52.597  [MLA] Q rating: EXCELLENT (Q@SWR2=37350.6)
+16:38:52.597  [MLA] centered=1  res_idx=199  sweep_points=401  edge=80
+16:38:53.911  [MLA] Resonance Freq: 14119175 Hz (idx=202)
+16:38:53.911  [MLA] Resonance SWR: 1.89 (idx=202)
+16:38:53.911  [MLA] BW(SWR<=2.0): f_low=14119036 Hz (idx=202), f_high=14119406 Hz (idx=203), BW=370 Hz (0.37 kHz)
+16:38:53.911  [MLA] Q@SWR2: f0=14119175 Hz, BW(SWR<=2)=370 Hz, Q=38159.9, BW/f0=0.003 %
+16:38:53.911  [MLA] Q@SWR2: f0=14119175 Hz, BW(SWR<=2)=370 Hz, Q=38159.9, BW/f0=0.003 %
+16:38:53.911  [MLA] Q rating: EXCELLENT (Q@SWR2=38159.9)
+16:38:53.911  [MLA] centered=1  res_idx=202  sweep_points=401  edge=80
+16:38:55.228  [MLA] Resonance Freq: 14117688 Hz (idx=195)
+16:38:55.228  [MLA] Resonance SWR: 1.89 (idx=195)
+16:38:55.229  [MLA] BW(SWR<=2.0): f_low=14117546 Hz (idx=195), f_high=14117972 Hz (idx=196), BW=426 Hz (0.43 kHz)
+16:38:55.229  [MLA] Q@SWR2: f0=14117688 Hz, BW(SWR<=2)=426 Hz, Q=33140.1, BW/f0=0.003 %
+16:38:55.229  [MLA] Q@SWR2: f0=14117688 Hz, BW(SWR<=2)=426 Hz, Q=33140.1, BW/f0=0.003 %
+16:38:55.229  [MLA] Q rating: EXCELLENT (Q@SWR2=33140.1)
+16:38:55.229  [MLA] centered=1  res_idx=195  sweep_points=401  edge=80
+16:38:56.540  [MLA] Resonance Freq: 14118325 Hz (idx=198)
+16:38:56.541  [MLA] Resonance SWR: 1.88 (idx=198)
+16:38:56.541  [MLA] BW(SWR<=2.0): f_low=14118076 Hz (idx=197), f_high=14118610 Hz (idx=199), BW=534 Hz (0.53 kHz)
+16:38:56.541  [MLA] Q@SWR2: f0=14118325 Hz, BW(SWR<=2)=534 Hz, Q=26438.8, BW/f0=0.004 %
+16:38:56.541  [MLA] Q@SWR2: f0=14118325 Hz, BW(SWR<=2)=534 Hz, Q=26438.8, BW/f0=0.004 %
+16:38:56.541  [MLA] Q rating: EXCELLENT (Q@SWR2=26438.8)
+16:38:56.541  [MLA] centered=1  res_idx=198  sweep_points=401  edge=80
+16:38:57.854  [MLA] Resonance Freq: 14119600 Hz (idx=204)
+16:38:57.854  [MLA] Resonance SWR: 1.89 (idx=204)
+16:38:57.854  [MLA] BW(SWR<=2.0): f_low=14119488 Hz (idx=204), f_high=14119830 Hz (idx=205), BW=342 Hz (0.34 kHz)
+16:38:57.855  [MLA] Q@SWR2: f0=14119600 Hz, BW(SWR<=2)=342 Hz, Q=41285.4, BW/f0=0.002 %
+16:38:57.855  [MLA] Q@SWR2: f0=14119600 Hz, BW(SWR<=2)=342 Hz, Q=41285.4, BW/f0=0.002 %
+16:38:57.855  [MLA] Q rating: EXCELLENT (Q@SWR2=41285.4)
+16:38:57.855  [MLA] centered=1  res_idx=204  sweep_points=401  edge=80
+16:38:59.168  [MLA] Resonance Freq: 14120238 Hz (idx=207)
+16:38:59.168  [MLA] Resonance SWR: 1.88 (idx=207)
+16:38:59.168  [MLA] BW(SWR<=2.0): f_low=14120036 Hz (idx=207), f_high=14120470 Hz (idx=208), BW=434 Hz (0.43 kHz)
+16:38:59.168  [MLA] Q@SWR2: f0=14120238 Hz, BW(SWR<=2)=434 Hz, Q=32535.1, BW/f0=0.003 %
+16:38:59.168  [MLA] Q@SWR2: f0=14120238 Hz, BW(SWR<=2)=434 Hz, Q=32535.1, BW/f0=0.003 %
+16:38:59.168  [MLA] Q rating: EXCELLENT (Q@SWR2=32535.1)
+16:38:59.168  [MLA] centered=1  res_idx=207  sweep_points=401  edge=80
+16:39:00.483  [MLA] Resonance Freq: 14120875 Hz (idx=210)
+16:39:00.483  [MLA] Resonance SWR: 1.89 (idx=210)
+16:39:00.483  [MLA] BW(SWR<=2.0): f_low=14120572 Hz (idx=209), f_high=14121102 Hz (idx=211), BW=530 Hz (0.53 kHz)
+16:39:00.483  [MLA] Q@SWR2: f0=14120875 Hz, BW(SWR<=2)=530 Hz, Q=26643.2, BW/f0=0.004 %
+16:39:00.483  [MLA] Q@SWR2: f0=14120875 Hz, BW(SWR<=2)=530 Hz, Q=26643.2, BW/f0=0.004 %
+16:39:00.484  [MLA] Q rating: EXCELLENT (Q@SWR2=26643.2)
+16:39:00.484  [MLA] centered=1  res_idx=210  sweep_points=401  edge=80
+16:39:01.794  [MLA] Resonance Freq: 14120025 Hz (idx=206)
+16:39:01.795  [MLA] Resonance SWR: 1.88 (idx=206)
+16:39:01.795  [MLA] BW(SWR<=2.0): f_low=14119782 Hz (idx=205), f_high=14120262 Hz (idx=207), BW=480 Hz (0.48 kHz)
+16:39:01.795  [MLA] Q@SWR2: f0=14120025 Hz, BW(SWR<=2)=480 Hz, Q=29416.7, BW/f0=0.003 %
+16:39:01.795  [MLA] Q@SWR2: f0=14120025 Hz, BW(SWR<=2)=480 Hz, Q=29416.7, BW/f0=0.003 %
+16:39:01.795  [MLA] Q rating: EXCELLENT (Q@SWR2=29416.7)
+16:39:01.795  [MLA] centered=1  res_idx=206  sweep_points=401  edge=80
+16:39:03.105  [MLA] Resonance Freq: 14119175 Hz (idx=202)
+16:39:03.105  [MLA] Resonance SWR: 1.89 (idx=202)
+16:39:03.105  [MLA] BW(SWR<=2.0): f_low=14119062 Hz (idx=202), f_high=14119402 Hz (idx=203), BW=340 Hz (0.34 kHz)
+16:39:03.105  [MLA] Q@SWR2: f0=14119175 Hz, BW(SWR<=2)=340 Hz, Q=41527.0, BW/f0=0.002 %
+16:39:03.105  [MLA] Q@SWR2: f0=14119175 Hz, BW(SWR<=2)=340 Hz, Q=41527.0, BW/f0=0.002 %
+16:39:03.105  [MLA] Q rating: EXCELLENT (Q@SWR2=41527.0)
+16:39:03.105  [MLA] centered=1  res_idx=202  sweep_points=401  edge=80
+16:39:04.420  [MLA] Resonance Freq: 14119813 Hz (idx=205)
+16:39:04.420  [MLA] Resonance SWR: 1.88 (idx=205)
+16:39:04.420  [MLA] BW(SWR<=2.0): f_low=14119610 Hz (idx=205), f_high=14120044 Hz (idx=206), BW=434 Hz (0.43 kHz)
+16:39:04.420  [MLA] Q@SWR2: f0=14119813 Hz, BW(SWR<=2)=434 Hz, Q=32534.1, BW/f0=0.003 %
+16:39:04.421  [MLA] Q@SWR2: f0=14119813 Hz, BW(SWR<=2)=434 Hz, Q=32534.1, BW/f0=0.003 %
+16:39:04.421  [MLA] Q rating: EXCELLENT (Q@SWR2=32534.1)
+16:39:04.421  [MLA] centered=1  res_idx=205  sweep_points=401  edge=80
+16:39:05.735  [MLA] Resonance Freq: 14118963 Hz (idx=201)
+16:39:05.735  [MLA] Resonance SWR: 1.89 (idx=201)
+16:39:05.735  [MLA] BW(SWR<=2.0): f_low=14118850 Hz (idx=201), f_high=14119188 Hz (idx=202), BW=338 Hz (0.34 kHz)
+16:39:05.735  [MLA] Q@SWR2: f0=14118963 Hz, BW(SWR<=2)=338 Hz, Q=41772.1, BW/f0=0.002 %
+16:39:05.735  [MLA] Q@SWR2: f0=14118963 Hz, BW(SWR<=2)=338 Hz, Q=41772.1, BW/f0=0.002 %
+16:39:05.735  [MLA] Q rating: EXCELLENT (Q@SWR2=41772.1)
+16:39:05.735  [MLA] centered=1  res_idx=201  sweep_points=401  edge=80
+16:39:07.052  [MLA] Resonance Freq: 14115988 Hz (idx=187)
+16:39:07.052  [MLA] Resonance SWR: 1.90 (idx=187)
+16:39:07.052  [MLA] BW(SWR<=2.0): f_low=14115890 Hz (idx=187), f_high=14116258 Hz (idx=188), BW=368 Hz (0.37 kHz)
+16:39:07.052  [MLA] Q@SWR2: f0=14115988 Hz, BW(SWR<=2)=368 Hz, Q=38358.7, BW/f0=0.003 %
+16:39:07.052  [MLA] Q@SWR2: f0=14115988 Hz, BW(SWR<=2)=368 Hz, Q=38358.7, BW/f0=0.003 %
+16:39:07.052  [MLA] Q rating: EXCELLENT (Q@SWR2=38358.7)
+16:39:07.052  [MLA] centered=1  res_idx=187  sweep_points=401  edge=80
+16:39:08.367  [MLA] Resonance Freq: 14103875 Hz (idx=130)
+16:39:08.367  [MLA] Resonance SWR: 1.95 (idx=130)
+16:39:08.367  [MLA] BW(SWR<=2.0): n/a (left=130 right=130)
+16:39:08.367  [MLA] Q@SWR2: n/a (BW(SWR<=2)=0)
+16:39:08.367  [MLA] Q@SWR2: n/a (BW(SWR<=2)=0)
+16:39:08.367  [MLA] Q rating: N/A
+16:39:08.367  [MLA] centered=1  res_idx=130  sweep_points=401  edge=80
+16:39:33.852  [MLA ToolBox] NanoVNA H4 Booting...
+16:39:34.155  NanoVNA Shell
+16:39:39.813  ch>
+16:39:39.814  [MLA ToolBox] NanoVNA H4 Booting...
+16:39:40.116  NanoVNA Shell
+16:39:45.667  ch> [MLA] Resonance Freq: 3000000 Hz (idx=0)
+16:39:45.668  [MLA] Resonance SWR: 1.01 (idx=0)
+16:39:45.668  [MLA] BW(SWR<=2.0): n/a (not locked)
+16:39:45.668  [MLA] Q@SWR2: n/a (BW(SWR<=2)=0)
+16:39:45.668  [MLA] Q@SWR2: n/a (BW(SWR<=2)=0)
+16:39:45.668  [MLA] Q rating: N/A
+16:39:45.668  [MLA][good_dip] GOOD DIP DETECTED

@@ -1,0 +1,12 @@
+ChibiOS/os/hal/src/hal_serial.c:68:14:get	0	static
+ChibiOS/os/hal/src/hal_serial.c:63:14:put	0	static
+ChibiOS/os/hal/src/hal_serial.c:57:15:read	0	static
+ChibiOS/os/hal/src/hal_serial.c:51:15:write	0	static
+ChibiOS/os/hal/src/hal_serial.c:115:6:sdInit	0	static
+ChibiOS/os/hal/src/hal_serial.c:135:6:sdObjectInit	16	static
+ChibiOS/os/hal/src/hal_serial.c:153:6:sdStart	8	static
+ChibiOS/os/hal/src/hal_serial.c:174:6:sdStop	8	static
+ChibiOS/os/hal/src/hal_serial.c:205:6:sdIncomingDataI	0	static
+ChibiOS/os/hal/src/hal_serial.c:231:7:sdRequestDataI	0	static
+ChibiOS/os/hal/src/hal_serial.c:258:6:sdPutWouldBlock	0	static
+ChibiOS/os/hal/src/hal_serial.c:283:6:sdGetWouldBlock	0	static

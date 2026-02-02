@@ -1,0 +1,6 @@
+dsp.c:26:6:generate_DSP_Table	40	static
+dsp.c:179:1:dsp_process	64	static
+dsp.c:212:1:calculate_gamma	24	static
+dsp.c:234:1:fetch_amplitude	16	static
+dsp.c:241:1:fetch_amplitude_ref	16	static
+dsp.c:248:1:reset_dsp_accumerator	8	static

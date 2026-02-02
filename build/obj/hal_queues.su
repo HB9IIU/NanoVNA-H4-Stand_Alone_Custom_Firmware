@@ -1,0 +1,10 @@
+ChibiOS/os/hal/src/hal_queues.c:69:14:q_GetI	4	static
+ChibiOS/os/hal/src/hal_queues.c:78:13:q_PutI	0	static
+ChibiOS/os/hal/src/hal_queues.c:176:6:qObjectInit	4	static
+ChibiOS/os/hal/src/hal_queues.c:197:6:qResetI	0	static
+ChibiOS/os/hal/src/hal_queues.c:218:7:qPutI	8	static
+ChibiOS/os/hal/src/hal_queues.c:248:7:iqGetTimeout	16	static
+ChibiOS/os/hal/src/hal_queues.c:286:9:iqReadTimeout	48	static
+ChibiOS/os/hal/src/hal_queues.c:323:7:oqPutTimeout	16	static
+ChibiOS/os/hal/src/hal_queues.c:347:7:qGetI	8	static
+ChibiOS/os/hal/src/hal_queues.c:380:9:oqWriteTimeout	48	static

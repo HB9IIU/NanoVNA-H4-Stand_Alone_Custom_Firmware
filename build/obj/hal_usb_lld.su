@@ -1,0 +1,17 @@
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:367:6:usb_lld_init	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:379:6:usb_lld_start	16	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:411:6:usb_lld_stop	8	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:465:6:usb_lld_set_address	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:478:6:usb_lld_init_endpoint	20	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:435:6:usb_lld_reset	4	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:566:6:usb_lld_disable_endpoints	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:592:15:usb_lld_get_status_out	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:617:15:usb_lld_get_status_in	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:644:6:usb_lld_read_setup	4	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:662:6:usb_lld_start_out	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:676:6:usb_lld_start_in	12	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:302:1:Vector16C	64	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:700:6:usb_lld_stall_out	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:714:6:usb_lld_stall_in	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:728:6:usb_lld_clear_out	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c:743:6:usb_lld_clear_in	0	static

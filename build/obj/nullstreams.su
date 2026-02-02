@@ -1,0 +1,5 @@
+ChibiOS/os/hal/lib/streams/nullstreams.c:44:15:writes	0	static
+ChibiOS/os/hal/lib/streams/nullstreams.c:52:15:reads	0	static
+ChibiOS/os/hal/lib/streams/nullstreams.c:61:14:put	0	static
+ChibiOS/os/hal/lib/streams/nullstreams.c:69:14:get	0	static
+ChibiOS/os/hal/lib/streams/nullstreams.c:87:6:nullObjectInit	0	static

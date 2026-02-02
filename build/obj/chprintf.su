@@ -1,0 +1,5 @@
+chprintf.c:79:14:long_to_string_with_divisor	20	static
+chprintf.c:177:14:ftoa	16	static
+chprintf.c:611:14:put	0	static
+chprintf.c:269:5:chvprintf	88	static
+chprintf.c:622:5:plot_printf	24	static

@@ -1,0 +1,5 @@
+ChibiOS/os/common/startup/ARMCMx/compilers/GCC/crt1.c:136:6:__core_init	0	static
+ChibiOS/os/common/startup/ARMCMx/compilers/GCC/crt1.c:155:6:__early_init	0	static
+ChibiOS/os/common/startup/ARMCMx/compilers/GCC/crt1.c:169:6:__late_init	0	static
+ChibiOS/os/common/startup/ARMCMx/compilers/GCC/crt1.c:182:6:__default_exit	0	static
+ChibiOS/os/common/startup/ARMCMx/compilers/GCC/crt1.c:192:6:__init_ram_areas	16	static

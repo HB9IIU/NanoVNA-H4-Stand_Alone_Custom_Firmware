@@ -1,0 +1,9 @@
+ChibiOS/os/rt/src/chsys.c:72:13:_idle_thread	0	static
+ChibiOS/os/rt/src/chsys.c:100:6:chSysInit	16	static
+ChibiOS/os/rt/src/chsys.c:192:6:chSysHalt	0	static
+ChibiOS/os/rt/src/chsys.c:234:6:chSysIntegrityCheckI	4	static
+ChibiOS/os/rt/src/chsys.c:335:6:chSysTimerHandlerI	32	static
+ChibiOS/os/rt/src/chsys.c:366:10:chSysGetStatusAndLockX	0	static
+ChibiOS/os/rt/src/chsys.c:389:6:chSysRestoreStatusX	8	static
+ChibiOS/os/rt/src/chsys.c:421:6:chSysIsCounterWithinX	0	static
+ChibiOS/os/rt/src/chsys.c:437:6:chSysPolledDelayX	0	static

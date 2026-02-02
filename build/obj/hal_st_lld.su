@@ -1,0 +1,2 @@
+ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_st_lld.c:239:1:VectorB0	8	static
+ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_st_lld.c:267:6:st_lld_init	8	static

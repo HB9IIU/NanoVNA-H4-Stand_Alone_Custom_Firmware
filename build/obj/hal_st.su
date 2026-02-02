@@ -1,0 +1,5 @@
+ChibiOS/os/hal/src/hal_st.c:60:6:stInit	0	static
+ChibiOS/os/hal/src/hal_st.c:77:6:stStartAlarm	0	static
+ChibiOS/os/hal/src/hal_st.c:91:6:stStopAlarm	0	static
+ChibiOS/os/hal/src/hal_st.c:105:6:stSetAlarm	0	static
+ChibiOS/os/hal/src/hal_st.c:121:11:stGetAlarm	0	static

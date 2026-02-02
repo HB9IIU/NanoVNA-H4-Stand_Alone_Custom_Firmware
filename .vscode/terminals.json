@@ -1,0 +1,27 @@
+{
+  "autorun": true,
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "NanoVNA TTL",
+      "cwd": "${workspaceFolder}",
+      "shellPath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "shellArgs": ["-NoProfile"],
+      "commands": [
+        "python \"${workspaceFolder}\\.vscode\\ttl_shell_logger.py\" --logdir \"${workspaceFolder}\\AA SERIALlogs\""
+      ],
+      "open": true,
+      "focus": false
+    },
+    {
+      "name": "Build",
+      "cwd": "${workspaceFolder}",
+      "shellPath": "C:\\msys64\\usr\\bin\\bash.exe",
+      "shellArgs": ["--login", "-i"],
+      "commands": ["echo Build terminal ready"],
+      "split": "NanoVNA TTL",
+      "open": true,
+      "focus": false
+    }
+  ]
+}

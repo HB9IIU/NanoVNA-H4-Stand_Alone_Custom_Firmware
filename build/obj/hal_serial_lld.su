@@ -1,0 +1,7 @@
+ChibiOS/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c:223:13:notify1	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c:307:1:VectorD4	24	static
+ChibiOS/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c:512:6:sd_lld_init	8	static
+ChibiOS/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c:669:6:sd_lld_setbaudrate	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c:614:6:sd_lld_start	16	static
+ChibiOS/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c:676:10:sd_lld_getbaudrate	0	static
+ChibiOS/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c:689:6:sd_lld_stop	0	static

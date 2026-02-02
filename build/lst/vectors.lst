@@ -1,0 +1,1225 @@
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.arch armv7e-m
+   3              		.fpu fpv4-sp-d16
+   4              		.eabi_attribute 27, 1
+   5              		.eabi_attribute 28, 1
+   6              		.eabi_attribute 23, 1
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"vectors.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.file 1 "ChibiOS/os/common/startup/ARMCMx/compilers/GCC/vectors.c"
+  18              		.section	.text._unhandled_exception,"ax",%progbits
+  19              		.align	1
+  20              		.p2align 4,,15
+  21              		.global	_unhandled_exception
+  22              		.syntax unified
+  23              		.thumb
+  24              		.thumb_func
+  25              		.type	_unhandled_exception, %function
+  26              	_unhandled_exception:
+  27              	.LFB123:
+  28              		.loc 1 46 33 view -0
+  29              		.cfi_startproc
+  30              		@ Volatile: function does not return.
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              		@ link register save eliminated.
+  34              	.L2:
+  35              		.loc 1 49 3 view .LVU1
+  36              		.loc 1 50 3 view .LVU2
+  37              		.loc 1 49 9 view .LVU3
+  38 0000 FEE7     		b	.L2
+  39              		.cfi_endproc
+  40              	.LFE123:
+  41              		.size	_unhandled_exception, .-_unhandled_exception
+  42              		.weak	Vector19C
+  43              		.thumb_set Vector19C,_unhandled_exception
+  44              		.weak	Vector198
+  45              		.thumb_set Vector198,_unhandled_exception
+  46              		.weak	Vector194
+  47              		.thumb_set Vector194,_unhandled_exception
+  48              		.weak	Vector190
+  49              		.thumb_set Vector190,_unhandled_exception
+  50              		.weak	Vector18C
+  51              		.thumb_set Vector18C,_unhandled_exception
+  52              		.weak	Vector188
+  53              		.thumb_set Vector188,_unhandled_exception
+  54              		.weak	Vector184
+  55              		.thumb_set Vector184,_unhandled_exception
+  56              		.weak	Vector180
+  57              		.thumb_set Vector180,_unhandled_exception
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 2
+
+
+  58              		.weak	Vector17C
+  59              		.thumb_set Vector17C,_unhandled_exception
+  60              		.weak	Vector178
+  61              		.thumb_set Vector178,_unhandled_exception
+  62              		.weak	Vector174
+  63              		.thumb_set Vector174,_unhandled_exception
+  64              		.weak	Vector170
+  65              		.thumb_set Vector170,_unhandled_exception
+  66              		.weak	Vector16C
+  67              		.thumb_set Vector16C,_unhandled_exception
+  68              		.weak	Vector168
+  69              		.thumb_set Vector168,_unhandled_exception
+  70              		.weak	Vector164
+  71              		.thumb_set Vector164,_unhandled_exception
+  72              		.weak	Vector160
+  73              		.thumb_set Vector160,_unhandled_exception
+  74              		.weak	Vector15C
+  75              		.thumb_set Vector15C,_unhandled_exception
+  76              		.weak	Vector158
+  77              		.thumb_set Vector158,_unhandled_exception
+  78              		.weak	Vector154
+  79              		.thumb_set Vector154,_unhandled_exception
+  80              		.weak	Vector150
+  81              		.thumb_set Vector150,_unhandled_exception
+  82              		.weak	Vector14C
+  83              		.thumb_set Vector14C,_unhandled_exception
+  84              		.weak	Vector148
+  85              		.thumb_set Vector148,_unhandled_exception
+  86              		.weak	Vector144
+  87              		.thumb_set Vector144,_unhandled_exception
+  88              		.weak	Vector140
+  89              		.thumb_set Vector140,_unhandled_exception
+  90              		.weak	Vector13C
+  91              		.thumb_set Vector13C,_unhandled_exception
+  92              		.weak	Vector138
+  93              		.thumb_set Vector138,_unhandled_exception
+  94              		.weak	Vector134
+  95              		.thumb_set Vector134,_unhandled_exception
+  96              		.weak	Vector130
+  97              		.thumb_set Vector130,_unhandled_exception
+  98              		.weak	Vector12C
+  99              		.thumb_set Vector12C,_unhandled_exception
+ 100              		.weak	Vector128
+ 101              		.thumb_set Vector128,_unhandled_exception
+ 102              		.weak	Vector124
+ 103              		.thumb_set Vector124,_unhandled_exception
+ 104              		.weak	Vector120
+ 105              		.thumb_set Vector120,_unhandled_exception
+ 106              		.weak	Vector11C
+ 107              		.thumb_set Vector11C,_unhandled_exception
+ 108              		.weak	Vector118
+ 109              		.thumb_set Vector118,_unhandled_exception
+ 110              		.weak	Vector114
+ 111              		.thumb_set Vector114,_unhandled_exception
+ 112              		.weak	Vector110
+ 113              		.thumb_set Vector110,_unhandled_exception
+ 114              		.weak	Vector10C
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 3
+
+
+ 115              		.thumb_set Vector10C,_unhandled_exception
+ 116              		.weak	Vector108
+ 117              		.thumb_set Vector108,_unhandled_exception
+ 118              		.weak	Vector104
+ 119              		.thumb_set Vector104,_unhandled_exception
+ 120              		.weak	Vector100
+ 121              		.thumb_set Vector100,_unhandled_exception
+ 122              		.weak	VectorFC
+ 123              		.thumb_set VectorFC,_unhandled_exception
+ 124              		.weak	VectorF8
+ 125              		.thumb_set VectorF8,_unhandled_exception
+ 126              		.weak	VectorF4
+ 127              		.thumb_set VectorF4,_unhandled_exception
+ 128              		.weak	VectorF0
+ 129              		.thumb_set VectorF0,_unhandled_exception
+ 130              		.weak	VectorEC
+ 131              		.thumb_set VectorEC,_unhandled_exception
+ 132              		.weak	VectorE8
+ 133              		.thumb_set VectorE8,_unhandled_exception
+ 134              		.weak	VectorE4
+ 135              		.thumb_set VectorE4,_unhandled_exception
+ 136              		.weak	VectorE0
+ 137              		.thumb_set VectorE0,_unhandled_exception
+ 138              		.weak	VectorDC
+ 139              		.thumb_set VectorDC,_unhandled_exception
+ 140              		.weak	VectorD8
+ 141              		.thumb_set VectorD8,_unhandled_exception
+ 142              		.weak	VectorD4
+ 143              		.thumb_set VectorD4,_unhandled_exception
+ 144              		.weak	VectorD0
+ 145              		.thumb_set VectorD0,_unhandled_exception
+ 146              		.weak	VectorCC
+ 147              		.thumb_set VectorCC,_unhandled_exception
+ 148              		.weak	VectorC8
+ 149              		.thumb_set VectorC8,_unhandled_exception
+ 150              		.weak	VectorC4
+ 151              		.thumb_set VectorC4,_unhandled_exception
+ 152              		.weak	VectorC0
+ 153              		.thumb_set VectorC0,_unhandled_exception
+ 154              		.weak	VectorBC
+ 155              		.thumb_set VectorBC,_unhandled_exception
+ 156              		.weak	VectorB8
+ 157              		.thumb_set VectorB8,_unhandled_exception
+ 158              		.weak	VectorB4
+ 159              		.thumb_set VectorB4,_unhandled_exception
+ 160              		.weak	VectorB0
+ 161              		.thumb_set VectorB0,_unhandled_exception
+ 162              		.weak	VectorAC
+ 163              		.thumb_set VectorAC,_unhandled_exception
+ 164              		.weak	VectorA8
+ 165              		.thumb_set VectorA8,_unhandled_exception
+ 166              		.weak	VectorA4
+ 167              		.thumb_set VectorA4,_unhandled_exception
+ 168              		.weak	VectorA0
+ 169              		.thumb_set VectorA0,_unhandled_exception
+ 170              		.weak	Vector9C
+ 171              		.thumb_set Vector9C,_unhandled_exception
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 4
+
+
+ 172              		.weak	Vector98
+ 173              		.thumb_set Vector98,_unhandled_exception
+ 174              		.weak	Vector94
+ 175              		.thumb_set Vector94,_unhandled_exception
+ 176              		.weak	Vector90
+ 177              		.thumb_set Vector90,_unhandled_exception
+ 178              		.weak	Vector8C
+ 179              		.thumb_set Vector8C,_unhandled_exception
+ 180              		.weak	Vector88
+ 181              		.thumb_set Vector88,_unhandled_exception
+ 182              		.weak	Vector84
+ 183              		.thumb_set Vector84,_unhandled_exception
+ 184              		.weak	Vector80
+ 185              		.thumb_set Vector80,_unhandled_exception
+ 186              		.weak	Vector7C
+ 187              		.thumb_set Vector7C,_unhandled_exception
+ 188              		.weak	Vector78
+ 189              		.thumb_set Vector78,_unhandled_exception
+ 190              		.weak	Vector74
+ 191              		.thumb_set Vector74,_unhandled_exception
+ 192              		.weak	Vector70
+ 193              		.thumb_set Vector70,_unhandled_exception
+ 194              		.weak	Vector6C
+ 195              		.thumb_set Vector6C,_unhandled_exception
+ 196              		.weak	Vector68
+ 197              		.thumb_set Vector68,_unhandled_exception
+ 198              		.weak	Vector64
+ 199              		.thumb_set Vector64,_unhandled_exception
+ 200              		.weak	Vector60
+ 201              		.thumb_set Vector60,_unhandled_exception
+ 202              		.weak	Vector5C
+ 203              		.thumb_set Vector5C,_unhandled_exception
+ 204              		.weak	Vector58
+ 205              		.thumb_set Vector58,_unhandled_exception
+ 206              		.weak	Vector54
+ 207              		.thumb_set Vector54,_unhandled_exception
+ 208              		.weak	Vector50
+ 209              		.thumb_set Vector50,_unhandled_exception
+ 210              		.weak	Vector4C
+ 211              		.thumb_set Vector4C,_unhandled_exception
+ 212              		.weak	Vector48
+ 213              		.thumb_set Vector48,_unhandled_exception
+ 214              		.weak	Vector44
+ 215              		.thumb_set Vector44,_unhandled_exception
+ 216              		.weak	Vector40
+ 217              		.thumb_set Vector40,_unhandled_exception
+ 218              		.weak	SysTick_Handler
+ 219              		.thumb_set SysTick_Handler,_unhandled_exception
+ 220              		.weak	PendSV_Handler
+ 221              		.thumb_set PendSV_Handler,_unhandled_exception
+ 222              		.weak	Vector34
+ 223              		.thumb_set Vector34,_unhandled_exception
+ 224              		.weak	DebugMon_Handler
+ 225              		.thumb_set DebugMon_Handler,_unhandled_exception
+ 226              		.weak	SVC_Handler
+ 227              		.thumb_set SVC_Handler,_unhandled_exception
+ 228              		.weak	Vector28
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 5
+
+
+ 229              		.thumb_set Vector28,_unhandled_exception
+ 230              		.weak	Vector24
+ 231              		.thumb_set Vector24,_unhandled_exception
+ 232              		.weak	Vector20
+ 233              		.thumb_set Vector20,_unhandled_exception
+ 234              		.weak	Vector1C
+ 235              		.thumb_set Vector1C,_unhandled_exception
+ 236              		.weak	UsageFault_Handler
+ 237              		.thumb_set UsageFault_Handler,_unhandled_exception
+ 238              		.weak	BusFault_Handler
+ 239              		.thumb_set BusFault_Handler,_unhandled_exception
+ 240              		.weak	MemManage_Handler
+ 241              		.thumb_set MemManage_Handler,_unhandled_exception
+ 242              		.weak	HardFault_Handler
+ 243              		.thumb_set HardFault_Handler,_unhandled_exception
+ 244              		.weak	NMI_Handler
+ 245              		.thumb_set NMI_Handler,_unhandled_exception
+ 246              		.global	_vectors
+ 247 0002 00BF     		.section	.vectors,"aw"
+ 248              		.align	7
+ 249              		.type	_vectors, %object
+ 250              		.size	_vectors, 416
+ 251              	_vectors:
+ 252 0000 00000000 		.word	__main_stack_end__
+ 253 0004 00000000 		.word	Reset_Handler
+ 254 0008 00000000 		.word	NMI_Handler
+ 255 000c 00000000 		.word	HardFault_Handler
+ 256 0010 00000000 		.word	MemManage_Handler
+ 257 0014 00000000 		.word	BusFault_Handler
+ 258 0018 00000000 		.word	UsageFault_Handler
+ 259 001c 00000000 		.word	Vector1C
+ 260 0020 00000000 		.word	Vector20
+ 261 0024 00000000 		.word	Vector24
+ 262 0028 00000000 		.word	Vector28
+ 263 002c 00000000 		.word	SVC_Handler
+ 264 0030 00000000 		.word	DebugMon_Handler
+ 265 0034 00000000 		.word	Vector34
+ 266 0038 00000000 		.word	PendSV_Handler
+ 267 003c 00000000 		.word	SysTick_Handler
+ 268 0040 00000000 		.word	Vector40
+ 269 0044 00000000 		.word	Vector44
+ 270 0048 00000000 		.word	Vector48
+ 271 004c 00000000 		.word	Vector4C
+ 272 0050 00000000 		.word	Vector50
+ 273 0054 00000000 		.word	Vector54
+ 274 0058 00000000 		.word	Vector58
+ 275 005c 00000000 		.word	Vector5C
+ 276 0060 00000000 		.word	Vector60
+ 277 0064 00000000 		.word	Vector64
+ 278 0068 00000000 		.word	Vector68
+ 279 006c 00000000 		.word	Vector6C
+ 280 0070 00000000 		.word	Vector70
+ 281 0074 00000000 		.word	Vector74
+ 282 0078 00000000 		.word	Vector78
+ 283 007c 00000000 		.word	Vector7C
+ 284 0080 00000000 		.word	Vector80
+ 285 0084 00000000 		.word	Vector84
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 6
+
+
+ 286 0088 00000000 		.word	Vector88
+ 287 008c 00000000 		.word	Vector8C
+ 288 0090 00000000 		.word	Vector90
+ 289 0094 00000000 		.word	Vector94
+ 290 0098 00000000 		.word	Vector98
+ 291 009c 00000000 		.word	Vector9C
+ 292 00a0 00000000 		.word	VectorA0
+ 293 00a4 00000000 		.word	VectorA4
+ 294 00a8 00000000 		.word	VectorA8
+ 295 00ac 00000000 		.word	VectorAC
+ 296 00b0 00000000 		.word	VectorB0
+ 297 00b4 00000000 		.word	VectorB4
+ 298 00b8 00000000 		.word	VectorB8
+ 299 00bc 00000000 		.word	VectorBC
+ 300 00c0 00000000 		.word	VectorC0
+ 301 00c4 00000000 		.word	VectorC4
+ 302 00c8 00000000 		.word	VectorC8
+ 303 00cc 00000000 		.word	VectorCC
+ 304 00d0 00000000 		.word	VectorD0
+ 305 00d4 00000000 		.word	VectorD4
+ 306 00d8 00000000 		.word	VectorD8
+ 307 00dc 00000000 		.word	VectorDC
+ 308 00e0 00000000 		.word	VectorE0
+ 309 00e4 00000000 		.word	VectorE4
+ 310 00e8 00000000 		.word	VectorE8
+ 311 00ec 00000000 		.word	VectorEC
+ 312 00f0 00000000 		.word	VectorF0
+ 313 00f4 00000000 		.word	VectorF4
+ 314 00f8 00000000 		.word	VectorF8
+ 315 00fc 00000000 		.word	VectorFC
+ 316 0100 00000000 		.word	Vector100
+ 317 0104 00000000 		.word	Vector104
+ 318 0108 00000000 		.word	Vector108
+ 319 010c 00000000 		.word	Vector10C
+ 320 0110 00000000 		.word	Vector110
+ 321 0114 00000000 		.word	Vector114
+ 322 0118 00000000 		.word	Vector118
+ 323 011c 00000000 		.word	Vector11C
+ 324 0120 00000000 		.word	Vector120
+ 325 0124 00000000 		.word	Vector124
+ 326 0128 00000000 		.word	Vector128
+ 327 012c 00000000 		.word	Vector12C
+ 328 0130 00000000 		.word	Vector130
+ 329 0134 00000000 		.word	Vector134
+ 330 0138 00000000 		.word	Vector138
+ 331 013c 00000000 		.word	Vector13C
+ 332 0140 00000000 		.word	Vector140
+ 333 0144 00000000 		.word	Vector144
+ 334 0148 00000000 		.word	Vector148
+ 335 014c 00000000 		.word	Vector14C
+ 336 0150 00000000 		.word	Vector150
+ 337 0154 00000000 		.word	Vector154
+ 338 0158 00000000 		.word	Vector158
+ 339 015c 00000000 		.word	Vector15C
+ 340 0160 00000000 		.word	Vector160
+ 341 0164 00000000 		.word	Vector164
+ 342 0168 00000000 		.word	Vector168
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 7
+
+
+ 343 016c 00000000 		.word	Vector16C
+ 344 0170 00000000 		.word	Vector170
+ 345 0174 00000000 		.word	Vector174
+ 346 0178 00000000 		.word	Vector178
+ 347 017c 00000000 		.word	Vector17C
+ 348 0180 00000000 		.word	Vector180
+ 349 0184 00000000 		.word	Vector184
+ 350 0188 00000000 		.word	Vector188
+ 351 018c 00000000 		.word	Vector18C
+ 352 0190 00000000 		.word	Vector190
+ 353 0194 00000000 		.word	Vector194
+ 354 0198 00000000 		.word	Vector198
+ 355 019c 00000000 		.word	Vector19C
+ 356              		.text
+ 357              	.Letext0:
+ 358              		.file 2 "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include/ma
+ 359              		.file 3 "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include/sy
+ 360              		.file 4 "ChibiOS/os/common/startup/ARMCMx/compilers/GCC/vectors.h"
+ 361              		.section	.debug_info,"",%progbits
+ 362              	.Ldebug_info0:
+ 363 0000 CC010000 		.4byte	0x1cc
+ 364 0004 0500     		.2byte	0x5
+ 365 0006 01       		.byte	0x1
+ 366 0007 04       		.byte	0x4
+ 367 0008 00000000 		.4byte	.Ldebug_abbrev0
+ 368 000c 06       		.uleb128 0x6
+ 369 000d 2C010000 		.4byte	.LASF32
+ 370 0011 1D       		.byte	0x1d
+ 371 0012 5F000000 		.4byte	.LASF33
+ 372 0016 26030000 		.4byte	.LASF34
+ 373 001a 0C000000 		.4byte	.LLRL0
+ 374 001e 00000000 		.4byte	0
+ 375 0022 00000000 		.4byte	.Ldebug_line0
+ 376 0026 02       		.uleb128 0x2
+ 377 0027 01       		.byte	0x1
+ 378 0028 06       		.byte	0x6
+ 379 0029 1A030000 		.4byte	.LASF0
+ 380 002d 02       		.uleb128 0x2
+ 381 002e 01       		.byte	0x1
+ 382 002f 08       		.byte	0x8
+ 383 0030 B8000000 		.4byte	.LASF1
+ 384 0034 02       		.uleb128 0x2
+ 385 0035 02       		.byte	0x2
+ 386 0036 05       		.byte	0x5
+ 387 0037 EC020000 		.4byte	.LASF2
+ 388 003b 02       		.uleb128 0x2
+ 389 003c 02       		.byte	0x2
+ 390 003d 07       		.byte	0x7
+ 391 003e 43000000 		.4byte	.LASF3
+ 392 0042 02       		.uleb128 0x2
+ 393 0043 04       		.byte	0x4
+ 394 0044 05       		.byte	0x5
+ 395 0045 FF020000 		.4byte	.LASF4
+ 396 0049 03       		.uleb128 0x3
+ 397 004a FF000000 		.4byte	.LASF9
+ 398 004e 02       		.byte	0x2
+ 399 004f 4F       		.byte	0x4f
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 8
+
+
+ 400 0050 19       		.byte	0x19
+ 401 0051 55000000 		.4byte	0x55
+ 402 0055 02       		.uleb128 0x2
+ 403 0056 04       		.byte	0x4
+ 404 0057 07       		.byte	0x7
+ 405 0058 C6000000 		.4byte	.LASF5
+ 406 005c 02       		.uleb128 0x2
+ 407 005d 08       		.byte	0x8
+ 408 005e 05       		.byte	0x5
+ 409 005f B0020000 		.4byte	.LASF6
+ 410 0063 02       		.uleb128 0x2
+ 411 0064 08       		.byte	0x8
+ 412 0065 07       		.byte	0x7
+ 413 0066 66020000 		.4byte	.LASF7
+ 414 006a 07       		.uleb128 0x7
+ 415 006b 04       		.byte	0x4
+ 416 006c 05       		.byte	0x5
+ 417 006d 696E7400 		.ascii	"int\000"
+ 418 0071 02       		.uleb128 0x2
+ 419 0072 04       		.byte	0x4
+ 420 0073 07       		.byte	0x7
+ 421 0074 16010000 		.4byte	.LASF8
+ 422 0078 03       		.uleb128 0x3
+ 423 0079 F6020000 		.4byte	.LASF10
+ 424 007d 03       		.byte	0x3
+ 425 007e 30       		.byte	0x30
+ 426 007f 14       		.byte	0x14
+ 427 0080 49000000 		.4byte	0x49
+ 428 0084 03       		.uleb128 0x3
+ 429 0085 00000000 		.4byte	.LASF11
+ 430 0089 04       		.byte	0x4
+ 431 008a 32       		.byte	0x32
+ 432 008b 11       		.byte	0x11
+ 433 008c 90000000 		.4byte	0x90
+ 434 0090 04       		.uleb128 0x4
+ 435 0091 95000000 		.4byte	0x95
+ 436 0095 08       		.uleb128 0x8
+ 437 0096 09       		.uleb128 0x9
+ 438 0097 A001     		.2byte	0x1a0
+ 439 0099 04       		.byte	0x4
+ 440 009a 37       		.byte	0x37
+ 441 009b 09       		.byte	0x9
+ 442 009c 6D010000 		.4byte	0x16d
+ 443 00a0 01       		.uleb128 0x1
+ 444 00a1 98000000 		.4byte	.LASF12
+ 445 00a5 38       		.byte	0x38
+ 446 00a6 12       		.byte	0x12
+ 447 00a7 6D010000 		.4byte	0x16d
+ 448 00ab 00       		.byte	0
+ 449 00ac 01       		.uleb128 0x1
+ 450 00ad 8F020000 		.4byte	.LASF13
+ 451 00b1 39       		.byte	0x39
+ 452 00b2 11       		.byte	0x11
+ 453 00b3 84000000 		.4byte	0x84
+ 454 00b7 04       		.byte	0x4
+ 455 00b8 01       		.uleb128 0x1
+ 456 00b9 0A010000 		.4byte	.LASF14
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 9
+
+
+ 457 00bd 3A       		.byte	0x3a
+ 458 00be 11       		.byte	0x11
+ 459 00bf 84000000 		.4byte	0x84
+ 460 00c3 08       		.byte	0x8
+ 461 00c4 01       		.uleb128 0x1
+ 462 00c5 ED000000 		.4byte	.LASF15
+ 463 00c9 3B       		.byte	0x3b
+ 464 00ca 11       		.byte	0x11
+ 465 00cb 84000000 		.4byte	0x84
+ 466 00cf 0C       		.byte	0xc
+ 467 00d0 01       		.uleb128 0x1
+ 468 00d1 08030000 		.4byte	.LASF16
+ 469 00d5 3C       		.byte	0x3c
+ 470 00d6 11       		.byte	0x11
+ 471 00d7 84000000 		.4byte	0x84
+ 472 00db 10       		.byte	0x10
+ 473 00dc 01       		.uleb128 0x1
+ 474 00dd BE020000 		.4byte	.LASF17
+ 475 00e1 3D       		.byte	0x3d
+ 476 00e2 11       		.byte	0x11
+ 477 00e3 84000000 		.4byte	0x84
+ 478 00e7 14       		.byte	0x14
+ 479 00e8 01       		.uleb128 0x1
+ 480 00e9 9D020000 		.4byte	.LASF18
+ 481 00ed 3E       		.byte	0x3e
+ 482 00ee 11       		.byte	0x11
+ 483 00ef 84000000 		.4byte	0x84
+ 484 00f3 18       		.byte	0x18
+ 485 00f4 01       		.uleb128 0x1
+ 486 00f5 E4000000 		.4byte	.LASF19
+ 487 00f9 3F       		.byte	0x3f
+ 488 00fa 11       		.byte	0x11
+ 489 00fb 84000000 		.4byte	0x84
+ 490 00ff 1C       		.byte	0x1c
+ 491 0100 01       		.uleb128 0x1
+ 492 0101 23010000 		.4byte	.LASF20
+ 493 0105 40       		.byte	0x40
+ 494 0106 11       		.byte	0x11
+ 495 0107 84000000 		.4byte	0x84
+ 496 010b 20       		.byte	0x20
+ 497 010c 01       		.uleb128 0x1
+ 498 010d 7D020000 		.4byte	.LASF21
+ 499 0111 41       		.byte	0x41
+ 500 0112 11       		.byte	0x11
+ 501 0113 84000000 		.4byte	0x84
+ 502 0117 24       		.byte	0x24
+ 503 0118 01       		.uleb128 0x1
+ 504 0119 86020000 		.4byte	.LASF22
+ 505 011d 42       		.byte	0x42
+ 506 011e 11       		.byte	0x11
+ 507 011f 84000000 		.4byte	0x84
+ 508 0123 28       		.byte	0x28
+ 509 0124 01       		.uleb128 0x1
+ 510 0125 D8000000 		.4byte	.LASF23
+ 511 0129 43       		.byte	0x43
+ 512 012a 11       		.byte	0x11
+ 513 012b 84000000 		.4byte	0x84
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 10
+
+
+ 514 012f 2C       		.byte	0x2c
+ 515 0130 01       		.uleb128 0x1
+ 516 0131 A3000000 		.4byte	.LASF24
+ 517 0135 44       		.byte	0x44
+ 518 0136 11       		.byte	0x11
+ 519 0137 84000000 		.4byte	0x84
+ 520 013b 30       		.byte	0x30
+ 521 013c 01       		.uleb128 0x1
+ 522 013d 0D000000 		.4byte	.LASF25
+ 523 0141 45       		.byte	0x45
+ 524 0142 11       		.byte	0x11
+ 525 0143 84000000 		.4byte	0x84
+ 526 0147 34       		.byte	0x34
+ 527 0148 01       		.uleb128 0x1
+ 528 0149 16000000 		.4byte	.LASF26
+ 529 014d 46       		.byte	0x46
+ 530 014e 11       		.byte	0x11
+ 531 014f 84000000 		.4byte	0x84
+ 532 0153 38       		.byte	0x38
+ 533 0154 01       		.uleb128 0x1
+ 534 0155 33000000 		.4byte	.LASF27
+ 535 0159 47       		.byte	0x47
+ 536 015a 11       		.byte	0x11
+ 537 015b 84000000 		.4byte	0x84
+ 538 015f 3C       		.byte	0x3c
+ 539 0160 01       		.uleb128 0x1
+ 540 0161 E4020000 		.4byte	.LASF28
+ 541 0165 48       		.byte	0x48
+ 542 0166 11       		.byte	0x11
+ 543 0167 72010000 		.4byte	0x172
+ 544 016b 40       		.byte	0x40
+ 545 016c 00       		.byte	0
+ 546 016d 04       		.uleb128 0x4
+ 547 016e 78000000 		.4byte	0x78
+ 548 0172 0A       		.uleb128 0xa
+ 549 0173 84000000 		.4byte	0x84
+ 550 0177 82010000 		.4byte	0x182
+ 551 017b 0B       		.uleb128 0xb
+ 552 017c 71000000 		.4byte	0x71
+ 553 0180 57       		.byte	0x57
+ 554 0181 00       		.byte	0
+ 555 0182 03       		.uleb128 0x3
+ 556 0183 88030000 		.4byte	.LASF29
+ 557 0187 04       		.byte	0x4
+ 558 0188 49       		.byte	0x49
+ 559 0189 03       		.byte	0x3
+ 560 018a 96000000 		.4byte	0x96
+ 561 018e 05       		.uleb128 0x5
+ 562 018f 56000000 		.4byte	.LASF30
+ 563 0193 04       		.byte	0x4
+ 564 0194 55       		.byte	0x55
+ 565 0195 12       		.byte	0x12
+ 566 0196 82010000 		.4byte	0x182
+ 567 019a 05       		.uleb128 0x5
+ 568 019b 92030000 		.4byte	.LASF31
+ 569 019f 01       		.byte	0x1
+ 570 01a0 36       		.byte	0x36
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 11
+
+
+ 571 01a1 11       		.byte	0x11
+ 572 01a2 78000000 		.4byte	0x78
+ 573 01a6 0C       		.uleb128 0xc
+ 574 01a7 8E010000 		.4byte	0x18e
+ 575 01ab 01       		.byte	0x1
+ 576 01ac B901     		.2byte	0x1b9
+ 577 01ae 0B       		.byte	0xb
+ 578 01af 05       		.uleb128 0x5
+ 579 01b0 03       		.byte	0x3
+ 580 01b1 00000000 		.4byte	_vectors
+ 581 01b5 0D       		.uleb128 0xd
+ 582 01b6 25000000 		.4byte	.LASF35
+ 583 01ba 01       		.byte	0x1
+ 584 01bb 37       		.byte	0x37
+ 585 01bc 06       		.byte	0x6
+ 586 01bd 0E       		.uleb128 0xe
+ 587 01be CF020000 		.4byte	.LASF36
+ 588 01c2 01       		.byte	0x1
+ 589 01c3 2E       		.byte	0x2e
+ 590 01c4 06       		.byte	0x6
+ 591 01c5 00000000 		.4byte	.LFB123
+ 592 01c9 02000000 		.4byte	.LFE123-.LFB123
+ 593 01cd 01       		.uleb128 0x1
+ 594 01ce 9C       		.byte	0x9c
+ 595 01cf 00       		.byte	0
+ 596              		.section	.debug_abbrev,"",%progbits
+ 597              	.Ldebug_abbrev0:
+ 598 0000 01       		.uleb128 0x1
+ 599 0001 0D       		.uleb128 0xd
+ 600 0002 00       		.byte	0
+ 601 0003 03       		.uleb128 0x3
+ 602 0004 0E       		.uleb128 0xe
+ 603 0005 3A       		.uleb128 0x3a
+ 604 0006 21       		.uleb128 0x21
+ 605 0007 04       		.sleb128 4
+ 606 0008 3B       		.uleb128 0x3b
+ 607 0009 0B       		.uleb128 0xb
+ 608 000a 39       		.uleb128 0x39
+ 609 000b 0B       		.uleb128 0xb
+ 610 000c 49       		.uleb128 0x49
+ 611 000d 13       		.uleb128 0x13
+ 612 000e 38       		.uleb128 0x38
+ 613 000f 0B       		.uleb128 0xb
+ 614 0010 00       		.byte	0
+ 615 0011 00       		.byte	0
+ 616 0012 02       		.uleb128 0x2
+ 617 0013 24       		.uleb128 0x24
+ 618 0014 00       		.byte	0
+ 619 0015 0B       		.uleb128 0xb
+ 620 0016 0B       		.uleb128 0xb
+ 621 0017 3E       		.uleb128 0x3e
+ 622 0018 0B       		.uleb128 0xb
+ 623 0019 03       		.uleb128 0x3
+ 624 001a 0E       		.uleb128 0xe
+ 625 001b 00       		.byte	0
+ 626 001c 00       		.byte	0
+ 627 001d 03       		.uleb128 0x3
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 12
+
+
+ 628 001e 16       		.uleb128 0x16
+ 629 001f 00       		.byte	0
+ 630 0020 03       		.uleb128 0x3
+ 631 0021 0E       		.uleb128 0xe
+ 632 0022 3A       		.uleb128 0x3a
+ 633 0023 0B       		.uleb128 0xb
+ 634 0024 3B       		.uleb128 0x3b
+ 635 0025 0B       		.uleb128 0xb
+ 636 0026 39       		.uleb128 0x39
+ 637 0027 0B       		.uleb128 0xb
+ 638 0028 49       		.uleb128 0x49
+ 639 0029 13       		.uleb128 0x13
+ 640 002a 00       		.byte	0
+ 641 002b 00       		.byte	0
+ 642 002c 04       		.uleb128 0x4
+ 643 002d 0F       		.uleb128 0xf
+ 644 002e 00       		.byte	0
+ 645 002f 0B       		.uleb128 0xb
+ 646 0030 21       		.uleb128 0x21
+ 647 0031 04       		.sleb128 4
+ 648 0032 49       		.uleb128 0x49
+ 649 0033 13       		.uleb128 0x13
+ 650 0034 00       		.byte	0
+ 651 0035 00       		.byte	0
+ 652 0036 05       		.uleb128 0x5
+ 653 0037 34       		.uleb128 0x34
+ 654 0038 00       		.byte	0
+ 655 0039 03       		.uleb128 0x3
+ 656 003a 0E       		.uleb128 0xe
+ 657 003b 3A       		.uleb128 0x3a
+ 658 003c 0B       		.uleb128 0xb
+ 659 003d 3B       		.uleb128 0x3b
+ 660 003e 0B       		.uleb128 0xb
+ 661 003f 39       		.uleb128 0x39
+ 662 0040 0B       		.uleb128 0xb
+ 663 0041 49       		.uleb128 0x49
+ 664 0042 13       		.uleb128 0x13
+ 665 0043 3F       		.uleb128 0x3f
+ 666 0044 19       		.uleb128 0x19
+ 667 0045 3C       		.uleb128 0x3c
+ 668 0046 19       		.uleb128 0x19
+ 669 0047 00       		.byte	0
+ 670 0048 00       		.byte	0
+ 671 0049 06       		.uleb128 0x6
+ 672 004a 11       		.uleb128 0x11
+ 673 004b 01       		.byte	0x1
+ 674 004c 25       		.uleb128 0x25
+ 675 004d 0E       		.uleb128 0xe
+ 676 004e 13       		.uleb128 0x13
+ 677 004f 0B       		.uleb128 0xb
+ 678 0050 03       		.uleb128 0x3
+ 679 0051 0E       		.uleb128 0xe
+ 680 0052 1B       		.uleb128 0x1b
+ 681 0053 0E       		.uleb128 0xe
+ 682 0054 55       		.uleb128 0x55
+ 683 0055 17       		.uleb128 0x17
+ 684 0056 11       		.uleb128 0x11
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 13
+
+
+ 685 0057 01       		.uleb128 0x1
+ 686 0058 10       		.uleb128 0x10
+ 687 0059 17       		.uleb128 0x17
+ 688 005a 00       		.byte	0
+ 689 005b 00       		.byte	0
+ 690 005c 07       		.uleb128 0x7
+ 691 005d 24       		.uleb128 0x24
+ 692 005e 00       		.byte	0
+ 693 005f 0B       		.uleb128 0xb
+ 694 0060 0B       		.uleb128 0xb
+ 695 0061 3E       		.uleb128 0x3e
+ 696 0062 0B       		.uleb128 0xb
+ 697 0063 03       		.uleb128 0x3
+ 698 0064 08       		.uleb128 0x8
+ 699 0065 00       		.byte	0
+ 700 0066 00       		.byte	0
+ 701 0067 08       		.uleb128 0x8
+ 702 0068 15       		.uleb128 0x15
+ 703 0069 00       		.byte	0
+ 704 006a 27       		.uleb128 0x27
+ 705 006b 19       		.uleb128 0x19
+ 706 006c 00       		.byte	0
+ 707 006d 00       		.byte	0
+ 708 006e 09       		.uleb128 0x9
+ 709 006f 13       		.uleb128 0x13
+ 710 0070 01       		.byte	0x1
+ 711 0071 0B       		.uleb128 0xb
+ 712 0072 05       		.uleb128 0x5
+ 713 0073 3A       		.uleb128 0x3a
+ 714 0074 0B       		.uleb128 0xb
+ 715 0075 3B       		.uleb128 0x3b
+ 716 0076 0B       		.uleb128 0xb
+ 717 0077 39       		.uleb128 0x39
+ 718 0078 0B       		.uleb128 0xb
+ 719 0079 01       		.uleb128 0x1
+ 720 007a 13       		.uleb128 0x13
+ 721 007b 00       		.byte	0
+ 722 007c 00       		.byte	0
+ 723 007d 0A       		.uleb128 0xa
+ 724 007e 01       		.uleb128 0x1
+ 725 007f 01       		.byte	0x1
+ 726 0080 49       		.uleb128 0x49
+ 727 0081 13       		.uleb128 0x13
+ 728 0082 01       		.uleb128 0x1
+ 729 0083 13       		.uleb128 0x13
+ 730 0084 00       		.byte	0
+ 731 0085 00       		.byte	0
+ 732 0086 0B       		.uleb128 0xb
+ 733 0087 21       		.uleb128 0x21
+ 734 0088 00       		.byte	0
+ 735 0089 49       		.uleb128 0x49
+ 736 008a 13       		.uleb128 0x13
+ 737 008b 2F       		.uleb128 0x2f
+ 738 008c 0B       		.uleb128 0xb
+ 739 008d 00       		.byte	0
+ 740 008e 00       		.byte	0
+ 741 008f 0C       		.uleb128 0xc
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 14
+
+
+ 742 0090 34       		.uleb128 0x34
+ 743 0091 00       		.byte	0
+ 744 0092 47       		.uleb128 0x47
+ 745 0093 13       		.uleb128 0x13
+ 746 0094 3A       		.uleb128 0x3a
+ 747 0095 0B       		.uleb128 0xb
+ 748 0096 3B       		.uleb128 0x3b
+ 749 0097 05       		.uleb128 0x5
+ 750 0098 39       		.uleb128 0x39
+ 751 0099 0B       		.uleb128 0xb
+ 752 009a 02       		.uleb128 0x2
+ 753 009b 18       		.uleb128 0x18
+ 754 009c 00       		.byte	0
+ 755 009d 00       		.byte	0
+ 756 009e 0D       		.uleb128 0xd
+ 757 009f 2E       		.uleb128 0x2e
+ 758 00a0 00       		.byte	0
+ 759 00a1 3F       		.uleb128 0x3f
+ 760 00a2 19       		.uleb128 0x19
+ 761 00a3 03       		.uleb128 0x3
+ 762 00a4 0E       		.uleb128 0xe
+ 763 00a5 3A       		.uleb128 0x3a
+ 764 00a6 0B       		.uleb128 0xb
+ 765 00a7 3B       		.uleb128 0x3b
+ 766 00a8 0B       		.uleb128 0xb
+ 767 00a9 39       		.uleb128 0x39
+ 768 00aa 0B       		.uleb128 0xb
+ 769 00ab 27       		.uleb128 0x27
+ 770 00ac 19       		.uleb128 0x19
+ 771 00ad 3C       		.uleb128 0x3c
+ 772 00ae 19       		.uleb128 0x19
+ 773 00af 00       		.byte	0
+ 774 00b0 00       		.byte	0
+ 775 00b1 0E       		.uleb128 0xe
+ 776 00b2 2E       		.uleb128 0x2e
+ 777 00b3 00       		.byte	0
+ 778 00b4 3F       		.uleb128 0x3f
+ 779 00b5 19       		.uleb128 0x19
+ 780 00b6 03       		.uleb128 0x3
+ 781 00b7 0E       		.uleb128 0xe
+ 782 00b8 3A       		.uleb128 0x3a
+ 783 00b9 0B       		.uleb128 0xb
+ 784 00ba 3B       		.uleb128 0x3b
+ 785 00bb 0B       		.uleb128 0xb
+ 786 00bc 39       		.uleb128 0x39
+ 787 00bd 0B       		.uleb128 0xb
+ 788 00be 27       		.uleb128 0x27
+ 789 00bf 19       		.uleb128 0x19
+ 790 00c0 11       		.uleb128 0x11
+ 791 00c1 01       		.uleb128 0x1
+ 792 00c2 12       		.uleb128 0x12
+ 793 00c3 06       		.uleb128 0x6
+ 794 00c4 40       		.uleb128 0x40
+ 795 00c5 18       		.uleb128 0x18
+ 796 00c6 7A       		.uleb128 0x7a
+ 797 00c7 19       		.uleb128 0x19
+ 798 00c8 00       		.byte	0
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 15
+
+
+ 799 00c9 00       		.byte	0
+ 800 00ca 00       		.byte	0
+ 801              		.section	.debug_aranges,"",%progbits
+ 802 0000 1C000000 		.4byte	0x1c
+ 803 0004 0200     		.2byte	0x2
+ 804 0006 00000000 		.4byte	.Ldebug_info0
+ 805 000a 04       		.byte	0x4
+ 806 000b 00       		.byte	0
+ 807 000c 0000     		.2byte	0
+ 808 000e 0000     		.2byte	0
+ 809 0010 00000000 		.4byte	.LFB123
+ 810 0014 02000000 		.4byte	.LFE123-.LFB123
+ 811 0018 00000000 		.4byte	0
+ 812 001c 00000000 		.4byte	0
+ 813              		.section	.debug_rnglists,"",%progbits
+ 814              	.Ldebug_ranges0:
+ 815 0000 0F000000 		.4byte	.Ldebug_ranges3-.Ldebug_ranges2
+ 816              	.Ldebug_ranges2:
+ 817 0004 0500     		.2byte	0x5
+ 818 0006 04       		.byte	0x4
+ 819 0007 00       		.byte	0
+ 820 0008 00000000 		.4byte	0
+ 821              	.LLRL0:
+ 822 000c 07       		.byte	0x7
+ 823 000d 00000000 		.4byte	.LFB123
+ 824 0011 02       		.uleb128 .LFE123-.LFB123
+ 825 0012 00       		.byte	0
+ 826              	.Ldebug_ranges3:
+ 827              		.section	.debug_line,"",%progbits
+ 828              	.Ldebug_line0:
+ 829 0000 55010000 		.section	.debug_str,"MS",%progbits,1
+ 829      03003701 
+ 829      00000201 
+ 829      FB0E0D00 
+ 829      01010101 
+ 830              	.LASF11:
+ 831 0000 6972715F 		.ascii	"irq_vector_t\000"
+ 831      76656374 
+ 831      6F725F74 
+ 831      00
+ 832              	.LASF25:
+ 833 000d 76656374 		.ascii	"vector34\000"
+ 833      6F723334 
+ 833      00
+ 834              	.LASF26:
+ 835 0016 70656E64 		.ascii	"pendsv_handler\000"
+ 835      73765F68 
+ 835      616E646C 
+ 835      657200
+ 836              	.LASF35:
+ 837 0025 52657365 		.ascii	"Reset_Handler\000"
+ 837      745F4861 
+ 837      6E646C65 
+ 837      7200
+ 838              	.LASF27:
+ 839 0033 73797374 		.ascii	"systick_handler\000"
+ 839      69636B5F 
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 16
+
+
+ 839      68616E64 
+ 839      6C657200 
+ 840              	.LASF3:
+ 841 0043 73686F72 		.ascii	"short unsigned int\000"
+ 841      7420756E 
+ 841      7369676E 
+ 841      65642069 
+ 841      6E7400
+ 842              	.LASF30:
+ 843 0056 5F766563 		.ascii	"_vectors\000"
+ 843      746F7273 
+ 843      00
+ 844              	.LASF33:
+ 845 005f 43686962 		.ascii	"ChibiOS/os/common/startup/ARMCMx/compilers/GCC/vect"
+ 845      694F532F 
+ 845      6F732F63 
+ 845      6F6D6D6F 
+ 845      6E2F7374 
+ 846 0092 6F72732E 		.ascii	"ors.c\000"
+ 846      6300
+ 847              	.LASF12:
+ 848 0098 696E6974 		.ascii	"init_stack\000"
+ 848      5F737461 
+ 848      636B00
+ 849              	.LASF24:
+ 850 00a3 64656275 		.ascii	"debugmonitor_handler\000"
+ 850      676D6F6E 
+ 850      69746F72 
+ 850      5F68616E 
+ 850      646C6572 
+ 851              	.LASF1:
+ 852 00b8 756E7369 		.ascii	"unsigned char\000"
+ 852      676E6564 
+ 852      20636861 
+ 852      7200
+ 853              	.LASF5:
+ 854 00c6 6C6F6E67 		.ascii	"long unsigned int\000"
+ 854      20756E73 
+ 854      69676E65 
+ 854      6420696E 
+ 854      7400
+ 855              	.LASF23:
+ 856 00d8 7376635F 		.ascii	"svc_handler\000"
+ 856      68616E64 
+ 856      6C657200 
+ 857              	.LASF19:
+ 858 00e4 76656374 		.ascii	"vector1c\000"
+ 858      6F723163 
+ 858      00
+ 859              	.LASF15:
+ 860 00ed 68617264 		.ascii	"hardfault_handler\000"
+ 860      6661756C 
+ 860      745F6861 
+ 860      6E646C65 
+ 860      7200
+ 861              	.LASF9:
+ 862 00ff 5F5F7569 		.ascii	"__uint32_t\000"
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 17
+
+
+ 862      6E743332 
+ 862      5F7400
+ 863              	.LASF14:
+ 864 010a 6E6D695F 		.ascii	"nmi_handler\000"
+ 864      68616E64 
+ 864      6C657200 
+ 865              	.LASF8:
+ 866 0116 756E7369 		.ascii	"unsigned int\000"
+ 866      676E6564 
+ 866      20696E74 
+ 866      00
+ 867              	.LASF20:
+ 868 0123 76656374 		.ascii	"vector20\000"
+ 868      6F723230 
+ 868      00
+ 869              	.LASF32:
+ 870 012c 474E5520 		.ascii	"GNU C11 14.3.1 20250623 -mcpu=cortex-m4 -mfloat-abi"
+ 870      43313120 
+ 870      31342E33 
+ 870      2E312032 
+ 870      30323530 
+ 871 015f 3D686172 		.ascii	"=hard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthum"
+ 871      64202D6D 
+ 871      6670753D 
+ 871      66707634 
+ 871      2D73702D 
+ 872 0192 62202D6D 		.ascii	"b -march=armv7e-m+fp -ggdb -O2 -std=c11 -fno-inline"
+ 872      61726368 
+ 872      3D61726D 
+ 872      7637652D 
+ 872      6D2B6670 
+ 873 01c5 2D736D61 		.ascii	"-small-functions -fomit-frame-pointer -falign-funct"
+ 873      6C6C2D66 
+ 873      756E6374 
+ 873      696F6E73 
+ 873      202D666F 
+ 874 01f8 696F6E73 		.ascii	"ions=16 -fstack-usage -ffast-math -ffunction-sectio"
+ 874      3D313620 
+ 874      2D667374 
+ 874      61636B2D 
+ 874      75736167 
+ 875 022b 6E73202D 		.ascii	"ns -fdata-sections -fno-common -fsingle-precision-c"
+ 875      66646174 
+ 875      612D7365 
+ 875      6374696F 
+ 875      6E73202D 
+ 876 025e 6F6E7374 		.ascii	"onstant\000"
+ 876      616E7400 
+ 877              	.LASF7:
+ 878 0266 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 878      206C6F6E 
+ 878      6720756E 
+ 878      7369676E 
+ 878      65642069 
+ 879              	.LASF21:
+ 880 027d 76656374 		.ascii	"vector24\000"
+ 880      6F723234 
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 18
+
+
+ 880      00
+ 881              	.LASF22:
+ 882 0286 76656374 		.ascii	"vector28\000"
+ 882      6F723238 
+ 882      00
+ 883              	.LASF13:
+ 884 028f 72657365 		.ascii	"reset_handler\000"
+ 884      745F6861 
+ 884      6E646C65 
+ 884      7200
+ 885              	.LASF18:
+ 886 029d 75736167 		.ascii	"usagefault_handler\000"
+ 886      65666175 
+ 886      6C745F68 
+ 886      616E646C 
+ 886      657200
+ 887              	.LASF6:
+ 888 02b0 6C6F6E67 		.ascii	"long long int\000"
+ 888      206C6F6E 
+ 888      6720696E 
+ 888      7400
+ 889              	.LASF17:
+ 890 02be 62757366 		.ascii	"busfault_handler\000"
+ 890      61756C74 
+ 890      5F68616E 
+ 890      646C6572 
+ 890      00
+ 891              	.LASF36:
+ 892 02cf 5F756E68 		.ascii	"_unhandled_exception\000"
+ 892      616E646C 
+ 892      65645F65 
+ 892      78636570 
+ 892      74696F6E 
+ 893              	.LASF28:
+ 894 02e4 76656374 		.ascii	"vectors\000"
+ 894      6F727300 
+ 895              	.LASF2:
+ 896 02ec 73686F72 		.ascii	"short int\000"
+ 896      7420696E 
+ 896      7400
+ 897              	.LASF10:
+ 898 02f6 75696E74 		.ascii	"uint32_t\000"
+ 898      33325F74 
+ 898      00
+ 899              	.LASF4:
+ 900 02ff 6C6F6E67 		.ascii	"long int\000"
+ 900      20696E74 
+ 900      00
+ 901              	.LASF16:
+ 902 0308 6D656D6D 		.ascii	"memmanage_handler\000"
+ 902      616E6167 
+ 902      655F6861 
+ 902      6E646C65 
+ 902      7200
+ 903              	.LASF0:
+ 904 031a 7369676E 		.ascii	"signed char\000"
+ 904      65642063 
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 19
+
+
+ 904      68617200 
+ 905              	.LASF34:
+ 906 0326 433A5C55 		.ascii	"C:\\Users\\danie\\SynologyDrive\\ZZ_GITHUB_PROJECTS"
+ 906      73657273 
+ 906      5C64616E 
+ 906      69655C53 
+ 906      796E6F6C 
+ 907 0355 5F4F4E5F 		.ascii	"_ON_WINDOWS\\NanoVNA-H4-Stand_Alone_Custom_Firmware"
+ 907      57494E44 
+ 907      4F57535C 
+ 907      4E616E6F 
+ 907      564E412D 
+ 908 0387 00       		.ascii	"\000"
+ 909              	.LASF29:
+ 910 0388 76656374 		.ascii	"vectors_t\000"
+ 910      6F72735F 
+ 910      7400
+ 911              	.LASF31:
+ 912 0392 5F5F6D61 		.ascii	"__main_stack_end__\000"
+ 912      696E5F73 
+ 912      7461636B 
+ 912      5F656E64 
+ 912      5F5F00
+ 913              		.ident	"GCC: (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623"
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 20
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 vectors.c
+C:\msys64\tmp\ccXD55sy.s:19     .text._unhandled_exception:00000000 $t
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 _unhandled_exception
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector19C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector198
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector194
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector190
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector18C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector188
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector184
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector180
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector17C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector178
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector174
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector170
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector16C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector168
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector164
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector160
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector15C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector158
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector154
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector150
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector14C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector148
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector144
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector140
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector13C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector138
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector134
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector130
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector12C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector128
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector124
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector120
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector11C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector118
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector114
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector110
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector10C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector108
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector104
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector100
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorFC
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorF8
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorF4
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorF0
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorEC
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorE8
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorE4
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorE0
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorDC
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorD8
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorD4
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorD0
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorCC
+ARM GAS  C:\msys64\tmp\ccXD55sy.s 			page 21
+
+
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorC8
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorC4
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorC0
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorBC
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorB8
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorB4
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorB0
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorAC
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorA8
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorA4
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 VectorA0
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector9C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector98
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector94
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector90
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector8C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector88
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector84
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector80
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector7C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector78
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector74
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector70
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector6C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector68
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector64
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector60
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector5C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector58
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector54
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector50
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector4C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector48
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector44
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector40
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 SysTick_Handler
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 PendSV_Handler
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector34
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 DebugMon_Handler
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 SVC_Handler
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector28
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector24
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector20
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 Vector1C
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 UsageFault_Handler
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 BusFault_Handler
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 MemManage_Handler
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 HardFault_Handler
+C:\msys64\tmp\ccXD55sy.s:26     .text._unhandled_exception:00000000 NMI_Handler
+C:\msys64\tmp\ccXD55sy.s:251    .vectors:00000000 _vectors
+C:\msys64\tmp\ccXD55sy.s:248    .vectors:00000000 $d
+
+UNDEFINED SYMBOLS
+__main_stack_end__
+Reset_Handler

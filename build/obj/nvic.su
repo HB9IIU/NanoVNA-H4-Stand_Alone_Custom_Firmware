@@ -1,0 +1,4 @@
+ChibiOS/os/hal/ports/common/ARMCMx/nvic.c:57:6:nvicEnableVector	0	static
+ChibiOS/os/hal/ports/common/ARMCMx/nvic.c:74:6:nvicDisableVector	0	static
+ChibiOS/os/hal/ports/common/ARMCMx/nvic.c:90:6:nvicSetSystemHandlerPriority	0	static
+ChibiOS/os/hal/ports/common/ARMCMx/nvic.c:109:6:nvicClearPending	0	static

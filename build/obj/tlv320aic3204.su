@@ -1,0 +1,5 @@
+tlv320aic3204.c:352:1:tlv320aic3204_config	16	static
+tlv320aic3204.c:358:6:tlv320aic3204_init	8	static
+tlv320aic3204.c:366:1:tlv320aic3204_write_reg	16	static
+tlv320aic3204.c:376:6:tlv320aic3204_select	0	static
+tlv320aic3204.c:389:6:tlv320aic3204_set_gain	16	static

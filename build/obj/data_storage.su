@@ -1,0 +1,6 @@
+data_storage.c:48:5:config_save	16	static
+data_storage.c:58:5:config_recall	8	static
+data_storage.c:68:5:caldata_save	16	static
+data_storage.c:84:22:get_properties	12	static
+data_storage.c:98:5:caldata_recall	16	static
+data_storage.c:115:6:clear_all_config_prop_data	4	static

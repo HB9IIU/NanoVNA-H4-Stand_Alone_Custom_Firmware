@@ -1,0 +1,4 @@
+usbcfg.c:336:13:sof_handler	8	static
+usbcfg.c:303:13:usb_event	16	static
+usbcfg.c:205:16:getSerialStringDescriptor	8	static
+usbcfg.c:234:29:get_descriptor	0	static

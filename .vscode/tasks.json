@@ -1,0 +1,68 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build H4",
+      "type": "shell",
+      "command": "bash",
+      "args": ["00_HB9IIUscripts/buildonly.sh"],
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "build"
+      }
+    },
+    {
+      "label": "Flash H4",
+      "type": "shell",
+      "command": "bash",
+      "args": ["00_HB9IIUscripts/flashonly.sh"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "build"
+      }
+    },
+    {
+      "label": "Build + Flash H4",
+      "type": "shell",
+      "command": "bash",
+      "args": ["00_HB9IIUscripts/build_and_flash_h4.sh"],
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "build"
+      }
+    },
+    {
+      "label": "Clean H4",
+      "type": "shell",
+      "command": "bash",
+      "args": ["00_HB9IIUscripts/makeclean.sh"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "build"
+      }
+    },
+    {
+      "label": "Auto-open TTL serial (FTDI)",
+      "type": "shell",
+      "command": "python",
+      "args": ["${workspaceFolder}\\.vscode\\open_ttl_monitor.py"],
+      "options": {
+        "shell": {
+          "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-Command"]
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+vna_math.c:274:6:fft	24	static
+vna_math.c:312:6:vna_sincosf	8	static
+vna_math.c:393:7:vna_modff	4	static
+vna_math.c:485:7:vna_cbrtf	0	static
+vna_math.c:541:7:vna_logf	0	static
+vna_math.c:612:7:vna_log10f_x_10	0	static
+vna_math.c:637:7:vna_atanf	8	static
+vna_math.c:779:7:vna_atan2f	0	static
+vna_math.c:817:7:vna_expf	0	static
