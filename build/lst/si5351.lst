@@ -1,4 +1,4 @@
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
   55              	.LVL0:
   56              	.LFB242:
   57              		.loc 1 81 1 is_stmt 1 view -0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 2
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 2
 
 
   58              		.cfi_startproc
@@ -118,7 +118,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  112              		.cfi_endproc
  113              	.LFE242:
  114              		.size	si5351_set_frequency_offset, .-si5351_set_frequency_offset
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 3
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 3
 
 
  115              		.section	.text.si5351_bulk_write,"ax",%progbits
@@ -178,7 +178,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  169 0002 C901     		lsls	r1, r1, #7
  170              	.LVL8:
  171              		.loc 1 219 3 is_stmt 1 view .LVU33
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 4
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 4
 
 
  172              		.loc 1 222 6 is_stmt 0 view .LVU34
@@ -238,7 +238,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  226 0034 8DF80C20 		strb	r2, [sp, #12]
  227              		.loc 1 229 10 view .LVU65
  228 0038 0022     		movs	r2, #0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 5
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 5
 
 
  229 003a 60F30702 		bfi	r2, r0, #0, #8
@@ -298,7 +298,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  283              		.type	si5351_setupPLL_freq, %function
  284              	si5351_setupPLL_freq:
  285              	.LVL20:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 6
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 6
 
 
  286              	.LFB255:
@@ -358,7 +358,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  340              		.loc 1 304 3 view .LVU95
  341              		.loc 1 305 3 view .LVU96
  342              		.loc 1 305 6 is_stmt 0 view .LVU97
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 7
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 7
 
 
  343 0024 1AD3     		bcc	.L15
@@ -418,7 +418,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  397              		.loc 1 308 18 view .LVU123
  398 0054 002C     		cmp	r4, #0
  399 0056 ECD1     		bne	.L18
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 8
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 8
 
 
  400              		.loc 1 319 8 view .LVU124
@@ -478,7 +478,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  454              	.LBE30:
  455              	.LBE33:
  456              		.loc 1 349 3 is_stmt 1 view .LVU136
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 9
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 9
 
 
  457              		.loc 1 350 1 is_stmt 0 view .LVU137
@@ -538,7 +538,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  511 0008 0C9F     		ldr	r7, [sp, #48]
  512 000a 9DF83460 		ldrb	r6, [sp, #52]	@ zero_extendqisi2
  513 000e 0546     		mov	r5, r0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 10
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 10
 
 
  514 0010 1446     		mov	r4, r2
@@ -598,7 +598,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  568              	.LVL51:
  569              		.loc 1 277 10 view .LVU175
  570 003c 0022     		movs	r2, #0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 11
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 11
 
 
  571 003e 67F30702 		bfi	r2, r7, #0, #8
@@ -658,7 +658,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  625              		.loc 1 122 3 is_stmt 1 view .LVU193
  626 008a FFF7FEFF 		bl	si5351_bulk_write
  627              	.LVL56:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 12
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 12
 
 
  628              		.loc 1 122 3 is_stmt 0 view .LVU194
@@ -718,7 +718,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  682              	.LVL64:
  683              	.L26:
  684              		.loc 1 291 5 is_stmt 1 view .LVU215
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 13
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 13
 
 
  685              		.loc 1 291 11 is_stmt 0 view .LVU216
@@ -778,7 +778,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  739              		.cfi_offset 4, -32
  740              		.cfi_offset 5, -28
  741              		.cfi_offset 6, -24
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 14
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 14
 
 
  742              		.cfi_offset 7, -20
@@ -838,7 +838,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  796 0030 9C46     		mov	ip, r3
  797 0032 C646     		mov	lr, r8
  798              	.LVL79:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 15
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 15
 
 
  799              	.L35:
@@ -898,7 +898,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  853              		.loc 1 337 3 is_stmt 0 view .LVU269
  854 005e 2346     		mov	r3, r4
  855 0060 2846     		mov	r0, r5
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 16
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 16
 
 
  856              		.loc 1 338 1 view .LVU270
@@ -958,7 +958,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  910              		.cfi_restore 6
  911              		.cfi_restore 5
  912              		.cfi_restore 4
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 17
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 17
 
 
  913              		.cfi_def_cfa_offset 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  967 0014 0548     		ldr	r0, .L41
  968 0016 0421     		movs	r1, #4
  969 0018 FFF7FEFF 		bl	si5351_bulk_write
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 18
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 18
 
 
  970              	.LVL97:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1024              	.LBE69:
  1025              	.LBE68:
  1026              		.loc 1 188 1 is_stmt 0 view .LVU307
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 19
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 19
 
 
  1027 0000 00B5     		push	{lr}
@@ -1138,7 +1138,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1081              		.global	si5351_set_tcxo
  1082              		.syntax unified
  1083              		.thumb
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 20
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 20
 
 
  1084              		.thumb_func
@@ -1198,7 +1198,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1138              	.LBE82:
  1139              		.loc 1 199 1 is_stmt 0 view .LVU339
  1140 001e 5DF8044B 		ldr	r4, [sp], #4
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 21
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 21
 
 
  1141              		.cfi_restore 4
@@ -1258,7 +1258,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1195              		.size	si5351_set_band_mode, .-si5351_set_band_mode
  1196              		.section	.text.si5351_get_harmonic_lvl,"ax",%progbits
  1197              		.align	1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 22
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 22
 
 
  1198              		.p2align 4,,15
@@ -1318,7 +1318,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1252              		.loc 1 518 47 discriminator 1 view .LVU365
  1253 001c 98BF     		it	ls
  1254 001e 6B43     		mulls	r3, r5, r3
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 23
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 23
 
 
  1255              	.LVL107:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1309 0006 8DB0     		sub	sp, sp, #52
  1310              		.cfi_def_cfa_offset 88
  1311              		.loc 1 541 6 view .LVU377
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 24
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 24
 
 
  1312 0008 0028     		cmp	r0, #0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1366 0046 09E0     		b	.L67
  1367              	.LVL115:
  1368              	.L85:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 25
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 25
 
 
  1369              		.loc 1 548 6 is_stmt 1 view .LVU403
@@ -1498,7 +1498,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1423 0088 1389     		ldrh	r3, [r2, #8]
  1424 008a 9942     		cmp	r1, r3
  1425 008c 07D0     		beq	.L71
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 26
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 26
 
 
  1426              		.loc 1 585 7 is_stmt 1 view .LVU427
@@ -1558,7 +1558,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1480 00c4 0020     		movs	r0, #0
  1481              	.LVL125:
  1482              	.L75:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 27
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 27
 
 
  1483              		.loc 1 648 3 is_stmt 1 view .LVU451
@@ -1618,7 +1618,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1537              		@ sp needed
  1538 00ee BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  1539              	.LVL131:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 28
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 28
 
 
  1540              	.L66:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1594              		.loc 1 42 16 is_stmt 0 view .LVU493
  1595 0118 CBF80020 		str	r2, [fp]
  1596              	.LBE102:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 29
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 29
 
 
  1597              	.LBE107:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1651 015c 5201     		lsls	r2, r2, #5
  1652 015e 0291     		str	r1, [sp, #8]
  1653 0160 0220     		movs	r0, #2
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 30
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 30
 
 
  1654 0162 FFF7FEFF 		bl	si5351_set_frequency_fixedpll
@@ -1798,7 +1798,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1708 01b4 FFF7FEFF 		bl	si5351_setupPLL_freq
  1709              	.LVL146:
  1710              		.loc 1 637 7 is_stmt 1 view .LVU527
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 31
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 31
 
 
  1711 01b8 059B     		ldr	r3, [sp, #20]
@@ -1858,7 +1858,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1765 0216 069A     		ldr	r2, [sp, #24]
  1766 0218 01FB00F0 		mul	r0, r1, r0
  1767 021c 0090     		str	r0, [sp]
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 32
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 32
 
 
  1768 021e 0021     		movs	r1, #0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1822              	.LBE109:
  1823              		.loc 1 573 5 is_stmt 1 view .LVU560
  1824              		.loc 1 576 3 view .LVU561
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 33
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 33
 
 
  1825              		.loc 1 542 12 is_stmt 0 view .LVU562
@@ -1978,7 +1978,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1879 000a 034B     		ldr	r3, .L92+4
  1880 000c 1868     		ldr	r0, [r3]
  1881              	.LVL159:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 34
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 34
 
 
  1882              		.loc 1 90 3 is_stmt 0 view .LVU572
@@ -2038,7 +2038,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1936              	.LVL164:
  1937              		.loc 1 152 5 view .LVU584
  1938              		.loc 1 152 7 is_stmt 0 view .LVU585
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 35
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 35
 
 
  1939 0010 2B19     		adds	r3, r5, r4
@@ -2098,7 +2098,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  1993 0000 00000000 		.word	0
  1994 0004 00       		.byte	0
  1995 0005 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 36
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 36
 
 
  1996 0006 00       		.byte	0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2050 0058 02       		.byte	2
  2051 0059 04       		.byte	4
  2052 005a 97       		.byte	151
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 37
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 37
 
 
  2053 005b 33       		.byte	51
@@ -2218,7 +2218,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2107 002b 11       		.byte	17
  2108 002c 00       		.byte	0
  2109 002d 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 38
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 38
 
 
  2110 002e 0100     		.short	1
@@ -2278,7 +2278,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2164 0080 5F       		.byte	95
  2165 0081 5F       		.byte	95
  2166 0082 1002     		.short	528
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 39
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 39
 
 
  2167              		.global	band_strategy_H4_SI5351
@@ -2338,7 +2338,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2221 0048 000B6B1B 		.word	460000000
  2222 004c 02       		.byte	2
  2223 004d 06       		.byte	6
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 40
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 40
 
 
  2224 004e 53       		.byte	83
@@ -2398,7 +2398,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2278 00a0 02       		.byte	2
  2279 00a1 04       		.byte	4
  2280 00a2 B9       		.byte	185
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 41
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 41
 
 
  2281 00a3 33       		.byte	51
@@ -2458,7 +2458,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2335 002b 23       		.byte	35
  2336 002c 00       		.byte	0
  2337 002d 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 42
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 42
 
 
  2338 002e 0100     		.short	1
@@ -2518,7 +2518,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2392 0080 46       		.byte	70
  2393 0081 46       		.byte	70
  2394 0082 8C00     		.short	140
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 43
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 43
 
 
  2395 0084 00D2496B 		.word	1800000000
@@ -2578,7 +2578,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2449              		.type	disable_output, %object
  2450              		.size	disable_output, 4
  2451              	disable_output:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 44
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 44
 
 
  2452 0000 10808080 		.ascii	"\020\200\200\200"
@@ -2638,7 +2638,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2503 0016 91000000 		.4byte	.LASF120
  2504 001a BE000000 		.4byte	.LLRL96
  2505 001e 00000000 		.4byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 45
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 45
 
 
  2506 0022 00000000 		.4byte	.Ldebug_line0
@@ -2698,7 +2698,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2560 0088 39       		.byte	0x39
  2561 0089 19       		.byte	0x19
  2562 008a 8E000000 		.4byte	0x8e
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 46
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 46
 
 
  2563 008e 04       		.uleb128 0x4
@@ -2758,7 +2758,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2617 00f7 13       		.byte	0x13
  2618 00f8 95000000 		.4byte	0x95
  2619 00fc 05       		.uleb128 0x5
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 47
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 47
 
 
  2620 00fd A0060000 		.4byte	.LASF21
@@ -2818,7 +2818,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2674 0167 03       		.byte	0x3
  2675 0168 06       		.uleb128 0x6
  2676 0169 00060000 		.4byte	.LASF32
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 48
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 48
 
 
  2677 016d 04       		.byte	0x4
@@ -2878,7 +2878,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2731 01d7 0C       		.byte	0xc
  2732 01d8 F0000000 		.4byte	0xf0
  2733 01dc 08       		.byte	0x8
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 49
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 49
 
 
  2734 01dd 02       		.uleb128 0x2
@@ -2938,7 +2938,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2788 0248 B2020000 		.4byte	0x2b2
  2789 024c 1E       		.byte	0x1e
  2790 024d 02       		.uleb128 0x2
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 50
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 50
 
 
  2791 024e 34070000 		.4byte	.LASF53
@@ -2998,7 +2998,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2845 02c0 1F       		.byte	0x1f
  2846 02c1 00       		.byte	0
  2847 02c2 08       		.uleb128 0x8
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 51
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 51
 
 
  2848 02c3 C7000000 		.4byte	0xc7
@@ -3058,7 +3058,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2902 033d 0E       		.byte	0xe
  2903 033e 00       		.byte	0
  2904 033f 11       		.uleb128 0x11
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 52
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 52
 
 
  2905 0340 2F030000 		.4byte	0x32f
@@ -3118,7 +3118,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  2959 03b4 0C       		.byte	0xc
  2960 03b5 C7000000 		.4byte	0xc7
  2961 03b9 39       		.uleb128 0x39
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 53
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 53
 
 
  2962 03ba 30010000 		.4byte	.LASF68
@@ -3178,7 +3178,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3016 042c C7000000 		.4byte	0xc7
  3017 0430 08       		.byte	0x8
  3018 0431 02       		.uleb128 0x2
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 54
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 54
 
 
  3019 0432 F9050000 		.4byte	.LASF74
@@ -3238,7 +3238,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3073 04aa 00000000 		.4byte	band_strategy_H4_SI5351
  3074 04ae 08       		.uleb128 0x8
  3075 04af 5A040000 		.4byte	0x45a
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 55
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 55
 
 
  3076 04b3 BE040000 		.4byte	0x4be
@@ -3298,7 +3298,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3130 052c 06       		.byte	0x6
  3131 052d 2C010000 		.4byte	0x12c
  3132 0531 45050000 		.4byte	0x545
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 56
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 56
 
 
  3133 0535 12       		.uleb128 0x12
@@ -3358,7 +3358,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3187 05c2 84010000 		.4byte	.LASF88
  3188 05c6 1E02     		.2byte	0x21e
  3189 05c8 0C       		.byte	0xc
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 57
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 57
 
 
  3190 05c9 FC000000 		.4byte	0xfc
@@ -3418,7 +3418,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3244 0665 10000000 		.4byte	.LBE95-.LBB95
  3245 0669 01       		.byte	0x1
  3246 066a 8D02     		.2byte	0x28d
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 58
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 58
 
 
  3247 066c 07       		.byte	0x7
@@ -3478,7 +3478,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3301 06df 96000000 		.4byte	.LVL119
  3302 06e3 0D050000 		.4byte	0x50d
  3303 06e7 0A       		.uleb128 0xa
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 59
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 59
 
 
  3304 06e8 D4000000 		.4byte	.LVL127
@@ -3538,7 +3538,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3358 073a 01       		.uleb128 0x1
  3359 073b 01       		.uleb128 0x1
  3360 073c 52       		.byte	0x52
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 60
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 60
 
 
  3361 073d 01       		.uleb128 0x1
@@ -3598,7 +3598,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3415 0788 7A       		.byte	0x7a
  3416 0789 00       		.sleb128 0
  3417 078a 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 61
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 61
 
 
  3418 078b 02       		.uleb128 0x2
@@ -3658,7 +3658,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3472 07d3 01       		.uleb128 0x1
  3473 07d4 50       		.byte	0x50
  3474 07d5 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 62
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 62
 
 
  3475 07d6 4A       		.byte	0x4a
@@ -3718,7 +3718,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3529 081f 01       		.uleb128 0x1
  3530 0820 31       		.byte	0x31
  3531 0821 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 63
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 63
 
 
  3532 0822 02       		.uleb128 0x2
@@ -3778,7 +3778,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3586 0861 75       		.byte	0x75
  3587 0862 00       		.sleb128 0
  3588 0863 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 64
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 64
 
 
  3589 0864 0A       		.uleb128 0xa
@@ -3838,7 +3838,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3643 08ca 0B       		.uleb128 0xb
  3644 08cb 6900     		.ascii	"i\000"
  3645 08cd 0402     		.2byte	0x204
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 65
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 65
 
 
  3646 08cf 0C       		.byte	0xc
@@ -3898,7 +3898,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3700 094a 01       		.uleb128 0x1
  3701 094b 9C       		.byte	0x9c
  3702 094c C90A0000 		.4byte	0xac9
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 66
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 66
 
 
  3703 0950 0C       		.uleb128 0xc
@@ -3958,7 +3958,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3757 09e7 1B000000 		.4byte	.LLRL18
  3758 09eb 5C01     		.2byte	0x15c
  3759 09ed 03       		.byte	0x3
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 67
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 67
 
 
  3760 09ee AD0A0000 		.4byte	0xaad
@@ -4018,7 +4018,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3814 0a9c 03       		.uleb128 0x3
  3815 0a9d 1E0D0000 		.4byte	0xd1e
  3816 0aa1 1F050000 		.4byte	.LLST31
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 68
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 68
 
 
  3817 0aa5 1B050000 		.4byte	.LVUS31
@@ -4078,7 +4078,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3871 0b35 69       		.byte	0x69
  3872 0b36 C7000000 		.4byte	0xc7
  3873 0b3a CA050000 		.4byte	.LLST48
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 69
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 69
 
 
  3874 0b3e C2050000 		.4byte	.LVUS48
@@ -4138,7 +4138,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3928 0bde D0060000 		.4byte	.LVUS58
  3929 0be2 03       		.uleb128 0x3
  3930 0be3 DD0C0000 		.4byte	0xcdd
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 70
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 70
 
 
  3931 0be7 EF060000 		.4byte	.LLST59
@@ -4198,7 +4198,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  3985 0c71 01       		.uleb128 0x1
  3986 0c72 02       		.uleb128 0x2
  3987 0c73 91       		.byte	0x91
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 71
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 71
 
 
  3988 0c74 04       		.sleb128 4
@@ -4258,7 +4258,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4042 0cc6 10       		.uleb128 0x10
  4043 0cc7 6E756D00 		.ascii	"num\000"
  4044 0ccb 3201     		.2byte	0x132
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 72
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 72
 
 
  4045 0ccd 0E       		.byte	0xe
@@ -4318,7 +4318,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4099 0d40 01       		.uleb128 0x1
  4100 0d41 9C       		.byte	0x9c
  4101 0d42 690E0000 		.4byte	0xe69
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 73
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 73
 
 
  4102 0d46 0E       		.uleb128 0xe
@@ -4378,7 +4378,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4156 0dd6 040A0000 		.4byte	.LLST39
  4157 0dda FA090000 		.4byte	.LVUS39
  4158 0dde 0B       		.uleb128 0xb
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 74
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 74
 
 
  4159 0ddf 503300   		.ascii	"P3\000"
@@ -4438,7 +4438,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4213 0e53 0F       		.uleb128 0xf
  4214 0e54 6C000000 		.4byte	.LVL52
  4215 0e58 56110000 		.4byte	0x1156
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 75
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 75
 
 
  4216 0e5c 01       		.uleb128 0x1
@@ -4498,7 +4498,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4270 0ece FC000000 		.4byte	0xfc
  4271 0ed2 410B0000 		.4byte	.LLST7
  4272 0ed6 390B0000 		.4byte	.LVUS7
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 76
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 76
 
 
  4273 0eda 17       		.uleb128 0x17
@@ -4558,7 +4558,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4327 0f46 6D0F0000 		.4byte	0xf6d
  4328 0f4a 0E       		.uleb128 0xe
  4329 0f4b D8040000 		.4byte	.LASF95
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 77
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 77
 
 
  4330 0f4f C2       		.byte	0xc2
@@ -4618,7 +4618,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4384 0fcd 51       		.byte	0x51
  4385 0fce 01       		.uleb128 0x1
  4386 0fcf 32       		.byte	0x32
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 78
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 78
 
 
  4387 0fd0 00       		.byte	0
@@ -4678,7 +4678,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4441 1048 01       		.uleb128 0x1
  4442 1049 32       		.byte	0x32
  4443 104a 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 79
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 79
 
 
  4444 104b 00       		.byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4498 10b8 48       		.uleb128 0x48
  4499 10b9 06000000 		.4byte	.LBB110
  4500 10bd 0C000000 		.4byte	.LBE110-.LBB110
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 80
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 80
 
 
  4501 10c1 EF100000 		.4byte	0x10ef
@@ -4798,7 +4798,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4555 1124 72656700 		.ascii	"reg\000"
  4556 1128 77       		.byte	0x77
  4557 1129 16       		.byte	0x16
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 81
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 81
 
 
  4558 112a C7000000 		.4byte	0xc7
@@ -4858,7 +4858,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4612 11a2 51       		.byte	0x51
  4613 11a3 09       		.uleb128 0x9
  4614 11a4 A3       		.byte	0xa3
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 82
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 82
 
 
  4615 11a5 03       		.uleb128 0x3
@@ -4918,7 +4918,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4669 11f9 00       		.uleb128 0
  4670 11fa 00       		.byte	0
  4671 11fb 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 83
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 83
 
 
  4672 11fc 13       		.uleb128 0x13
@@ -4978,7 +4978,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4726              	.Ldebug_abbrev0:
  4727 0000 01       		.uleb128 0x1
  4728 0001 49       		.uleb128 0x49
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 84
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 84
 
 
  4729 0002 00       		.byte	0
@@ -5038,7 +5038,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4783 0039 0B       		.uleb128 0xb
  4784 003a 39       		.uleb128 0x39
  4785 003b 0B       		.uleb128 0xb
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 85
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 85
 
 
  4786 003c 49       		.uleb128 0x49
@@ -5098,7 +5098,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4840 0073 34       		.uleb128 0x34
  4841 0074 00       		.byte	0
  4842 0075 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 86
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 86
 
 
  4843 0076 08       		.uleb128 0x8
@@ -5158,7 +5158,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4897 00af 00       		.byte	0
  4898 00b0 00       		.byte	0
  4899 00b1 0E       		.uleb128 0xe
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 87
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 87
 
 
  4900 00b2 05       		.uleb128 0x5
@@ -5218,7 +5218,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  4954 00e9 49       		.uleb128 0x49
  4955 00ea 13       		.uleb128 0x13
  4956 00eb 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 88
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 88
 
 
  4957 00ec 00       		.byte	0
@@ -5278,7 +5278,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5011 0122 16       		.uleb128 0x16
  5012 0123 05       		.uleb128 0x5
  5013 0124 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 89
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 89
 
 
  5014 0125 03       		.uleb128 0x3
@@ -5338,7 +5338,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5068 015d 02       		.uleb128 0x2
  5069 015e 18       		.uleb128 0x18
  5070 015f 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 90
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 90
 
 
  5071 0160 00       		.byte	0
@@ -5398,7 +5398,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5125 0197 19       		.uleb128 0x19
  5126 0198 3C       		.uleb128 0x3c
  5127 0199 19       		.uleb128 0x19
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 91
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 91
 
 
  5128 019a 01       		.uleb128 0x1
@@ -5458,7 +5458,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5182 01d1 0B       		.sleb128 11
  5183 01d2 49       		.uleb128 0x49
  5184 01d3 13       		.uleb128 0x13
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 92
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 92
 
 
  5185 01d4 0D       		.uleb128 0xd
@@ -5518,7 +5518,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5239 020a 7A       		.uleb128 0x7a
  5240 020b 19       		.uleb128 0x19
  5241 020c 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 93
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 93
 
 
  5242 020d 13       		.uleb128 0x13
@@ -5578,7 +5578,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5296 0243 01       		.uleb128 0x1
  5297 0244 12       		.uleb128 0x12
  5298 0245 06       		.uleb128 0x6
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 94
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 94
 
 
  5299 0246 40       		.uleb128 0x40
@@ -5638,7 +5638,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5353 027e 00       		.byte	0
  5354 027f 00       		.byte	0
  5355 0280 2A       		.uleb128 0x2a
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 95
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 95
 
 
  5356 0281 0B       		.uleb128 0xb
@@ -5698,7 +5698,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5410 02b8 31       		.uleb128 0x31
  5411 02b9 13       		.uleb128 0x13
  5412 02ba 52       		.uleb128 0x52
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 96
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 96
 
 
  5413 02bb 01       		.uleb128 0x1
@@ -5758,7 +5758,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5467 02f3 20       		.uleb128 0x20
  5468 02f4 0B       		.uleb128 0xb
  5469 02f5 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 97
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 97
 
 
  5470 02f6 13       		.uleb128 0x13
@@ -5818,7 +5818,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5524 032c 0B       		.uleb128 0xb
  5525 032d 0B       		.uleb128 0xb
  5526 032e 49       		.uleb128 0x49
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 98
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 98
 
 
  5527 032f 13       		.uleb128 0x13
@@ -5878,7 +5878,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5581 0365 3B       		.uleb128 0x3b
  5582 0366 0B       		.uleb128 0xb
  5583 0367 39       		.uleb128 0x39
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 99
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 99
 
 
  5584 0368 0B       		.uleb128 0xb
@@ -5938,7 +5938,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5638 039f 00       		.byte	0
  5639 03a0 00       		.byte	0
  5640 03a1 3A       		.uleb128 0x3a
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 100
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 100
 
 
  5641 03a2 13       		.uleb128 0x13
@@ -5998,7 +5998,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5695 03d8 19       		.uleb128 0x19
  5696 03d9 49       		.uleb128 0x49
  5697 03da 13       		.uleb128 0x13
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 101
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 101
 
 
  5698 03db 3C       		.uleb128 0x3c
@@ -6058,7 +6058,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5752 0413 13       		.uleb128 0x13
  5753 0414 52       		.uleb128 0x52
  5754 0415 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 102
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 102
 
 
  5755 0416 B842     		.uleb128 0x2138
@@ -6118,7 +6118,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5809 044d 00       		.byte	0
  5810 044e 00       		.byte	0
  5811 044f 43       		.uleb128 0x43
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 103
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 103
 
 
  5812 0450 05       		.uleb128 0x5
@@ -6178,7 +6178,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5866 0488 08       		.uleb128 0x8
  5867 0489 3A       		.uleb128 0x3a
  5868 048a 0B       		.uleb128 0xb
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 104
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 104
 
 
  5869 048b 3B       		.uleb128 0x3b
@@ -6238,7 +6238,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5923 04c1 3F       		.uleb128 0x3f
  5924 04c2 19       		.uleb128 0x19
  5925 04c3 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 105
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 105
 
 
  5926 04c4 0E       		.uleb128 0xe
@@ -6298,7 +6298,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  5980              	.Ldebug_loc2:
  5981 0004 0500     		.2byte	0x5
  5982 0006 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 106
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 106
 
 
  5983 0007 00       		.byte	0
@@ -6358,7 +6358,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6037 0044 00       		.uleb128 .LVU403
  6038 0045 00       		.uleb128 .LVU403
  6039 0046 02       		.uleb128 .LVU405
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 107
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 107
 
 
  6040 0047 02       		.uleb128 .LVU405
@@ -6418,7 +6418,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6094 0086 D804     		.uleb128 .LVL156-.LVL108
  6095 0088 01       		.uleb128 0x1
  6096 0089 55       		.byte	0x55
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 108
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 108
 
 
  6097 008a 04       		.byte	0x4
@@ -6478,7 +6478,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6151 00cb 01       		.uleb128 0x1
  6152 00cc 56       		.byte	0x56
  6153 00cd 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 109
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 109
 
 
  6154              	.LVUS81:
@@ -6538,7 +6538,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6208 0110 04       		.byte	0x4
  6209 0111 AE04     		.uleb128 .LVL152-.LVL108
  6210 0113 B204     		.uleb128 .LVL153-.LVL108
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 110
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 110
 
 
  6211 0115 02       		.uleb128 0x2
@@ -6598,7 +6598,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6265 014e 70       		.byte	0x70
  6266 014f 9F       		.byte	0x9f
  6267 0150 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 111
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 111
 
 
  6268 0151 E601     		.uleb128 .LVL131-.LVL109
@@ -6658,7 +6658,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6322 0192 9F       		.byte	0x9f
  6323 0193 00       		.byte	0
  6324              	.LVUS85:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 112
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 112
 
 
  6325 0194 00       		.uleb128 .LVU384
@@ -6718,7 +6718,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6379 01d3 06       		.sleb128 6
  6380 01d4 94       		.byte	0x94
  6381 01d5 01       		.byte	0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 113
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 113
 
 
  6382 01d6 3F       		.byte	0x3f
@@ -6778,7 +6778,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6436 020f 07       		.sleb128 7
  6437 0210 94       		.byte	0x94
  6438 0211 01       		.byte	0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 114
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 114
 
 
  6439 0212 3F       		.byte	0x3f
@@ -6838,7 +6838,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6493 0249 D4000000 		.4byte	.LVL127
  6494 024d 10       		.uleb128 .LVL128-.LVL127
  6495 024e 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 115
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 115
 
 
  6496 024f 09       		.byte	0x9
@@ -6898,7 +6898,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6550              	.LLST75:
  6551 0287 06       		.byte	0x6
  6552 0288 00000000 		.4byte	.LVL103
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 116
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 116
 
 
  6553 028c 04       		.byte	0x4
@@ -6958,7 +6958,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6607 02c4 64       		.uleb128 .LVL34-.LVL20
  6608 02c5 68       		.uleb128 .LVL35-.LVL20
  6609 02c6 0A       		.uleb128 0xa
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 117
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 117
 
 
  6610 02c7 A3       		.byte	0xa3
@@ -7018,7 +7018,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6664 02fe A5       		.byte	0xa5
  6665 02ff 02       		.uleb128 0x2
  6666 0300 2D       		.uleb128 0x2d
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 118
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 118
 
 
  6667 0301 9F       		.byte	0x9f
@@ -7078,7 +7078,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6721 0338 00       		.uleb128 .LVU130
  6722 0339 00       		.uleb128 .LVU139
  6723              	.LLST15:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 119
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 119
 
 
  6724 033a 06       		.byte	0x6
@@ -7138,7 +7138,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6778 0374 53       		.uleb128 .LVL41-1-.LVL25
  6779 0375 01       		.uleb128 0x1
  6780 0376 5C       		.byte	0x5c
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 120
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 120
 
 
  6781 0377 00       		.byte	0
@@ -7198,7 +7198,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6835 03b2 B5090000 		.4byte	.Ldebug_info0+2485
  6836 03b6 00       		.sleb128 0
  6837 03b7 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 121
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 121
 
 
  6838              	.LVUS20:
@@ -7258,7 +7258,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6892 03f6 50       		.byte	0x50
  6893 03f7 00       		.byte	0
  6894              	.LVUS23:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 122
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 122
 
 
  6895 03f8 00       		.uleb128 .LVU102
@@ -7318,7 +7318,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  6949 0430 02       		.uleb128 .LVU116
  6950 0431 00       		.uleb128 .LVU126
  6951              	.LLST25:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 123
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 123
 
 
  6952 0432 06       		.byte	0x6
@@ -7378,7 +7378,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7006 046b 00       		.uleb128 .LVU135
  7007              	.LLST27:
  7008 046c 06       		.byte	0x6
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 124
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 124
 
 
  7009 046d 32000000 		.4byte	.LVL26
@@ -7438,7 +7438,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7063 04a7 9F       		.byte	0x9f
  7064 04a8 04       		.byte	0x4
  7065 04a9 2E       		.uleb128 .LVL35-.LVL28
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 125
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 125
 
 
  7066 04aa 32       		.uleb128 .LVL37-.LVL28
@@ -7498,7 +7498,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7120 04e1 00       		.sleb128 0
  7121 04e2 70       		.byte	0x70
  7122 04e3 00       		.sleb128 0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 126
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 126
 
 
  7123 04e4 73       		.byte	0x73
@@ -7558,7 +7558,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7177              	.LVUS31:
  7178 051b 00       		.uleb128 .LVU102
  7179 051c 00       		.uleb128 .LVU103
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 127
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 127
 
 
  7180 051d 00       		.uleb128 .LVU114
@@ -7618,7 +7618,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7234 0556 03       		.uleb128 0x3
  7235 0557 A5       		.byte	0xa5
  7236 0558 00       		.uleb128 0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 128
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 128
 
 
  7237 0559 2D       		.uleb128 0x2d
@@ -7678,7 +7678,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7291 0590 03       		.uleb128 0x3
  7292 0591 A5       		.byte	0xa5
  7293 0592 02       		.uleb128 0x2
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 129
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 129
 
 
  7294 0593 2D       		.uleb128 0x2d
@@ -7738,7 +7738,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7348              	.LLST48:
  7349 05ca 06       		.byte	0x6
  7350 05cb 00000000 		.4byte	.LVL72
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 130
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 130
 
 
  7351 05cf 04       		.byte	0x4
@@ -7798,7 +7798,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7405 0605 08       		.uleb128 .LVU263
  7406 0606 00       		.uleb128 .LVU266
  7407 0607 00       		.uleb128 .LVU266
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 131
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 131
 
 
  7408 0608 00       		.uleb128 .LVU267
@@ -7858,7 +7858,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7462 0641 04       		.byte	0x4
  7463 0642 3A       		.uleb128 .LVL85-.LVL76
  7464 0643 46       		.uleb128 .LVL87-.LVL76
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 132
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 132
 
 
  7465 0644 01       		.uleb128 0x1
@@ -7918,7 +7918,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7519 0682 A0       		.byte	0xa0
  7520 0683 6A0B0000 		.4byte	.Ldebug_info0+2922
  7521 0687 00       		.sleb128 0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 133
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 133
 
 
  7522 0688 04       		.byte	0x4
@@ -7978,7 +7978,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7576 06c3 01       		.uleb128 0x1
  7577 06c4 52       		.byte	0x52
  7578 06c5 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 134
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 134
 
 
  7579 06c6 1C       		.uleb128 .LVL82-.LVL78
@@ -8038,7 +8038,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7633 06fe 00       		.byte	0
  7634              	.LVUS60:
  7635 06ff 00       		.uleb128 .LVU243
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 135
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 135
 
 
  7636 0700 00       		.uleb128 .LVU244
@@ -8098,7 +8098,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7690 0739 1C       		.uleb128 .LVL82-.LVL78
  7691 073a 2A       		.uleb128 .LVL85-.LVL78
  7692 073b 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 136
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 136
 
 
  7693 073c 58       		.byte	0x58
@@ -8158,7 +8158,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7747 0773 00       		.sleb128 0
  7748 0774 A8       		.byte	0xa8
  7749 0775 26       		.uleb128 0x26
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 137
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 137
 
 
  7750 0776 1B       		.byte	0x1b
@@ -8218,7 +8218,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7804 07ad 00       		.sleb128 0
  7805 07ae A8       		.byte	0xa8
  7806 07af 26       		.uleb128 0x26
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 138
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 138
 
 
  7807 07b0 7A       		.byte	0x7a
@@ -8278,7 +8278,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7861 07e8 2A       		.uleb128 .LVL85-.LVL78
  7862 07e9 01       		.uleb128 0x1
  7863 07ea 53       		.byte	0x53
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 139
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 139
 
 
  7864 07eb 00       		.byte	0
@@ -8338,7 +8338,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7918 082a 00       		.uleb128 .LVU155
  7919 082b 00       		.uleb128 .LVU155
  7920 082c 00       		.uleb128 .LVU160
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 140
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 140
 
 
  7921 082d 00       		.uleb128 .LVU160
@@ -8398,7 +8398,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  7975 0866 9601     		.uleb128 .LVL57-.LVL42
  7976 0868 C801     		.uleb128 .LVL64-.LVL42
  7977 086a 0C       		.uleb128 0xc
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 141
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 141
 
 
  7978 086b A3       		.byte	0xa3
@@ -8458,7 +8458,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8032 08a6 14       		.uleb128 .LVL43-.LVL42
  8033 08a7 18       		.uleb128 .LVL45-.LVL42
  8034 08a8 05       		.uleb128 0x5
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 142
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 142
 
 
  8035 08a9 72       		.byte	0x72
@@ -8518,7 +8518,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8089 08e7 03       		.uleb128 0x3
  8090 08e8 2D       		.uleb128 0x2d
  8091 08e9 A8       		.byte	0xa8
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 143
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 143
 
 
  8092 08ea 26       		.uleb128 0x26
@@ -8578,7 +8578,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8146              	.LLST36:
  8147 0927 06       		.byte	0x6
  8148 0928 00000000 		.4byte	.LVL42
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 144
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 144
 
 
  8149 092c 04       		.byte	0x4
@@ -8638,7 +8638,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8203 0969 05       		.uleb128 0x5
  8204 096a 76       		.byte	0x76
  8205 096b 00       		.sleb128 0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 145
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 145
 
 
  8206 096c 3C       		.byte	0x3c
@@ -8698,7 +8698,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8260 09aa 2A       		.uleb128 .LVL48-.LVL42
  8261 09ab 01       		.uleb128 0x1
  8262 09ac 51       		.byte	0x51
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 146
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 146
 
 
  8263 09ad 04       		.byte	0x4
@@ -8758,7 +8758,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8317 09e8 1B       		.byte	0x1b
  8318 09e9 A8       		.byte	0xa8
  8319 09ea 00       		.uleb128 0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 147
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 147
 
 
  8320 09eb 22       		.byte	0x22
@@ -8818,7 +8818,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8374 0a2b 03       		.uleb128 0x3
  8375 0a2c A5       		.byte	0xa5
  8376 0a2d 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 148
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 148
 
 
  8377 0a2e 2D       		.uleb128 0x2d
@@ -8878,7 +8878,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8431 0a69 9F       		.byte	0x9f
  8432 0a6a 04       		.byte	0x4
  8433 0a6b A401     		.uleb128 .LVL59-.LVL42
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 149
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 149
 
 
  8434 0a6d C201     		.uleb128 .LVL61-.LVL42
@@ -8938,7 +8938,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8488 0aa8 06       		.byte	0x6
  8489 0aa9 00000000 		.4byte	.LVL7
  8490 0aad 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 150
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 150
 
 
  8491 0aae 00       		.uleb128 .LVL7-.LVL7
@@ -8998,7 +8998,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8545 0ae5 0C       		.uleb128 .LVL10-.LVL7
  8546 0ae6 01       		.uleb128 0x1
  8547 0ae7 51       		.byte	0x51
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 151
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 151
 
 
  8548 0ae8 04       		.byte	0x4
@@ -9058,7 +9058,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8602 0b20 1A       		.uleb128 .LVL11-.LVL7
  8603 0b21 01       		.uleb128 0x1
  8604 0b22 52       		.byte	0x52
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 152
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 152
 
 
  8605 0b23 04       		.byte	0x4
@@ -9118,7 +9118,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8659 0b5a 72       		.uleb128 .LVL18-.LVL7
  8660 0b5b 78       		.uleb128 .LVL19-.LVL7
  8661 0b5c 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 153
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 153
 
 
  8662 0b5d 53       		.byte	0x53
@@ -9178,7 +9178,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8716 0b95 01       		.uleb128 0x1
  8717 0b96 52       		.byte	0x52
  8718 0b97 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 154
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 154
 
 
  8719 0b98 66       		.uleb128 .LVL18-.LVL10
@@ -9238,7 +9238,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8773 0bce 00       		.uleb128 0
  8774              	.LLST72:
  8775 0bcf 06       		.byte	0x6
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 155
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 155
 
 
  8776 0bd0 00000000 		.4byte	.LVL100
@@ -9298,7 +9298,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8830 0c0d 37       		.byte	0x37
  8831 0c0e 9F       		.byte	0x9f
  8832 0c0f 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 156
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 156
 
 
  8833              	.LVUS94:
@@ -9358,7 +9358,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8887 0c49 00000000 		.4byte	.LVL3
  8888 0c4d 04       		.byte	0x4
  8889 0c4e 00       		.uleb128 .LVL3-.LVL3
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 157
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 157
 
 
  8890 0c4f 06       		.uleb128 .LVL5-.LVL3
@@ -9418,7 +9418,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  8944 0c86 A8       		.byte	0xa8
  8945 0c87 00       		.uleb128 0
  8946 0c88 9F       		.byte	0x9f
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 158
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 158
 
 
  8947 0c89 00       		.byte	0
@@ -9478,7 +9478,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9001 0cc1 00       		.uleb128 .LVL0-.LVL0
  9002 0cc2 11       		.uleb128 .LVL1-1-.LVL0
  9003 0cc3 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 159
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 159
 
 
  9004 0cc4 50       		.byte	0x50
@@ -9538,7 +9538,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9058              		.section	.debug_rnglists,"",%progbits
  9059              	.Ldebug_ranges0:
  9060 0000 17010000 		.4byte	.Ldebug_ranges3-.Ldebug_ranges2
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 160
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 160
 
 
  9061              	.Ldebug_ranges2:
@@ -9598,7 +9598,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9115 0045 04       		.uleb128 .LBB37-.LBB34
  9116 0046 14       		.uleb128 .LBE37-.LBB34
  9117 0047 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 161
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 161
 
 
  9118              	.LLRL52:
@@ -9658,7 +9658,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9172 0088 02       		.uleb128 .LBE76-.LBB76
  9173 0089 04       		.byte	0x4
  9174 008a 10       		.uleb128 .LBB81-.LBB76
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 162
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 162
 
 
  9175 008b 12       		.uleb128 .LBE81-.LBB76
@@ -9718,7 +9718,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9229 00d1 00000000 		.4byte	.LFB251
  9230 00d5 7C       		.uleb128 .LFE251-.LFB251
  9231 00d6 07       		.byte	0x7
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 163
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 163
 
 
  9232 00d7 00000000 		.4byte	.LFB255
@@ -9778,7 +9778,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9276 0022 5F787461 		.ascii	"_xtal_freq\000"
  9276      6C5F6672 
  9276      657100
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 164
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 164
 
 
  9277              	.LASF58:
@@ -9838,7 +9838,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9301              	.LASF51:
  9302 0102 5F627269 		.ascii	"_brightness\000"
  9302      6768746E 
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 165
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 165
 
 
  9302      65737300 
@@ -9898,7 +9898,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9330 019b 4D535F4C 		.ascii	"MS_LOG\000"
  9330      4F4700
  9331              	.LASF27:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 166
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 166
 
 
  9332 01a2 646F7562 		.ascii	"double\000"
@@ -9958,7 +9958,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9356      20696E74 
  9356      00
  9357              	.LASF118:
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 167
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 167
 
 
  9358 024e 474E5520 		.ascii	"GNU C11 14.3.1 20250623 -mcpu=cortex-m4 -mfloat-abi"
@@ -10018,7 +10018,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9374      4E4400
  9375              	.LASF66:
  9376 03c8 64697361 		.ascii	"disable_output\000"
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 168
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 168
 
 
  9376      626C655F 
@@ -10078,7 +10078,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9398      4300
  9399              	.LASF115:
  9400 0472 73693533 		.ascii	"si5351_set_power\000"
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 169
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 169
 
 
  9400      35315F73 
@@ -10138,7 +10138,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9425              	.LASF110:
  9426 0512 73693533 		.ascii	"si5351_reset_pll\000"
  9426      35315F72 
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 170
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 170
 
 
  9426      65736574 
@@ -10198,7 +10198,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9450      35315F73 
  9450      65747570 
  9450      504C4C5F 
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 171
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 171
 
 
  9450      66726571 
@@ -10258,7 +10258,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9480      65745F68 
  9480      61726D6F 
  9480      6E69635F 
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 172
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 172
 
 
  9481              	.LASF23:
@@ -10318,7 +10318,7 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9510      5F7300
  9511              	.LASF78:
  9512 06ee 62616E64 		.ascii	"band_strategy_33H_SI5351\000"
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 173
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 173
 
 
  9512      5F737472 
@@ -10361,82 +10361,82 @@ ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 1
  9526      4200
  9527              		.global	__aeabi_uldivmod
  9528              		.ident	"GCC: (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623"
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 174
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 174
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 si5351.c
-C:\msys64\tmp\ccRrRxSP.s:19     .text.si5351_get_frequency:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:26     .text.si5351_get_frequency:00000000 si5351_get_frequency
-C:\msys64\tmp\ccRrRxSP.s:42     .text.si5351_get_frequency:00000008 $d
-C:\msys64\tmp\ccRrRxSP.s:2471   .bss.current_freq:00000000 current_freq
-C:\msys64\tmp\ccRrRxSP.s:47     .text.si5351_set_frequency_offset:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:54     .text.si5351_set_frequency_offset:00000000 si5351_set_frequency_offset
-C:\msys64\tmp\ccRrRxSP.s:109    .text.si5351_set_frequency_offset:00000018 $d
-C:\msys64\tmp\ccRrRxSP.s:2481   .bss.current_band:00000000 current_band
-C:\msys64\tmp\ccRrRxSP.s:116    .text.si5351_bulk_write:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:123    .text.si5351_bulk_write:00000000 si5351_bulk_write
-C:\msys64\tmp\ccRrRxSP.s:148    .text.si5351_setupPLL:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:154    .text.si5351_setupPLL:00000000 si5351_setupPLL
-C:\msys64\tmp\ccRrRxSP.s:278    .text.si5351_setupPLL_freq:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:284    .text.si5351_setupPLL_freq:00000000 si5351_setupPLL_freq
-C:\msys64\tmp\ccRrRxSP.s:474    .text.si5351_setupPLL_freq:00000078 $d
-C:\msys64\tmp\ccRrRxSP.s:479    .text.si5351_setupMultisynth:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:485    .text.si5351_setupMultisynth:00000000 si5351_setupMultisynth
-C:\msys64\tmp\ccRrRxSP.s:716    .text.si5351_setupMultisynth:000000e4 $d
-C:\msys64\tmp\ccRrRxSP.s:2445   .rodata.msreg_base:00000000 msreg_base
-C:\msys64\tmp\ccRrRxSP.s:2465   .bss.clk_cache:00000000 clk_cache
-C:\msys64\tmp\ccRrRxSP.s:722    .text.si5351_set_frequency_fixedpll:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:728    .text.si5351_set_frequency_fixedpll:00000000 si5351_set_frequency_fixedpll
-C:\msys64\tmp\ccRrRxSP.s:923    .text.si5351_disable_output:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:930    .text.si5351_disable_output:00000000 si5351_disable_output
-C:\msys64\tmp\ccRrRxSP.s:997    .text.si5351_disable_output:0000002c $d
-C:\msys64\tmp\ccRrRxSP.s:2451   .rodata.disable_output:00000000 disable_output
-C:\msys64\tmp\ccRrRxSP.s:1004   .text.si5351_enable_output:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:1011   .text.si5351_enable_output:00000000 si5351_enable_output
-C:\msys64\tmp\ccRrRxSP.s:1073   .text.si5351_enable_output:00000024 $d
-C:\msys64\tmp\ccRrRxSP.s:1079   .text.si5351_set_tcxo:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:1086   .text.si5351_set_tcxo:00000000 si5351_set_tcxo
-C:\msys64\tmp\ccRrRxSP.s:1154   .text.si5351_set_tcxo:00000028 $d
-C:\msys64\tmp\ccRrRxSP.s:1163   .text.si5351_set_band_mode:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:1170   .text.si5351_set_band_mode:00000000 si5351_set_band_mode
-C:\msys64\tmp\ccRrRxSP.s:1191   .text.si5351_set_band_mode:0000000c $d
-C:\msys64\tmp\ccRrRxSP.s:1983   .rodata.bs.0:00000000 bs.0
-C:\msys64\tmp\ccRrRxSP.s:2439   .bss.band_s:00000000 band_s
-C:\msys64\tmp\ccRrRxSP.s:1197   .text.si5351_get_harmonic_lvl:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:1204   .text.si5351_get_harmonic_lvl:00000000 si5351_get_harmonic_lvl
-C:\msys64\tmp\ccRrRxSP.s:1271   .text.si5351_get_harmonic_lvl:00000028 $d
-C:\msys64\tmp\ccRrRxSP.s:1277   .text.si5351_set_frequency:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:1284   .text.si5351_set_frequency:00000000 si5351_set_frequency
-C:\msys64\tmp\ccRrRxSP.s:1842   .text.si5351_set_frequency:00000264 $d
-C:\msys64\tmp\ccRrRxSP.s:2476   .bss.current_power:00000000 current_power
-C:\msys64\tmp\ccRrRxSP.s:1853   .text.si5351_set_power:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:1860   .text.si5351_set_power:00000000 si5351_set_power
-C:\msys64\tmp\ccRrRxSP.s:1891   .text.si5351_set_power:00000014 $d
-C:\msys64\tmp\ccRrRxSP.s:1897   .text.si5351_init:00000000 $t
-C:\msys64\tmp\ccRrRxSP.s:1904   .text.si5351_init:00000000 si5351_init
-C:\msys64\tmp\ccRrRxSP.s:1973   .text.si5351_init:00000030 $d
-C:\msys64\tmp\ccRrRxSP.s:2458   .rodata.si5351_configs:00000000 si5351_configs
-C:\msys64\tmp\ccRrRxSP.s:1980   .rodata.bs.0:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2172   .rodata.band_strategy_H4_SI5351:00000000 band_strategy_H4_SI5351
-C:\msys64\tmp\ccRrRxSP.s:2078   .rodata.band_strategy_36H_MS5351:00000000 band_strategy_36H_MS5351
-C:\msys64\tmp\ccRrRxSP.s:1992   .rodata.band_strategy_SWC5351:00000000 band_strategy_SWC5351
-ARM GAS  C:\msys64\tmp\ccRrRxSP.s 			page 175
+C:\msys64\tmp\ccgqC7Fe.s:19     .text.si5351_get_frequency:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:26     .text.si5351_get_frequency:00000000 si5351_get_frequency
+C:\msys64\tmp\ccgqC7Fe.s:42     .text.si5351_get_frequency:00000008 $d
+C:\msys64\tmp\ccgqC7Fe.s:2471   .bss.current_freq:00000000 current_freq
+C:\msys64\tmp\ccgqC7Fe.s:47     .text.si5351_set_frequency_offset:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:54     .text.si5351_set_frequency_offset:00000000 si5351_set_frequency_offset
+C:\msys64\tmp\ccgqC7Fe.s:109    .text.si5351_set_frequency_offset:00000018 $d
+C:\msys64\tmp\ccgqC7Fe.s:2481   .bss.current_band:00000000 current_band
+C:\msys64\tmp\ccgqC7Fe.s:116    .text.si5351_bulk_write:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:123    .text.si5351_bulk_write:00000000 si5351_bulk_write
+C:\msys64\tmp\ccgqC7Fe.s:148    .text.si5351_setupPLL:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:154    .text.si5351_setupPLL:00000000 si5351_setupPLL
+C:\msys64\tmp\ccgqC7Fe.s:278    .text.si5351_setupPLL_freq:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:284    .text.si5351_setupPLL_freq:00000000 si5351_setupPLL_freq
+C:\msys64\tmp\ccgqC7Fe.s:474    .text.si5351_setupPLL_freq:00000078 $d
+C:\msys64\tmp\ccgqC7Fe.s:479    .text.si5351_setupMultisynth:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:485    .text.si5351_setupMultisynth:00000000 si5351_setupMultisynth
+C:\msys64\tmp\ccgqC7Fe.s:716    .text.si5351_setupMultisynth:000000e4 $d
+C:\msys64\tmp\ccgqC7Fe.s:2445   .rodata.msreg_base:00000000 msreg_base
+C:\msys64\tmp\ccgqC7Fe.s:2465   .bss.clk_cache:00000000 clk_cache
+C:\msys64\tmp\ccgqC7Fe.s:722    .text.si5351_set_frequency_fixedpll:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:728    .text.si5351_set_frequency_fixedpll:00000000 si5351_set_frequency_fixedpll
+C:\msys64\tmp\ccgqC7Fe.s:923    .text.si5351_disable_output:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:930    .text.si5351_disable_output:00000000 si5351_disable_output
+C:\msys64\tmp\ccgqC7Fe.s:997    .text.si5351_disable_output:0000002c $d
+C:\msys64\tmp\ccgqC7Fe.s:2451   .rodata.disable_output:00000000 disable_output
+C:\msys64\tmp\ccgqC7Fe.s:1004   .text.si5351_enable_output:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:1011   .text.si5351_enable_output:00000000 si5351_enable_output
+C:\msys64\tmp\ccgqC7Fe.s:1073   .text.si5351_enable_output:00000024 $d
+C:\msys64\tmp\ccgqC7Fe.s:1079   .text.si5351_set_tcxo:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:1086   .text.si5351_set_tcxo:00000000 si5351_set_tcxo
+C:\msys64\tmp\ccgqC7Fe.s:1154   .text.si5351_set_tcxo:00000028 $d
+C:\msys64\tmp\ccgqC7Fe.s:1163   .text.si5351_set_band_mode:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:1170   .text.si5351_set_band_mode:00000000 si5351_set_band_mode
+C:\msys64\tmp\ccgqC7Fe.s:1191   .text.si5351_set_band_mode:0000000c $d
+C:\msys64\tmp\ccgqC7Fe.s:1983   .rodata.bs.0:00000000 bs.0
+C:\msys64\tmp\ccgqC7Fe.s:2439   .bss.band_s:00000000 band_s
+C:\msys64\tmp\ccgqC7Fe.s:1197   .text.si5351_get_harmonic_lvl:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:1204   .text.si5351_get_harmonic_lvl:00000000 si5351_get_harmonic_lvl
+C:\msys64\tmp\ccgqC7Fe.s:1271   .text.si5351_get_harmonic_lvl:00000028 $d
+C:\msys64\tmp\ccgqC7Fe.s:1277   .text.si5351_set_frequency:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:1284   .text.si5351_set_frequency:00000000 si5351_set_frequency
+C:\msys64\tmp\ccgqC7Fe.s:1842   .text.si5351_set_frequency:00000264 $d
+C:\msys64\tmp\ccgqC7Fe.s:2476   .bss.current_power:00000000 current_power
+C:\msys64\tmp\ccgqC7Fe.s:1853   .text.si5351_set_power:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:1860   .text.si5351_set_power:00000000 si5351_set_power
+C:\msys64\tmp\ccgqC7Fe.s:1891   .text.si5351_set_power:00000014 $d
+C:\msys64\tmp\ccgqC7Fe.s:1897   .text.si5351_init:00000000 $t
+C:\msys64\tmp\ccgqC7Fe.s:1904   .text.si5351_init:00000000 si5351_init
+C:\msys64\tmp\ccgqC7Fe.s:1973   .text.si5351_init:00000030 $d
+C:\msys64\tmp\ccgqC7Fe.s:2458   .rodata.si5351_configs:00000000 si5351_configs
+C:\msys64\tmp\ccgqC7Fe.s:1980   .rodata.bs.0:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2172   .rodata.band_strategy_H4_SI5351:00000000 band_strategy_H4_SI5351
+C:\msys64\tmp\ccgqC7Fe.s:2078   .rodata.band_strategy_36H_MS5351:00000000 band_strategy_36H_MS5351
+C:\msys64\tmp\ccgqC7Fe.s:1992   .rodata.band_strategy_SWC5351:00000000 band_strategy_SWC5351
+ARM GAS  C:\msys64\tmp\ccgqC7Fe.s 			page 175
 
 
-C:\msys64\tmp\ccRrRxSP.s:1989   .rodata.band_strategy_SWC5351:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2075   .rodata.band_strategy_36H_MS5351:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2169   .rodata.band_strategy_H4_SI5351:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2306   .rodata.band_strategy_33H_SI5351:00000000 band_strategy_33H_SI5351
-C:\msys64\tmp\ccRrRxSP.s:2303   .rodata.band_strategy_33H_SI5351:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2436   .bss.band_s:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2442   .rodata.msreg_base:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2448   .rodata.disable_output:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2455   .rodata.si5351_configs:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2462   .bss.clk_cache:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2468   .bss.current_freq:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2477   .bss.current_power:00000000 $d
-C:\msys64\tmp\ccRrRxSP.s:2482   .bss.current_band:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:1989   .rodata.band_strategy_SWC5351:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2075   .rodata.band_strategy_36H_MS5351:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2169   .rodata.band_strategy_H4_SI5351:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2306   .rodata.band_strategy_33H_SI5351:00000000 band_strategy_33H_SI5351
+C:\msys64\tmp\ccgqC7Fe.s:2303   .rodata.band_strategy_33H_SI5351:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2436   .bss.band_s:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2442   .rodata.msreg_base:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2448   .rodata.disable_output:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2455   .rodata.si5351_configs:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2462   .bss.clk_cache:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2468   .bss.current_freq:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2477   .bss.current_power:00000000 $d
+C:\msys64\tmp\ccgqC7Fe.s:2482   .bss.current_band:00000000 $d
 
 UNDEFINED SYMBOLS
 generate_DSP_Table

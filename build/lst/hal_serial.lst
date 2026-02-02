@@ -1,4 +1,4 @@
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
   55              		.loc 1 63 39 is_stmt 1 view -0
   56              		.cfi_startproc
   57              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 2
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 2
 
 
   58              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  112              		@ frame_needed = 0, uses_anonymous_args = 0
  113              		@ link register save eliminated.
  114              		.loc 1 53 3 view .LVU16
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 3
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 3
 
 
  115              		.loc 1 53 10 is_stmt 0 view .LVU17
@@ -178,7 +178,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  169              		.cfi_offset 14, -4
  170              		.loc 1 135 76 view .LVU25
  171 0002 0446     		mov	r4, r0
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 4
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 4
 
 
  172 0004 0B46     		mov	r3, r1
@@ -238,7 +238,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  226              	sdStart:
  227              	.LVL20:
  228              	.LFB239:
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 5
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 5
 
 
  229              		.loc 1 153 61 is_stmt 1 view -0
@@ -298,7 +298,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  283              	.LBB90:
  284              	.LBB88:
  285              	.LBB86:
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 6
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 6
 
 
  286              	.LBB84:
@@ -358,7 +358,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  340              		.loc 3 395 3 view .LVU73
  341              		.loc 3 395 3 view .LVU74
  342              		.loc 3 399 3 view .LVU75
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 7
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 7
 
 
  343              	.LBB101:
@@ -418,7 +418,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  397              	.LBI106:
  398              		.loc 3 374 20 view .LVU90
  399              		.loc 3 376 3 view .LVU91
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 8
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 8
 
 
  400              	.LBB107:
@@ -478,7 +478,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  454              		.loc 1 179 3 view .LVU103
  455              		.loc 1 179 3 view .LVU104
  456              		.loc 1 179 3 view .LVU105
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 9
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 9
 
 
  457              		.loc 1 181 3 view .LVU106
@@ -538,7 +538,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  511              	.LVL31:
  512              		.loc 5 548 3 is_stmt 0 view .LVU128
  513              		.thumb
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 10
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 10
 
 
  514              		.syntax unified
@@ -598,7 +598,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  568              		.type	sdRequestDataI, %function
  569              	sdRequestDataI:
  570              	.LVL35:
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 11
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 11
 
 
  571              	.LFB242:
@@ -658,7 +658,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  625              		.loc 5 546 57 view .LVU162
  626              	.LBB132:
  627              		.loc 5 548 3 view .LVU163
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 12
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 12
 
 
  628 0000 2023     		movs	r3, #32
@@ -718,7 +718,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  682              	@ 0 "" 2
  683              	.LVL42:
  684              		.loc 5 548 3 is_stmt 0 view .LVU184
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 13
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 13
 
 
  685              		.thumb
@@ -778,7 +778,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  739              	.LVL44:
  740              		.loc 5 548 3 is_stmt 0 view .LVU198
  741              		.thumb
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 14
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 14
 
 
  742              		.syntax unified
@@ -838,7 +838,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  796              		.loc 5 548 3 view .LVU219
  797              		.syntax unified
  798              	@ 548 "ChibiOS/os/common/ext/CMSIS/include/core_cmFunc.h" 1
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 15
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 15
 
 
  799 0010 83F31188 		MSR basepri, r3
@@ -898,7 +898,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  853 0012 32060000 		.4byte	.LASF115
  854 0016 DA020000 		.4byte	.LASF116
  855 001a 42000000 		.4byte	.LLRL34
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 16
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 16
 
 
  856 001e 00000000 		.4byte	0
@@ -958,7 +958,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  910 0084 07       		.byte	0x7
  911 0085 C7020000 		.4byte	.LASF10
  912 0089 04       		.uleb128 0x4
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 17
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 17
 
 
  913 008a 3C050000 		.4byte	.LASF11
@@ -1018,7 +1018,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  967 00f6 E9000000 		.4byte	0xe9
  968 00fa 04       		.uleb128 0x4
  969 00fb 1C000000 		.4byte	.LASF20
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 18
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 18
 
 
  970 00ff 08       		.byte	0x8
@@ -1078,7 +1078,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1024 0168 F3030000 		.4byte	.LASF28
  1025 016c 0B       		.byte	0xb
  1026 016d 9C       		.byte	0x9c
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 19
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 19
 
 
  1027 016e 19       		.byte	0x19
@@ -1138,7 +1138,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1081 01d3 7A000000 		.4byte	.LASF35
  1082 01d7 08       		.byte	0x8
  1083 01d8 0B       		.byte	0xb
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 20
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 20
 
 
  1084 01d9 8F       		.byte	0x8f
@@ -1198,7 +1198,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1138 0241 0C       		.byte	0xc
  1139 0242 8B02     		.2byte	0x28b
  1140 0244 11       		.byte	0x11
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 21
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 21
 
 
  1141 0245 F5000000 		.4byte	0xf5
@@ -1258,7 +1258,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1195 02b2 9302     		.2byte	0x293
  1196 02b4 0D       		.byte	0xd
  1197 02b5 CC000000 		.4byte	0xcc
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 22
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 22
 
 
  1198 02b9 2A       		.byte	0x2a
@@ -1318,7 +1318,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1252 0322 02       		.uleb128 0x2
  1253 0323 73313800 		.ascii	"s18\000"
  1254 0327 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 23
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 23
 
 
  1255 0328 6401     		.2byte	0x164
@@ -1378,7 +1378,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1309 0393 73323600 		.ascii	"s26\000"
  1310 0397 04       		.byte	0x4
  1311 0398 6C01     		.2byte	0x16c
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 24
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 24
 
 
  1312 039a 11       		.byte	0x11
@@ -1438,7 +1438,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1366 0404 04       		.byte	0x4
  1367 0405 7501     		.2byte	0x175
  1368 0407 11       		.byte	0x11
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 25
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 25
 
 
  1369 0408 C7020000 		.4byte	0x2c7
@@ -1498,7 +1498,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1423 046d AA050000 		.4byte	.LASF47
  1424 0471 D9       		.byte	0xd9
  1425 0472 19       		.byte	0x19
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 26
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 26
 
 
  1426 0473 2A010000 		.4byte	0x12a
@@ -1558,7 +1558,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1480 04f1 D2040000 		.4byte	0x4d2
  1481 04f5 0C       		.uleb128 0xc
  1482 04f6 2A010000 		.4byte	0x12a
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 27
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 27
 
 
  1483 04fa 09050000 		.4byte	0x509
@@ -1618,7 +1618,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1537 0581 9A050000 		.4byte	0x59a
  1538 0585 01       		.uleb128 0x1
  1539 0586 F9010000 		.4byte	0x1f9
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 28
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 28
 
 
  1540 058a 01       		.uleb128 0x1
@@ -1678,7 +1678,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1594 05f3 08050000 		.4byte	.LASF59
  1595 05f7 0E       		.byte	0xe
  1596 05f8 45       		.byte	0x45
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 29
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 29
 
 
  1597 05f9 19       		.byte	0x19
@@ -1738,7 +1738,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1651 0662 34000000 		.4byte	0x34
  1652 0666 0F       		.byte	0xf
  1653 0667 58       		.byte	0x58
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 30
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 30
 
 
  1654 0668 0E       		.byte	0xe
@@ -1798,7 +1798,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1708 06d1 7E       		.byte	0x7e
  1709 06d2 03       		.byte	0x3
  1710 06d3 53060000 		.4byte	0x653
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 31
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 31
 
 
  1711 06d7 28       		.byte	0x28
@@ -1858,7 +1858,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1765 0739 E9000000 		.4byte	0xe9
  1766 073d 08       		.byte	0x8
  1767 073e 02       		.uleb128 0x2
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 32
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 32
 
 
  1768 073f 63723300 		.ascii	"cr3\000"
@@ -1918,7 +1918,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1822 07aa 10       		.byte	0x10
  1823 07ab 05       		.uleb128 0x5
  1824 07ac BC020000 		.4byte	.LASF81
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 33
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 33
 
 
  1825 07b0 0F       		.byte	0xf
@@ -1978,7 +1978,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1879 081f 09       		.byte	0x9
  1880 0820 2A010000 		.4byte	0x12a
  1881 0824 33080000 		.4byte	0x833
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 34
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 34
 
 
  1882 0828 01       		.uleb128 0x1
@@ -2038,7 +2038,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1936 08a6 24060000 		.4byte	.LASF90
  1937 08aa CD       		.byte	0xcd
  1938 08ab 0B       		.byte	0xb
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 35
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 35
 
 
  1939 08ac 3B060000 		.4byte	0x63b
@@ -2098,7 +2098,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  1993 092e 23       		.uleb128 0x23
  1994 092f 0D060000 		.4byte	.LASF96
  1995 0933 1B01     		.2byte	0x11b
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 36
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 36
 
 
  1996 0935 9F050000 		.4byte	0x59f
@@ -2158,7 +2158,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2050 09cf 00       		.byte	0
  2051 09d0 00       		.byte	0
  2052 09d1 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 37
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 37
 
 
  2053 09d2 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2107 0a53 51000000 		.4byte	.LLST25
  2108 0a57 4D000000 		.4byte	.LVUS25
  2109 0a5b 25       		.uleb128 0x25
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 38
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 38
 
 
  2110 0a5c 6200     		.ascii	"b\000"
@@ -2278,7 +2278,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2164 0aea 5B110000 		.4byte	0x115b
  2165 0aee 12000000 		.4byte	.LBI134
  2166 0af2 03       		.byte	.LVU173
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 39
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 39
 
 
  2167 0af3 12000000 		.4byte	.LBB134
@@ -2338,7 +2338,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2221 0b72 8F040000 		.4byte	.LASF99
  2222 0b76 A40B0000 		.4byte	0xba4
  2223 0b7a 0F       		.uleb128 0xf
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 40
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 40
 
 
  2224 0b7b 06000000 		.4byte	.LVL37
@@ -2398,7 +2398,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2278 0beb 06000000 		.4byte	.LVL34
  2279 0bef 19080000 		.4byte	0x819
  2280 0bf3 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 41
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 41
 
 
  2281 0bf4 01       		.uleb128 0x1
@@ -2458,7 +2458,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2335 0c4e 8F040000 		.4byte	.LASF99
  2336 0c52 7E0D0000 		.4byte	0xd7e
  2337 0c56 1A       		.uleb128 0x1a
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 42
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 42
 
 
  2338 0c57 53110000 		.4byte	0x1153
@@ -2518,7 +2518,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2392 0ce1 350D0000 		.4byte	0xd35
  2393 0ce5 08       		.uleb128 0x8
  2394 0ce6 5B110000 		.4byte	0x115b
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 43
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 43
 
 
  2395 0cea 26000000 		.4byte	.LBI123
@@ -2578,7 +2578,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2449 0d62 3B080000 		.4byte	0x83b
  2450 0d66 03       		.uleb128 0x3
  2451 0d67 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 44
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 44
 
 
  2452 0d68 50       		.byte	0x50
@@ -2638,7 +2638,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2506 0dea 09       		.uleb128 0x9
  2507 0deb 98110000 		.4byte	0x1198
  2508 0def 00000000 		.4byte	.LBI80
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 45
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 45
 
 
  2509 0df3 09       		.byte	.LVU47
@@ -2698,7 +2698,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2563 0e76 00       		.byte	0
  2564 0e77 00       		.byte	0
  2565 0e78 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 46
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 46
 
 
  2566 0e79 00       		.byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2620 0edf A1010000 		.4byte	.LLST10
  2621 0ee3 9B010000 		.4byte	.LVUS10
  2622 0ee7 1C       		.uleb128 0x1c
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 47
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 47
 
 
  2623 0ee8 D7050000 		.4byte	.LASF106
@@ -2818,7 +2818,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2677 0f3a A8       		.byte	0xa8
  2678 0f3b 2D       		.uleb128 0x2d
  2679 0f3c A8       		.byte	0xa8
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 48
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 48
 
 
  2680 0f3d 00       		.uleb128 0
@@ -2878,7 +2878,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2734 0f89 2A010000 		.4byte	0x12a
  2735 0f8d 00000000 		.4byte	.LFB236
  2736 0f91 0A000000 		.4byte	.LFE236-.LFB236
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 49
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 49
 
 
  2737 0f95 01       		.uleb128 0x1
@@ -2938,7 +2938,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2791 0ffa 3F       		.byte	0x3f
  2792 0ffb 24       		.byte	0x24
  2793 0ffc BB000000 		.4byte	0xbb
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 50
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 50
 
 
  2794 1000 3A020000 		.4byte	.LLST2
@@ -2998,7 +2998,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2848 1053 F9010000 		.4byte	0x1f9
  2849 1057 59020000 		.4byte	.LLST3
  2850 105b 53020000 		.4byte	.LVUS3
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 51
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 51
 
 
  2851 105f 07       		.uleb128 0x7
@@ -3058,7 +3058,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2905 10b0 A8       		.byte	0xa8
  2906 10b1 2D       		.uleb128 0x2d
  2907 10b2 A8       		.byte	0xa8
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 52
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 52
 
 
  2908 10b3 00       		.uleb128 0
@@ -3118,7 +3118,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  2962 111e 00       		.uleb128 0
  2963 111f 23       		.byte	0x23
  2964 1120 28       		.uleb128 0x28
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 53
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 53
 
 
  2965 1121 03       		.uleb128 0x3
@@ -3178,7 +3178,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3019 116a 8F040000 		.4byte	.LASF99
  3020 116e 83110000 		.4byte	0x1183
  3021 1172 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 54
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 54
 
 
  3022 1173 11       		.uleb128 0x11
@@ -3238,7 +3238,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3076 0011 0B       		.uleb128 0xb
  3077 0012 49       		.uleb128 0x49
  3078 0013 13       		.uleb128 0x13
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 55
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 55
 
 
  3079 0014 38       		.uleb128 0x38
@@ -3298,7 +3298,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3133 004a 00       		.byte	0
  3134 004b 07       		.uleb128 0x7
  3135 004c 05       		.uleb128 0x5
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 56
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 56
 
 
  3136 004d 00       		.byte	0
@@ -3358,7 +3358,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3190 0086 05       		.uleb128 0x5
  3191 0087 57       		.uleb128 0x57
  3192 0088 21       		.uleb128 0x21
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 57
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 57
 
 
  3193 0089 03       		.sleb128 3
@@ -3418,7 +3418,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3247 00c0 49       		.uleb128 0x49
  3248 00c1 13       		.uleb128 0x13
  3249 00c2 38       		.uleb128 0x38
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 58
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 58
 
 
  3250 00c3 0B       		.uleb128 0xb
@@ -3478,7 +3478,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3304 00fa 19       		.uleb128 0x19
  3305 00fb 03       		.uleb128 0x3
  3306 00fc 0E       		.uleb128 0xe
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 59
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 59
 
 
  3307 00fd 3A       		.uleb128 0x3a
@@ -3538,7 +3538,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3361 0133 34       		.uleb128 0x34
  3362 0134 00       		.byte	0
  3363 0135 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 60
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 60
 
 
  3364 0136 0E       		.uleb128 0xe
@@ -3598,7 +3598,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3418 016c 00       		.byte	0
  3419 016d 03       		.uleb128 0x3
  3420 016e 0E       		.uleb128 0xe
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 61
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 61
 
 
  3421 016f 1C       		.uleb128 0x1c
@@ -3658,7 +3658,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3475 01a6 B742     		.uleb128 0x2137
  3476 01a8 17       		.uleb128 0x17
  3477 01a9 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 62
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 62
 
 
  3478 01aa 00       		.byte	0
@@ -3718,7 +3718,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3532 01e0 27       		.uleb128 0x27
  3533 01e1 19       		.uleb128 0x19
  3534 01e2 3C       		.uleb128 0x3c
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 63
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 63
 
 
  3535 01e3 19       		.uleb128 0x19
@@ -3778,7 +3778,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3589 0219 03       		.uleb128 0x3
  3590 021a 0E       		.uleb128 0xe
  3591 021b 3A       		.uleb128 0x3a
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 64
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 64
 
 
  3592 021c 21       		.uleb128 0x21
@@ -3838,7 +3838,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3646 0253 39       		.uleb128 0x39
  3647 0254 21       		.uleb128 0x21
  3648 0255 08       		.sleb128 8
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 65
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 65
 
 
  3649 0256 49       		.uleb128 0x49
@@ -3898,7 +3898,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3703 028f 21       		.uleb128 0x21
  3704 0290 01       		.sleb128 1
  3705 0291 59       		.uleb128 0x59
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 66
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 66
 
 
  3706 0292 0B       		.uleb128 0xb
@@ -3958,7 +3958,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3760 02c8 3B       		.uleb128 0x3b
  3761 02c9 0B       		.uleb128 0xb
  3762 02ca 39       		.uleb128 0x39
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 67
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 67
 
 
  3763 02cb 21       		.uleb128 0x21
@@ -4018,7 +4018,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3817 0301 00       		.byte	0
  3818 0302 2F       		.uleb128 0x2f
  3819 0303 13       		.uleb128 0x13
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 68
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 68
 
 
  3820 0304 01       		.byte	0x1
@@ -4078,7 +4078,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3874 033a 01       		.uleb128 0x1
  3875 033b 13       		.uleb128 0x13
  3876 033c 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 69
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 69
 
 
  3877 033d 00       		.byte	0
@@ -4138,7 +4138,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3931 0373 3B       		.uleb128 0x3b
  3932 0374 0B       		.uleb128 0xb
  3933 0375 39       		.uleb128 0x39
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 70
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 70
 
 
  3934 0376 0B       		.uleb128 0xb
@@ -4198,7 +4198,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  3988 03ad 0B       		.uleb128 0xb
  3989 03ae 27       		.uleb128 0x27
  3990 03af 19       		.uleb128 0x19
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 71
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 71
 
 
  3991 03b0 20       		.uleb128 0x20
@@ -4258,7 +4258,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4045 0027 9F       		.byte	0x9f
  4046 0028 00       		.byte	0
  4047              	.LVUS30:
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 72
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 72
 
 
  4048 0029 00       		.uleb128 .LVU206
@@ -4318,7 +4318,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4102 0064 A8       		.byte	0xa8
  4103 0065 2D       		.uleb128 0x2d
  4104 0066 A8       		.byte	0xa8
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 73
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 73
 
 
  4105 0067 00       		.uleb128 0
@@ -4378,7 +4378,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4159 00a1 03       		.uleb128 0x3
  4160 00a2 70       		.byte	0x70
  4161 00a3 58       		.sleb128 -40
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 74
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 74
 
 
  4162 00a4 9F       		.byte	0x9f
@@ -4438,7 +4438,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4216 00da 00       		.uleb128 0
  4217 00db 00       		.uleb128 .LVU142
  4218 00dc 00       		.uleb128 .LVU142
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 75
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 75
 
 
  4219 00dd 00       		.uleb128 0
@@ -4498,7 +4498,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4273 0117 00       		.byte	0
  4274              	.LVUS21:
  4275 0118 0C       		.uleb128 .LVU126
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 76
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 76
 
 
  4276 0119 00       		.uleb128 .LVU128
@@ -4558,7 +4558,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4330 0153 9F       		.byte	0x9f
  4331 0154 00       		.byte	0
  4332              	.LVUS15:
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 77
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 77
 
 
  4333 0155 0B       		.uleb128 .LVU49
@@ -4618,7 +4618,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4387 018f 0A       		.uleb128 0xa
  4388 0190 A3       		.byte	0xa3
  4389 0191 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 78
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 78
 
 
  4390 0192 A5       		.byte	0xa5
@@ -4678,7 +4678,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4444 01c7 06       		.byte	0x6
  4445 01c8 00000000 		.4byte	.LVL13
  4446 01cc 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 79
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 79
 
 
  4447 01cd 00       		.uleb128 .LVL13-.LVL13
@@ -4738,7 +4738,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4501 0204 0A       		.uleb128 0xa
  4502 0205 A3       		.byte	0xa3
  4503 0206 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 80
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 80
 
 
  4504 0207 A5       		.byte	0xa5
@@ -4798,7 +4798,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4558 023f 04       		.byte	0x4
  4559 0240 00       		.uleb128 .LVL3-.LVL3
  4560 0241 09       		.uleb128 .LVL5-1-.LVL3
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 81
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 81
 
 
  4561 0242 01       		.uleb128 0x1
@@ -4858,7 +4858,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4615              	.LVUS4:
  4616 0279 00       		.uleb128 0
  4617 027a 00       		.uleb128 .LVU14
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 82
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 82
 
 
  4618 027b 00       		.uleb128 .LVU14
@@ -4918,7 +4918,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4672 02b3 00       		.uleb128 0
  4673 02b4 00       		.uleb128 .LVU18
  4674 02b5 00       		.uleb128 .LVU18
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 83
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 83
 
 
  4675 02b6 00       		.uleb128 .LVU19
@@ -4978,7 +4978,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4729 02ef 26       		.uleb128 0x26
  4730 02f0 A8       		.byte	0xa8
  4731 02f1 2D       		.uleb128 0x2d
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 84
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 84
 
 
  4732 02f2 A8       		.byte	0xa8
@@ -5038,7 +5038,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4786 0044 1A000000 		.4byte	.LFE239-.LFB239
  4787 0048 00000000 		.4byte	.LFB240
  4788 004c 2E000000 		.4byte	.LFE240-.LFB240
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 85
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 85
 
 
  4789 0050 00000000 		.4byte	.LFB241
@@ -5098,7 +5098,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4843              	.LLRL32:
  4844 0036 05       		.byte	0x5
  4845 0037 0C000000 		.4byte	.LBB144
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 86
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 86
 
 
  4846 003b 04       		.byte	0x4
@@ -5158,7 +5158,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4896 0000 70726576 		.ascii	"prev\000"
  4896      00
  4897              	.LASF6:
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 87
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 87
 
 
  4898 0005 73697A65 		.ascii	"size_t\000"
@@ -5218,7 +5218,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4923              	.LASF83:
  4924 0098 72656164 		.ascii	"readt\000"
  4924      7400
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 88
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 88
 
 
  4925              	.LASF55:
@@ -5278,7 +5278,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4952      5379734C 
  4952      6F636B00 
  4953              	.LASF119:
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 89
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 89
 
 
  4954 012d 76616C75 		.ascii	"value\000"
@@ -5338,7 +5338,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  4972      69766572 
  4972      564D5400 
  4973              	.LASF105:
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 90
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 90
 
 
  4974 02a2 696E6F74 		.ascii	"inotify\000"
@@ -5398,7 +5398,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  5000      6E697400 
  5001              	.LASF75:
  5002 0375 73706565 		.ascii	"speed\000"
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 91
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 91
 
 
  5002      6400
@@ -5458,7 +5458,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  5028      00
  5029              	.LASF15:
  5030 0405 5F5F7569 		.ascii	"__uint64_t\000"
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 92
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 92
 
 
  5030      6E743634 
@@ -5518,7 +5518,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  5057              	.LASF111:
  5058 0498 63685379 		.ascii	"chSysLock\000"
  5058      734C6F63 
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 93
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 93
 
 
  5058      6B00
@@ -5578,7 +5578,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  5086      5F7400
  5087              	.LASF26:
  5088 0529 74687265 		.ascii	"thread_t\000"
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 94
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 94
 
 
  5088      61645F74 
@@ -5638,7 +5638,7 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  5114      00
  5115              	.LASF98:
  5116 05ba 73645265 		.ascii	"sdRequestDataI\000"
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 95
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 95
 
 
  5116      71756573 
@@ -5692,38 +5692,38 @@ ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 1
  5142      616C2F73 
  5142      72632F68 
  5143              		.ident	"GCC: (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623"
-ARM GAS  C:\msys64\tmp\ccMKypvA.s 			page 96
+ARM GAS  C:\msys64\tmp\ccrvwsPm.s 			page 96
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hal_serial.c
-C:\msys64\tmp\ccMKypvA.s:19     .text.get:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:25     .text.get:00000000 get
-C:\msys64\tmp\ccMKypvA.s:46     .text.put:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:52     .text.put:00000000 put
-C:\msys64\tmp\ccMKypvA.s:73     .text.read:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:79     .text.read:00000000 read
-C:\msys64\tmp\ccMKypvA.s:100    .text.write:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:106    .text.write:00000000 write
-C:\msys64\tmp\ccMKypvA.s:127    .text.sdInit:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:134    .text.sdInit:00000000 sdInit
-C:\msys64\tmp\ccMKypvA.s:148    .text.sdObjectInit:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:155    .text.sdObjectInit:00000000 sdObjectInit
-C:\msys64\tmp\ccMKypvA.s:214    .text.sdObjectInit:00000034 $d
-C:\msys64\tmp\ccMKypvA.s:821    .rodata.vmt:00000000 vmt
-C:\msys64\tmp\ccMKypvA.s:219    .text.sdStart:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:226    .text.sdStart:00000000 sdStart
-C:\msys64\tmp\ccMKypvA.s:374    .text.sdStop:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:381    .text.sdStop:00000000 sdStop
-C:\msys64\tmp\ccMKypvA.s:528    .text.sdIncomingDataI:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:535    .text.sdIncomingDataI:00000000 sdIncomingDataI
-C:\msys64\tmp\ccMKypvA.s:562    .text.sdRequestDataI:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:569    .text.sdRequestDataI:00000000 sdRequestDataI
-C:\msys64\tmp\ccMKypvA.s:594    .text.sdPutWouldBlock:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:601    .text.sdPutWouldBlock:00000000 sdPutWouldBlock
-C:\msys64\tmp\ccMKypvA.s:700    .text.sdGetWouldBlock:00000000 $t
-C:\msys64\tmp\ccMKypvA.s:707    .text.sdGetWouldBlock:00000000 sdGetWouldBlock
-C:\msys64\tmp\ccMKypvA.s:818    .rodata.vmt:00000000 $d
+C:\msys64\tmp\ccrvwsPm.s:19     .text.get:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:25     .text.get:00000000 get
+C:\msys64\tmp\ccrvwsPm.s:46     .text.put:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:52     .text.put:00000000 put
+C:\msys64\tmp\ccrvwsPm.s:73     .text.read:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:79     .text.read:00000000 read
+C:\msys64\tmp\ccrvwsPm.s:100    .text.write:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:106    .text.write:00000000 write
+C:\msys64\tmp\ccrvwsPm.s:127    .text.sdInit:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:134    .text.sdInit:00000000 sdInit
+C:\msys64\tmp\ccrvwsPm.s:148    .text.sdObjectInit:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:155    .text.sdObjectInit:00000000 sdObjectInit
+C:\msys64\tmp\ccrvwsPm.s:214    .text.sdObjectInit:00000034 $d
+C:\msys64\tmp\ccrvwsPm.s:821    .rodata.vmt:00000000 vmt
+C:\msys64\tmp\ccrvwsPm.s:219    .text.sdStart:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:226    .text.sdStart:00000000 sdStart
+C:\msys64\tmp\ccrvwsPm.s:374    .text.sdStop:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:381    .text.sdStop:00000000 sdStop
+C:\msys64\tmp\ccrvwsPm.s:528    .text.sdIncomingDataI:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:535    .text.sdIncomingDataI:00000000 sdIncomingDataI
+C:\msys64\tmp\ccrvwsPm.s:562    .text.sdRequestDataI:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:569    .text.sdRequestDataI:00000000 sdRequestDataI
+C:\msys64\tmp\ccrvwsPm.s:594    .text.sdPutWouldBlock:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:601    .text.sdPutWouldBlock:00000000 sdPutWouldBlock
+C:\msys64\tmp\ccrvwsPm.s:700    .text.sdGetWouldBlock:00000000 $t
+C:\msys64\tmp\ccrvwsPm.s:707    .text.sdGetWouldBlock:00000000 sdGetWouldBlock
+C:\msys64\tmp\ccrvwsPm.s:818    .rodata.vmt:00000000 $d
 
 UNDEFINED SYMBOLS
 iqGetTimeout

@@ -1,4 +1,4 @@
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
   55              		.cfi_startproc
   56              		@ args = 0, pretend = 0, frame = 0
   57              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 2
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 2
 
 
   58              		@ link register save eliminated.
@@ -118,7 +118,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  112              		.loc 1 71 3 view .LVU20
  113              		.loc 1 73 3 view .LVU21
  114              		.loc 1 74 1 is_stmt 0 view .LVU22
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 3
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 3
 
 
  115 0000 0420     		movs	r0, #4
@@ -178,7 +178,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  169 0000 C6020000 		.4byte	0x2c6
  170 0004 0500     		.2byte	0x5
  171 0006 01       		.byte	0x1
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 4
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 4
 
 
  172 0007 04       		.byte	0x4
@@ -238,7 +238,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  226 0076 01       		.uleb128 0x1
  227 0077 02       		.byte	0x2
  228 0078 07       		.byte	0x7
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 5
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 5
 
 
  229 0079 5C000000 		.4byte	.LASF9
@@ -298,7 +298,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  283 00e8 C9000000 		.4byte	0xc9
  284 00ec 06       		.uleb128 0x6
  285 00ed 3B000000 		.4byte	0x3b
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 6
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 6
 
 
  286 00f1 05010000 		.4byte	0x105
@@ -358,7 +358,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  340 016f 08       		.byte	0x8
  341 0170 08       		.uleb128 0x8
  342 0171 67657400 		.ascii	"get\000"
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 7
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 7
 
 
  343 0175 36       		.byte	0x36
@@ -418,7 +418,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  397 01de 00       		.byte	0
  398 01df 03       		.uleb128 0x3
  399 01e0 9D010000 		.4byte	0x19d
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 8
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 8
 
 
  400 01e4 0B       		.uleb128 0xb
@@ -478,7 +478,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  454 0263 34       		.byte	0x34
  455 0264 1B       		.byte	0x1b
  456 0265 C0000000 		.4byte	0xc0
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 9
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 9
 
 
  457 0269 4A000000 		.4byte	.LLST1
@@ -538,7 +538,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  511 0002 00       		.byte	0
  512 0003 0B       		.uleb128 0xb
  513 0004 0B       		.uleb128 0xb
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 10
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 10
 
 
  514 0005 3E       		.uleb128 0x3e
@@ -598,7 +598,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  568 003b 00       		.byte	0
  569 003c 00       		.byte	0
  570 003d 06       		.uleb128 0x6
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 11
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 11
 
 
  571 003e 15       		.uleb128 0x15
@@ -658,7 +658,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  625 0075 00       		.byte	0
  626 0076 0A       		.uleb128 0xa
  627 0077 0D       		.uleb128 0xd
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 12
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 12
 
 
  628 0078 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  682 00ae 03       		.uleb128 0x3
  683 00af 0E       		.uleb128 0xe
  684 00b0 1B       		.uleb128 0x1b
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 13
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 13
 
 
  685 00b1 0E       		.uleb128 0xe
@@ -778,7 +778,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  739 00e7 0B       		.uleb128 0xb
  740 00e8 01       		.uleb128 0x1
  741 00e9 13       		.uleb128 0x13
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 14
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 14
 
 
  742 00ea 00       		.byte	0
@@ -838,7 +838,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  796 0120 0B       		.uleb128 0xb
  797 0121 39       		.uleb128 0x39
  798 0122 0B       		.uleb128 0xb
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 15
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 15
 
 
  799 0123 27       		.uleb128 0x27
@@ -898,7 +898,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  853 000f 00       		.uleb128 0
  854              	.LLST3:
  855 0010 06       		.byte	0x6
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 16
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 16
 
 
  856 0011 00000000 		.4byte	.LVL6
@@ -958,7 +958,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  910              	.LLST1:
  911 004a 06       		.byte	0x6
  912 004b 00000000 		.4byte	.LVL2
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 17
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 17
 
 
  913 004f 04       		.byte	0x4
@@ -1018,7 +1018,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  967 000b 00       		.byte	0
  968 000c 0000     		.2byte	0
  969 000e 0000     		.2byte	0
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 18
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 18
 
 
  970 0010 00000000 		.4byte	.LFB233
@@ -1078,7 +1078,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  1016      53747265 
  1016      616D564D 
  1016      5400
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 19
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 19
 
 
  1017              	.LASF10:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  1042 00b3 43686962 		.ascii	"ChibiOS/os/hal/lib/streams/nullstreams.c\000"
  1042      694F532F 
  1042      6F732F68 
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 20
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 20
 
 
  1042      616C2F6C 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  1062      7420696E 
  1062      7400
  1063              	.LASF20:
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 21
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 21
 
 
  1064 0249 4E756C6C 		.ascii	"NullStream\000"
@@ -1228,23 +1228,23 @@ ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 1
  1074 02cb 5F426F6F 		.ascii	"_Bool\000"
  1074      6C00
  1075              		.ident	"GCC: (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623"
-ARM GAS  C:\msys64\tmp\ccL2YsXu.s 			page 22
+ARM GAS  C:\msys64\tmp\cce3pWuj.s 			page 22
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 nullstreams.c
-C:\msys64\tmp\ccL2YsXu.s:19     .text.writes:00000000 $t
-C:\msys64\tmp\ccL2YsXu.s:25     .text.writes:00000000 writes
-C:\msys64\tmp\ccL2YsXu.s:45     .text.reads:00000000 $t
-C:\msys64\tmp\ccL2YsXu.s:51     .text.reads:00000000 reads
-C:\msys64\tmp\ccL2YsXu.s:72     .text.put:00000000 $t
-C:\msys64\tmp\ccL2YsXu.s:78     .text.put:00000000 put
-C:\msys64\tmp\ccL2YsXu.s:98     .text.get:00000000 $t
-C:\msys64\tmp\ccL2YsXu.s:104    .text.get:00000000 get
-C:\msys64\tmp\ccL2YsXu.s:123    .text.nullObjectInit:00000000 $t
-C:\msys64\tmp\ccL2YsXu.s:130    .text.nullObjectInit:00000000 nullObjectInit
-C:\msys64\tmp\ccL2YsXu.s:147    .text.nullObjectInit:00000008 $d
-C:\msys64\tmp\ccL2YsXu.s:155    .rodata.vmt:00000000 vmt
-C:\msys64\tmp\ccL2YsXu.s:152    .rodata.vmt:00000000 $d
+C:\msys64\tmp\cce3pWuj.s:19     .text.writes:00000000 $t
+C:\msys64\tmp\cce3pWuj.s:25     .text.writes:00000000 writes
+C:\msys64\tmp\cce3pWuj.s:45     .text.reads:00000000 $t
+C:\msys64\tmp\cce3pWuj.s:51     .text.reads:00000000 reads
+C:\msys64\tmp\cce3pWuj.s:72     .text.put:00000000 $t
+C:\msys64\tmp\cce3pWuj.s:78     .text.put:00000000 put
+C:\msys64\tmp\cce3pWuj.s:98     .text.get:00000000 $t
+C:\msys64\tmp\cce3pWuj.s:104    .text.get:00000000 get
+C:\msys64\tmp\cce3pWuj.s:123    .text.nullObjectInit:00000000 $t
+C:\msys64\tmp\cce3pWuj.s:130    .text.nullObjectInit:00000000 nullObjectInit
+C:\msys64\tmp\cce3pWuj.s:147    .text.nullObjectInit:00000008 $d
+C:\msys64\tmp\cce3pWuj.s:155    .rodata.vmt:00000000 vmt
+C:\msys64\tmp\cce3pWuj.s:152    .rodata.vmt:00000000 $d
 
 NO UNDEFINED SYMBOLS

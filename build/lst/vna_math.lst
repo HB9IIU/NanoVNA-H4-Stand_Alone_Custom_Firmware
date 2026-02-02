@@ -1,4 +1,4 @@
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
   55              		.loc 1 287 5 is_stmt 1 view .LVU8
   56              	.LBB15:
   57              	.LBI15:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 2
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 2
 
 
   58              		.loc 1 255 17 view .LVU9
@@ -118,7 +118,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  112              		.loc 1 289 7 view .LVU29
  113 002c 6968     		ldr	r1, [r5, #4]	@ float
  114              	.LVL7:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 3
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 3
 
 
  115              		.loc 1 289 7 view .LVU30
@@ -178,7 +178,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  169 0062 98ED007A 		vldr.32	s14, [r8]
  170              	.LVL16:
  171              	.L11:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 4
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 4
 
 
  172              		.loc 1 299 9 is_stmt 1 view .LVU48
@@ -238,7 +238,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  226              		.loc 1 298 39 discriminator 2 view .LVU70
  227 00b2 92B2     		uxth	r2, r2
  228              		.loc 1 298 34 discriminator 2 view .LVU71
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 5
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 5
 
 
  229 00b4 0130     		adds	r0, r0, #1
@@ -298,7 +298,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  283              		.loc 1 296 33 view .LVU93
  284              		.loc 1 296 43 is_stmt 0 view .LVU94
  285 00fe 6400     		lsls	r4, r4, #1
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 6
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 6
 
 
  286              	.LVL29:
@@ -358,7 +358,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  340              		.loc 1 326 10 view .LVU107
  341 0004 BCEEE77A 		vcvt.u32.f32	s14, s15
  342              		.loc 1 329 7 view .LVU108
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 7
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 7
 
 
  343 0008 DFED446A 		vldr.32	s13, .L28
@@ -418,7 +418,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  397              	.LVL41:
  398              		.loc 1 337 3 is_stmt 1 view .LVU132
  399              		.loc 1 346 3 view .LVU133
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 8
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 8
 
 
  400              		.loc 1 346 6 is_stmt 0 view .LVU134
@@ -478,7 +478,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  454              	.LVL50:
  455              		.loc 1 359 3 is_stmt 1 view .LVU160
  456              		.loc 1 364 8 is_stmt 0 view .LVU161
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 9
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 9
 
 
  457 0082 B0EE634A 		vmov.f32	s8, s7
@@ -538,7 +538,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  511              	.L20:
  512              		.loc 1 347 21 is_stmt 1 view .LVU187
  513              		.loc 1 347 39 is_stmt 0 view .LVU188
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 10
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 10
 
 
  514 00d6 ACF58074 		sub	r4, ip, #256
@@ -598,7 +598,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  568              		.section	.text.vna_modff,"ax",%progbits
  569              		.align	1
  570              		.p2align 4,,15
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 11
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 11
 
 
  571              		.global	vna_modff
@@ -658,7 +658,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  625              		.loc 1 407 13 is_stmt 1 discriminator 1 view .LVU230
  626              		.loc 1 407 19 is_stmt 0 discriminator 1 view .LVU231
  627 0026 0160     		str	r1, [r0]	@ float
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 12
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 12
 
 
  628              	.L30:
@@ -718,7 +718,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  682              	vna_cbrtf:
  683              	.LVL74:
  684              	.LFB213:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 13
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 13
 
 
  685              		.loc 1 486 1 is_stmt 1 view -0
@@ -778,7 +778,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  739              	.LVL80:
  740              		.loc 1 506 8 view .LVU273
  741 0036 02EB5102 		add	r2, r2, r1, lsr #1
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 14
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 14
 
 
  742              	.LVL81:
@@ -838,7 +838,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  796              		.loc 1 517 3 is_stmt 1 view .LVU297
  797              	.L51:
  798              		.loc 1 536 1 is_stmt 0 view .LVU298
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 15
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 15
 
 
  799 0084 7047     		bx	lr
@@ -898,7 +898,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  853 0028 85EEA66A 		vdiv.f32	s12, s11, s13
  854              		.loc 1 559 15 view .LVU314
  855 002c F8EE677A 		vcvt.f32.u32	s15, s15
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 16
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 16
 
 
  856 0030 DFED0B5A 		vldr.32	s11, .L62+12
@@ -958,7 +958,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  910              		.loc 1 629 6 is_stmt 0 view .LVU327
  911 0004 1A1E     		subs	r2, r3, #0
  912 0006 1ED0     		beq	.L67
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 17
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 17
 
 
  913              		.loc 1 630 3 is_stmt 1 view .LVU328
@@ -1018,7 +1018,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  967              		.global	vna_atanf
  968              		.syntax unified
  969              		.thumb
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 18
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 18
 
 
  970              		.thumb_func
@@ -1078,7 +1078,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1024 0022 7047     		bx	lr
  1025              	.LVL109:
  1026              	.L71:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 19
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 19
 
 
  1027              		.cfi_restore_state
@@ -1138,7 +1138,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1081              		.loc 2 36 54 view .LVU389
  1082              	.LBB33:
  1083              		.loc 2 36 73 view .LVU390
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 20
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 20
 
 
  1084              	.LBE33:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1138 00ae DFED275A 		vldr.32	s11, .L87+12
  1139              		.loc 1 698 5 view .LVU410
  1140 00b2 66EE067A 		vmul.f32	s15, s12, s12
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 21
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 21
 
 
  1141              	.LVL121:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1195 00e8 7047     		bx	lr
  1196              	.LVL131:
  1197              	.L86:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 22
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 22
 
 
  1198              		.cfi_restore_state
@@ -1318,7 +1318,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1252              		.loc 1 684 9 view .LVU448
  1253              		.loc 1 684 16 is_stmt 0 view .LVU449
  1254 011c B7EE007A 		vmov.f32	s14, #1.0e+0
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 23
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 23
 
 
  1255 0120 77EEC76A 		vsub.f32	s13, s15, s14
@@ -1378,7 +1378,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1309              		@ args = 0, pretend = 0, frame = 0
  1310              		@ frame_needed = 0, uses_anonymous_args = 0
  1311              		@ link register save eliminated.
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 24
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 24
 
 
  1312              		.loc 1 781 3 view .LVU458
@@ -1438,7 +1438,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1366              	.LVL151:
  1367              		.loc 1 790 3 is_stmt 1 view .LVU478
  1368              		.loc 1 803 78 is_stmt 0 view .LVU479
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 25
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 25
 
 
  1369 0024 DFED1D5A 		vldr.32	s11, .L102
@@ -1498,7 +1498,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1423              		.loc 1 803 26 view .LVU502
  1424 0074 9FED0C7A 		vldr.32	s14, .L102+12
  1425              		.loc 1 790 5 view .LVU503
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 26
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 26
 
 
  1426 0078 67EEA76A 		vmul.f32	s13, s15, s15
@@ -1558,7 +1558,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1480              		.cfi_startproc
  1481              		@ args = 0, pretend = 0, frame = 0
  1482              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 27
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 27
 
 
  1483              		@ link register save eliminated.
@@ -1618,7 +1618,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1537              		.align	2
  1538              		.type	sin_table_512, %object
  1539              		.size	sin_table_512, 1028
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 28
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 28
 
 
  1540              	sin_table_512:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1594 00d4 C6021B3F 		.word	1058734790
  1595 00d8 D17F1D3F 		.word	1058897873
  1596 00dc CBF61F3F 		.word	1059059403
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 29
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 29
 
 
  1597 00e0 9967223F 		.word	1059219353
@@ -1738,7 +1738,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1651 01b8 9DC7793F 		.word	1064945565
  1652 01bc 02737A3F 		.word	1064989442
  1653 01c0 BE147B3F 		.word	1065030846
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 30
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 30
 
 
  1654 01c4 CDAC7B3F 		.word	1065069773
@@ -1798,7 +1798,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1708 029c 5A3C633F 		.word	1063468122
  1709 02a0 97C5613F 		.word	1063372183
  1710 02a4 2146603F 		.word	1063274017
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 31
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 31
 
 
  1711 02a8 05BE5E3F 		.word	1063173637
@@ -1858,7 +1858,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1765 0380 15EFC33E 		.word	1053028117
  1766 0384 491DBE3E 		.word	1052646729
  1767 0388 2A44B83E 		.word	1052263466
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 32
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 32
 
 
  1768 038c EF63B23E 		.word	1051878383
@@ -1918,7 +1918,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1822 002d 03       		.uleb128 0x3
  1823 002e 08       		.byte	0x8
  1824 002f 07       		.byte	0x7
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 33
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 33
 
 
  1825 0030 4C020000 		.4byte	.LASF1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1879 0093 A5000000 		.4byte	.LASF12
  1880 0097 08       		.uleb128 0x8
  1881 0098 24000000 		.4byte	.LASF13
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 34
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 34
 
 
  1882 009c 03       		.byte	0x3
@@ -2038,7 +2038,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1936 0105 01       		.byte	0x1
  1937 0106 34000000 		.4byte	0x34
  1938 010a 05       		.byte	0x5
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 35
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 35
 
 
  1939 010b 7903     		.2byte	0x379
@@ -2098,7 +2098,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  1993 0178 F7000000 		.4byte	0xf7
  1994 017c 88010000 		.4byte	0x188
  1995 0180 19       		.uleb128 0x19
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 36
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 36
 
 
  1996 0181 42000000 		.4byte	0x42
@@ -2158,7 +2158,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2050 01fd 0B       		.byte	0xb
  2051 01fe CC000000 		.4byte	0xcc
  2052 0202 63000000 		.4byte	.LLST69
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 37
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 37
 
 
  2053 0206 61000000 		.4byte	.LVUS69
@@ -2218,7 +2218,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2107 0288 02       		.uleb128 0x2
  2108 0289 6900     		.ascii	"i\000"
  2109 028b 0E03     		.2byte	0x30e
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 38
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 38
 
 
  2110 028d 1B       		.byte	0x1b
@@ -2278,7 +2278,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2164 0319 0F0A0000 		.4byte	0xa0f
  2165 031d 12000000 		.4byte	.LBI38
  2166 0321 03       		.byte	.LVU471
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 39
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 39
 
 
  2167 0322 12000000 		.4byte	.LBB38
@@ -2338,7 +2338,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2221 0391 10       		.byte	0x10
  2222 0392 69       		.byte	0x69
  2223 0393 37       		.byte	0x37
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 40
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 40
 
 
  2224 0394 AC       		.byte	0xac
@@ -2398,7 +2398,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2278 03e4 61020000 		.4byte	.LVUS48
  2279 03e8 01       		.uleb128 0x1
  2280 03e9 733200   		.ascii	"s2\000"
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 41
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 41
 
 
  2281 03ec 9202     		.2byte	0x292
@@ -2458,7 +2458,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2335 0475 10       		.uleb128 0x10
  2336 0476 0F0A0000 		.4byte	0xa0f
  2337 047a 72000000 		.4byte	.LBI32
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 42
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 42
 
 
  2338 047e 01       		.byte	.LVU389
@@ -2518,7 +2518,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2392 0502 02       		.uleb128 0x2
  2393 0503 6600     		.ascii	"f\000"
  2394 0505 7202     		.2byte	0x272
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 43
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 43
 
 
  2395 0507 11       		.byte	0x11
@@ -2578,7 +2578,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2449 0586 9E030000 		.4byte	.LASF44
  2450 058a 1F02     		.2byte	0x21f
  2451 058c 0F       		.byte	0xf
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 44
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 44
 
 
  2452 058d F7000000 		.4byte	0xf7
@@ -2638,7 +2638,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2506 060a A2060000 		.4byte	0x6a2
  2507 060e 06       		.uleb128 0x6
  2508 060f 7800     		.ascii	"x\000"
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 45
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 45
 
 
  2509 0611 E501     		.2byte	0x1e5
@@ -2698,7 +2698,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2563 0695 D8000000 		.4byte	0xd8
  2564 0699 ED050000 		.4byte	.LLST39
  2565 069d E1050000 		.4byte	.LVUS39
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 46
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 46
 
 
  2566 06a1 00       		.byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2620 071d 26000000 		.4byte	0x26
  2621 0721 1E       		.uleb128 0x1e
  2622 0722 5B000000 		.4byte	.LASF56
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 47
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 47
 
 
  2623 0726 01       		.byte	0x1
@@ -2818,7 +2818,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2677 07a4 0D       		.byte	0xd
  2678 07a5 26000000 		.4byte	0x26
  2679 07a9 33070000 		.4byte	.LLST23
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 48
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 48
 
 
  2680 07ad 2F070000 		.4byte	.LVUS23
@@ -2878,7 +2878,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2734 0843 00       		.byte	0
  2735 0844 00       		.byte	0
  2736 0845 1F       		.uleb128 0x1f
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 49
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 49
 
 
  2737 0846 66667400 		.ascii	"fft\000"
@@ -2938,7 +2938,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2791 08c9 2401     		.2byte	0x124
  2792 08cb 12       		.byte	0x12
  2793 08cc C7000000 		.4byte	0xc7
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 50
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 50
 
 
  2794 08d0 07       		.uleb128 0x7
@@ -2998,7 +2998,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2848 095e 6300     		.ascii	"c\000"
  2849 0960 2D01     		.2byte	0x12d
  2850 0962 15       		.byte	0x15
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 51
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 51
 
 
  2851 0963 F7000000 		.4byte	0xf7
@@ -3058,7 +3058,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2905 09f1 01       		.byte	0x1
  2906 09f2 FF       		.byte	0xff
  2907 09f3 27       		.byte	0x27
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 52
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 52
 
 
  2908 09f4 D8000000 		.4byte	0xd8
@@ -3118,7 +3118,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  2962 0019 08       		.uleb128 0x8
  2963 001a 3A       		.uleb128 0x3a
  2964 001b 21       		.uleb128 0x21
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 53
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 53
 
 
  2965 001c 01       		.sleb128 1
@@ -3178,7 +3178,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3019 0052 01       		.sleb128 1
  3020 0053 3B       		.uleb128 0x3b
  3021 0054 05       		.uleb128 0x5
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 54
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 54
 
 
  3022 0055 39       		.uleb128 0x39
@@ -3238,7 +3238,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3076 008d 01       		.byte	0x1
  3077 008e 3F       		.uleb128 0x3f
  3078 008f 19       		.uleb128 0x19
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 55
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 55
 
 
  3079 0090 03       		.uleb128 0x3
@@ -3298,7 +3298,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3133 00c7 3B       		.uleb128 0x3b
  3134 00c8 05       		.uleb128 0x5
  3135 00c9 39       		.uleb128 0x39
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 56
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 56
 
 
  3136 00ca 0B       		.uleb128 0xb
@@ -3358,7 +3358,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3190 0101 11       		.uleb128 0x11
  3191 0102 0B       		.uleb128 0xb
  3192 0103 01       		.byte	0x1
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 57
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 57
 
 
  3193 0104 55       		.uleb128 0x55
@@ -3418,7 +3418,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3247 013a 0E       		.uleb128 0xe
  3248 013b 3A       		.uleb128 0x3a
  3249 013c 21       		.uleb128 0x21
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 58
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 58
 
 
  3250 013d 01       		.sleb128 1
@@ -3478,7 +3478,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3304 0173 01       		.uleb128 0x1
  3305 0174 13       		.uleb128 0x13
  3306 0175 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 59
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 59
 
 
  3307 0176 00       		.byte	0
@@ -3538,7 +3538,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3361 01ad 13       		.uleb128 0x13
  3362 01ae 52       		.uleb128 0x52
  3363 01af 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 60
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 60
 
 
  3364 01b0 B842     		.uleb128 0x2138
@@ -3598,7 +3598,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3418 01e7 01       		.uleb128 0x1
  3419 01e8 13       		.uleb128 0x13
  3420 01e9 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 61
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 61
 
 
  3421 01ea 00       		.byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3475 0221 3B       		.uleb128 0x3b
  3476 0222 05       		.uleb128 0x5
  3477 0223 39       		.uleb128 0x39
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 62
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 62
 
 
  3478 0224 0B       		.uleb128 0xb
@@ -3718,7 +3718,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3532 025b 19       		.uleb128 0x19
  3533 025c 49       		.uleb128 0x49
  3534 025d 13       		.uleb128 0x13
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 63
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 63
 
 
  3535 025e 20       		.uleb128 0x20
@@ -3778,7 +3778,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3589 0021 A5       		.byte	0xa5
  3590 0022 40       		.uleb128 0x40
  3591 0023 26       		.uleb128 0x26
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 64
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 64
 
 
  3592 0024 9F       		.byte	0x9f
@@ -3838,7 +3838,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3646              	.LLST69:
  3647 0063 08       		.byte	0x8
  3648 0064 3E000000 		.4byte	.LVL167
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 65
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 65
 
 
  3649 0068 12       		.uleb128 .LFE218-.LVL167
@@ -3898,7 +3898,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3703 00a3 00       		.uleb128 .LVU513
  3704 00a4 00       		.uleb128 0
  3705              	.LLST58:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 66
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 66
 
 
  3706 00a5 06       		.byte	0x6
@@ -3958,7 +3958,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3760 00e3 12000000 		.4byte	.LVL149
  3761 00e7 8201     		.uleb128 .LVL163-.LVL149
  3762 00e9 02       		.uleb128 0x2
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 67
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 67
 
 
  3763 00ea 90       		.byte	0x90
@@ -4018,7 +4018,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3817 0122 04       		.byte	0x4
  3818 0123 68       		.uleb128 .LVL160-.LVL151
  3819 0124 70       		.uleb128 .LVL163-.LVL151
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 68
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 68
 
 
  3820 0125 02       		.uleb128 0x2
@@ -4078,7 +4078,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3874 015d 00       		.uleb128 .LVU367
  3875 015e 00       		.uleb128 .LVU371
  3876 015f 00       		.uleb128 .LVU371
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 69
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 69
 
 
  3877 0160 00       		.uleb128 .LVU388
@@ -4138,7 +4138,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3931 0198 04       		.byte	0x4
  3932 0199 24       		.uleb128 .LVL109-.LVL104
  3933 019a 30       		.uleb128 .LVL110-.LVL104
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 70
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 70
 
 
  3934 019b 02       		.uleb128 0x2
@@ -4198,7 +4198,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  3988 01de 02       		.uleb128 0x2
  3989 01df 90       		.byte	0x90
  3990 01e0 4E       		.uleb128 0x4e
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 71
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 71
 
 
  3991 01e1 04       		.byte	0x4
@@ -4258,7 +4258,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4045 0226 00       		.uleb128 .LVU411
  4046 0227 00       		.uleb128 .LVU419
  4047 0228 00       		.uleb128 .LVU419
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 72
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 72
 
 
  4048 0229 00       		.uleb128 .LVU426
@@ -4318,7 +4318,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4102 0265 00       		.uleb128 .LVU444
  4103 0266 00       		.uleb128 .LVU447
  4104              	.LLST48:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 73
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 73
 
 
  4105 0267 06       		.byte	0x6
@@ -4378,7 +4378,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4159 02a1 60000000 		.4byte	.LVL113
  4160 02a5 04       		.byte	0x4
  4161 02a6 00       		.uleb128 .LVL113-.LVL113
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 74
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 74
 
 
  4162 02a7 08       		.uleb128 .LVL114-.LVL113
@@ -4438,7 +4438,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4216 02de 1E       		.byte	0x1e
  4217 02df 9F       		.byte	0x9f
  4218 02e0 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 75
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 75
 
 
  4219 02e1 B401     		.uleb128 .LVL138-.LVL113
@@ -4498,7 +4498,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4273 031d 1C       		.byte	0x1c
  4274 031e 9F       		.byte	0x9f
  4275 031f 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 76
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 76
 
 
  4276 0320 9801     		.uleb128 .LVL126-.LVL111
@@ -4558,7 +4558,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4330 0365 0C       		.uleb128 .LVL106-.LVL105
  4331 0366 F002     		.uleb128 .LFE216-.LVL105
  4332 0368 01       		.uleb128 0x1
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 77
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 77
 
 
  4333 0369 52       		.byte	0x52
@@ -4618,7 +4618,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4387 03a8 02       		.uleb128 0x2
  4388 03a9 33       		.byte	0x33
  4389 03aa 9F       		.byte	0x9f
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 78
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 78
 
 
  4390 03ab 00       		.byte	0
@@ -4678,7 +4678,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4444 03e5 7D       		.byte	0x7d
  4445 03e6 7C       		.sleb128 -4
  4446 03e7 93       		.byte	0x93
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 79
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 79
 
 
  4447 03e8 04       		.uleb128 0x4
@@ -4738,7 +4738,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4501 042c 7C       		.sleb128 -4
  4502 042d 93       		.byte	0x93
  4503 042e 04       		.uleb128 0x4
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 80
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 80
 
 
  4504 042f 00       		.byte	0
@@ -4798,7 +4798,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4558 0469 00       		.uleb128 .LVU333
  4559 046a 00       		.uleb128 .LVU339
  4560 046b 00       		.uleb128 .LVU342
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 81
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 81
 
 
  4561              	.LLST44:
@@ -4858,7 +4858,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4615 04a8 FFFF7F00 		.4byte	0x7fffff
  4616 04ac 1A       		.byte	0x1a
  4617 04ad 08       		.byte	0x8
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 82
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 82
 
 
  4618 04ae FC       		.byte	0xfc
@@ -4918,7 +4918,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4672 04e6 93       		.byte	0x93
  4673 04e7 04       		.uleb128 0x4
  4674 04e8 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 83
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 83
 
 
  4675 04e9 42       		.uleb128 .LVL96-.LVL93
@@ -4978,7 +4978,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4729 0525 00       		.uleb128 0
  4730 0526 00       		.uleb128 .LVU295
  4731 0527 00       		.uleb128 .LVU295
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 84
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 84
 
 
  4732 0528 00       		.uleb128 0
@@ -5038,7 +5038,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4786 0562 20       		.uleb128 .LVL88-.LVL85
  4787 0563 30       		.uleb128 .LVL90-.LVL85
  4788 0564 02       		.uleb128 0x2
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 85
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 85
 
 
  4789 0565 90       		.byte	0x90
@@ -5098,7 +5098,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4843 059b 02       		.uleb128 .LVU276
  4844 059c 00       		.uleb128 .LVU278
  4845 059d 00       		.uleb128 .LVU279
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 86
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 86
 
 
  4846 059e 00       		.uleb128 0
@@ -5158,7 +5158,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4900 05d6 93       		.byte	0x93
  4901 05d7 04       		.uleb128 0x4
  4902 05d8 04       		.byte	0x4
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 87
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 87
 
 
  4903 05d9 3C       		.uleb128 .LVL83-.LVL75
@@ -5218,7 +5218,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  4957 0614 0C       		.byte	0xc
  4958 0615 FFFFFF7F 		.4byte	0x7fffffff
  4959 0619 1A       		.byte	0x1a
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 88
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 88
 
 
  4960 061a 9F       		.byte	0x9f
@@ -5278,7 +5278,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5014 0650 00       		.uleb128 .LVU233
  5015 0651 00       		.uleb128 .LVU233
  5016 0652 00       		.uleb128 .LVU234
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 89
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 89
 
 
  5017 0653 00       		.uleb128 .LVU234
@@ -5338,7 +5338,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5071 068a 00       		.uleb128 .LVU233
  5072 068b 00       		.uleb128 .LVU233
  5073 068c 00       		.uleb128 .LVU243
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 90
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 90
 
 
  5074 068d 00       		.uleb128 .LVU243
@@ -5398,7 +5398,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5128 06c6 04       		.byte	0x4
  5129 06c7 36       		.uleb128 .LVL72-.LVL64
  5130 06c8 48       		.uleb128 .LFE212-.LVL64
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 91
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 91
 
 
  5131 06c9 0C       		.uleb128 0xc
@@ -5458,7 +5458,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5185              	.LLST21:
  5186 0704 06       		.byte	0x6
  5187 0705 2C000000 		.4byte	.LVL38
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 92
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 92
 
 
  5188 0709 04       		.byte	0x4
@@ -5518,7 +5518,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5242 0746 00       		.byte	0
  5243              	.LVUS24:
  5244 0747 00       		.uleb128 .LVU145
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 93
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 93
 
 
  5245 0748 00       		.uleb128 .LVU187
@@ -5578,7 +5578,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5299 0786 00       		.uleb128 .LVU160
  5300 0787 00       		.uleb128 .LVU165
  5301 0788 00       		.uleb128 .LVU165
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 94
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 94
 
 
  5302 0789 00       		.uleb128 .LVU168
@@ -5638,7 +5638,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5356 07cb 06       		.uleb128 0x6
  5357 07cc 9E       		.byte	0x9e
  5358 07cd 04       		.uleb128 0x4
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 95
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 95
 
 
  5359 07ce DB0F493C 		.4byte	0x3c490fdb
@@ -5698,7 +5698,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5413 080d 00       		.uleb128 .LVU8
  5414 080e 00       		.uleb128 .LVU100
  5415 080f 00       		.uleb128 .LVU100
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 96
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 96
 
 
  5416 0810 00       		.uleb128 0
@@ -5758,7 +5758,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5470 084c 00       		.uleb128 .LVL0-.LVL0
  5471 084d 0E       		.uleb128 .LVL1-.LVL0
  5472 084e 02       		.uleb128 0x2
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 97
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 97
 
 
  5473 084f 30       		.byte	0x30
@@ -5818,7 +5818,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5527 088c 01       		.uleb128 0x1
  5528 088d 50       		.byte	0x50
  5529 088e 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 98
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 98
 
 
  5530              	.LVUS3:
@@ -5878,7 +5878,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5584 08c9 52       		.byte	0x52
  5585 08ca 00       		.byte	0
  5586              	.LVUS4:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 99
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 99
 
 
  5587 08cb 00       		.uleb128 .LVU42
@@ -5938,7 +5938,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5641 090a 0E       		.uleb128 .LVL11-.LVL7
  5642 090b 01       		.uleb128 0x1
  5643 090c 51       		.byte	0x51
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 100
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 100
 
 
  5644 090d 00       		.byte	0
@@ -5998,7 +5998,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5698 0944 00       		.uleb128 0
  5699              	.LLST17:
  5700 0945 06       		.byte	0x6
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 101
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 101
 
 
  5701 0946 62000000 		.4byte	.LVL15
@@ -6058,7 +6058,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5755 0982 04       		.byte	0x4
  5756 0983 70       		.uleb128 .LVL24-.LVL15
  5757 0984 B601     		.uleb128 .LFE210-.LVL15
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 102
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 102
 
 
  5758 0986 02       		.uleb128 0x2
@@ -6118,7 +6118,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5812 0038 00000000 		.4byte	.LFB215
  5813 003c 68000000 		.4byte	.LFE215-.LFB215
  5814 0040 00000000 		.4byte	.LFB216
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 103
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 103
 
 
  5815 0044 78010000 		.4byte	.LFE216-.LFB216
@@ -6178,7 +6178,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5869 003b 04       		.byte	0x4
  5870 003c 42       		.uleb128 .LBB25-.LBB24
  5871 003d 50       		.uleb128 .LBE25-.LBB24
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 104
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 104
 
 
  5872 003e 04       		.byte	0x4
@@ -6238,7 +6238,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5926 0098 50       		.uleb128 .LFE218-.LFB218
  5927 0099 00       		.byte	0
  5928              	.Ldebug_ranges3:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 105
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 105
 
 
  5929              		.section	.debug_line,"",%progbits
@@ -6298,7 +6298,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5957      7000
  5958              	.LASF52:
  5959 0079 696E6465 		.ascii	"indexS\000"
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 106
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 106
 
 
  5959      785300
@@ -6358,7 +6358,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  5984 0175 2D736D61 		.ascii	"-small-functions -fomit-frame-pointer -falign-funct"
  5984      6C6C2D66 
  5984      756E6374 
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 107
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 107
 
 
  5984      696F6E73 
@@ -6418,7 +6418,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  6007 0282 6C6F6E67 		.ascii	"long unsigned int\000"
  6007      20756E73 
  6007      69676E65 
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 108
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 108
 
 
  6007      6420696E 
@@ -6478,7 +6478,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  6035      5F313000 
  6036              	.LASF62:
  6037 031a 7470696D 		.ascii	"tpim\000"
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 109
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 109
 
 
  6037      00
@@ -6538,7 +6538,7 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  6069 0397 6174616E 		.ascii	"atanlo\000"
  6069      6C6F00
  6070              	.LASF44:
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 110
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 110
 
 
  6071 039e 4D554C54 		.ascii	"MULTIPLIER\000"
@@ -6563,39 +6563,39 @@ ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 1
  6079 0413 4D535F4C 		.ascii	"MS_LOG\000"
  6079      4F4700
  6080              		.ident	"GCC: (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623"
-ARM GAS  C:\msys64\tmp\ccUqsshC.s 			page 111
+ARM GAS  C:\msys64\tmp\ccbnV2Gk.s 			page 111
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 vna_math.c
-C:\msys64\tmp\ccUqsshC.s:19     .text.fft:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:26     .text.fft:00000000 fft
-C:\msys64\tmp\ccUqsshC.s:304    .text.fft:00000110 $d
-C:\msys64\tmp\ccUqsshC.s:1540   .rodata.sin_table_512:00000000 sin_table_512
-C:\msys64\tmp\ccUqsshC.s:310    .text.vna_sincosf:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:317    .text.vna_sincosf:00000000 vna_sincosf
-C:\msys64\tmp\ccUqsshC.s:562    .text.vna_sincosf:0000011c $d
-C:\msys64\tmp\ccUqsshC.s:569    .text.vna_modff:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:576    .text.vna_modff:00000000 vna_modff
-C:\msys64\tmp\ccUqsshC.s:669    .text.vna_modff:00000048 $d
-C:\msys64\tmp\ccUqsshC.s:675    .text.vna_cbrtf:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:682    .text.vna_cbrtf:00000000 vna_cbrtf
-C:\msys64\tmp\ccUqsshC.s:803    .text.vna_cbrtf:00000088 $d
-C:\msys64\tmp\ccUqsshC.s:811    .text.vna_logf:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:818    .text.vna_logf:00000000 vna_logf
-C:\msys64\tmp\ccUqsshC.s:879    .text.vna_logf:00000054 $d
-C:\msys64\tmp\ccUqsshC.s:888    .text.vna_log10f_x_10:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:895    .text.vna_log10f_x_10:00000000 vna_log10f_x_10
-C:\msys64\tmp\ccUqsshC.s:956    .text.vna_log10f_x_10:00000054 $d
-C:\msys64\tmp\ccUqsshC.s:965    .text.vna_atanf:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:972    .text.vna_atanf:00000000 vna_atanf
-C:\msys64\tmp\ccUqsshC.s:1279   .text.vna_atanf:00000140 $d
-C:\msys64\tmp\ccUqsshC.s:1297   .text.vna_atan2f:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:1304   .text.vna_atan2f:00000000 vna_atan2f
-C:\msys64\tmp\ccUqsshC.s:1458   .text.vna_atan2f:0000009c $d
-C:\msys64\tmp\ccUqsshC.s:1469   .text.vna_expf:00000000 $t
-C:\msys64\tmp\ccUqsshC.s:1476   .text.vna_expf:00000000 vna_expf
-C:\msys64\tmp\ccUqsshC.s:1532   .text.vna_expf:0000004c $d
-C:\msys64\tmp\ccUqsshC.s:1537   .rodata.sin_table_512:00000000 $d
+C:\msys64\tmp\ccbnV2Gk.s:19     .text.fft:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:26     .text.fft:00000000 fft
+C:\msys64\tmp\ccbnV2Gk.s:304    .text.fft:00000110 $d
+C:\msys64\tmp\ccbnV2Gk.s:1540   .rodata.sin_table_512:00000000 sin_table_512
+C:\msys64\tmp\ccbnV2Gk.s:310    .text.vna_sincosf:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:317    .text.vna_sincosf:00000000 vna_sincosf
+C:\msys64\tmp\ccbnV2Gk.s:562    .text.vna_sincosf:0000011c $d
+C:\msys64\tmp\ccbnV2Gk.s:569    .text.vna_modff:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:576    .text.vna_modff:00000000 vna_modff
+C:\msys64\tmp\ccbnV2Gk.s:669    .text.vna_modff:00000048 $d
+C:\msys64\tmp\ccbnV2Gk.s:675    .text.vna_cbrtf:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:682    .text.vna_cbrtf:00000000 vna_cbrtf
+C:\msys64\tmp\ccbnV2Gk.s:803    .text.vna_cbrtf:00000088 $d
+C:\msys64\tmp\ccbnV2Gk.s:811    .text.vna_logf:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:818    .text.vna_logf:00000000 vna_logf
+C:\msys64\tmp\ccbnV2Gk.s:879    .text.vna_logf:00000054 $d
+C:\msys64\tmp\ccbnV2Gk.s:888    .text.vna_log10f_x_10:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:895    .text.vna_log10f_x_10:00000000 vna_log10f_x_10
+C:\msys64\tmp\ccbnV2Gk.s:956    .text.vna_log10f_x_10:00000054 $d
+C:\msys64\tmp\ccbnV2Gk.s:965    .text.vna_atanf:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:972    .text.vna_atanf:00000000 vna_atanf
+C:\msys64\tmp\ccbnV2Gk.s:1279   .text.vna_atanf:00000140 $d
+C:\msys64\tmp\ccbnV2Gk.s:1297   .text.vna_atan2f:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:1304   .text.vna_atan2f:00000000 vna_atan2f
+C:\msys64\tmp\ccbnV2Gk.s:1458   .text.vna_atan2f:0000009c $d
+C:\msys64\tmp\ccbnV2Gk.s:1469   .text.vna_expf:00000000 $t
+C:\msys64\tmp\ccbnV2Gk.s:1476   .text.vna_expf:00000000 vna_expf
+C:\msys64\tmp\ccbnV2Gk.s:1532   .text.vna_expf:0000004c $d
+C:\msys64\tmp\ccbnV2Gk.s:1537   .rodata.sin_table_512:00000000 $d
 
 NO UNDEFINED SYMBOLS
