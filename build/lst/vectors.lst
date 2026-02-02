@@ -1,4 +1,4 @@
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
   55              		.thumb_set Vector184,_unhandled_exception
   56              		.weak	Vector180
   57              		.thumb_set Vector180,_unhandled_exception
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 2
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 2
 
 
   58              		.weak	Vector17C
@@ -118,7 +118,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  112              		.weak	Vector110
  113              		.thumb_set Vector110,_unhandled_exception
  114              		.weak	Vector10C
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 3
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 3
 
 
  115              		.thumb_set Vector10C,_unhandled_exception
@@ -178,7 +178,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  169              		.thumb_set VectorA0,_unhandled_exception
  170              		.weak	Vector9C
  171              		.thumb_set Vector9C,_unhandled_exception
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 4
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 4
 
 
  172              		.weak	Vector98
@@ -238,7 +238,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  226              		.weak	SVC_Handler
  227              		.thumb_set SVC_Handler,_unhandled_exception
  228              		.weak	Vector28
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 5
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 5
 
 
  229              		.thumb_set Vector28,_unhandled_exception
@@ -298,7 +298,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  283 007c 00000000 		.word	Vector7C
  284 0080 00000000 		.word	Vector80
  285 0084 00000000 		.word	Vector84
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 6
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 6
 
 
  286 0088 00000000 		.word	Vector88
@@ -358,7 +358,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  340 0160 00000000 		.word	Vector160
  341 0164 00000000 		.word	Vector164
  342 0168 00000000 		.word	Vector168
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 7
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 7
 
 
  343 016c 00000000 		.word	Vector16C
@@ -418,7 +418,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  397 004a FF000000 		.4byte	.LASF9
  398 004e 02       		.byte	0x2
  399 004f 4F       		.byte	0x4f
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 8
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 8
 
 
  400 0050 19       		.byte	0x19
@@ -478,7 +478,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  454 00b7 04       		.byte	0x4
  455 00b8 01       		.uleb128 0x1
  456 00b9 0A010000 		.4byte	.LASF14
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 9
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 9
 
 
  457 00bd 3A       		.byte	0x3a
@@ -538,7 +538,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  511 0129 43       		.byte	0x43
  512 012a 11       		.byte	0x11
  513 012b 84000000 		.4byte	0x84
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 10
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 10
 
 
  514 012f 2C       		.byte	0x2c
@@ -598,7 +598,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  568 019b 92030000 		.4byte	.LASF31
  569 019f 01       		.byte	0x1
  570 01a0 36       		.byte	0x36
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 11
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 11
 
 
  571 01a1 11       		.byte	0x11
@@ -658,7 +658,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  625 001b 00       		.byte	0
  626 001c 00       		.byte	0
  627 001d 03       		.uleb128 0x3
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 12
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 12
 
 
  628 001e 16       		.uleb128 0x16
@@ -718,7 +718,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  682 0054 55       		.uleb128 0x55
  683 0055 17       		.uleb128 0x17
  684 0056 11       		.uleb128 0x11
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 13
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 13
 
 
  685 0057 01       		.uleb128 0x1
@@ -778,7 +778,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  739 008d 00       		.byte	0
  740 008e 00       		.byte	0
  741 008f 0C       		.uleb128 0xc
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 14
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 14
 
 
  742 0090 34       		.uleb128 0x34
@@ -838,7 +838,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  796 00c6 7A       		.uleb128 0x7a
  797 00c7 19       		.uleb128 0x19
  798 00c8 00       		.byte	0
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 15
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 15
 
 
  799 00c9 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  838              	.LASF27:
  839 0033 73797374 		.ascii	"systick_handler\000"
  839      69636B5F 
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 16
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 16
 
 
  839      68616E64 
@@ -958,7 +958,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  860      7200
  861              	.LASF9:
  862 00ff 5F5F7569 		.ascii	"__uint32_t\000"
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 17
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 17
 
 
  862      6E743332 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  879              	.LASF21:
  880 027d 76656374 		.ascii	"vector24\000"
  880      6F723234 
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 18
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 18
 
 
  880      00
@@ -1078,7 +1078,7 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  903              	.LASF0:
  904 031a 7369676E 		.ascii	"signed char\000"
  904      65642063 
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 19
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 19
 
 
  904      68617200 
@@ -1105,120 +1105,120 @@ ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 1
  912      5F656E64 
  912      5F5F00
  913              		.ident	"GCC: (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623"
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 20
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 vectors.c
-C:\msys64\tmp\ccjjiDBh.s:19     .text._unhandled_exception:00000000 $t
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 _unhandled_exception
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector19C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector198
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector194
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector190
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector18C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector188
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector184
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector180
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector17C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector178
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector174
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector170
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector16C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector168
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector164
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector160
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector15C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector158
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector154
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector150
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector14C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector148
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector144
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector140
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector13C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector138
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector134
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector130
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector12C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector128
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector124
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector120
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector11C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector118
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector114
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector110
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector10C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector108
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector104
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector100
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorFC
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorF8
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorF4
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorF0
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorEC
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorE8
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorE4
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorE0
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorDC
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorD8
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorD4
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorD0
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorCC
-ARM GAS  C:\msys64\tmp\ccjjiDBh.s 			page 21
+C:\msys64\tmp\ccL1iYJ4.s:19     .text._unhandled_exception:00000000 $t
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 _unhandled_exception
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector19C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector198
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector194
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector190
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector18C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector188
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector184
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector180
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector17C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector178
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector174
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector170
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector16C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector168
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector164
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector160
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector15C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector158
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector154
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector150
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector14C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector148
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector144
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector140
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector13C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector138
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector134
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector130
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector12C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector128
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector124
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector120
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector11C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector118
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector114
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector110
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector10C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector108
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector104
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector100
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorFC
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorF8
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorF4
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorF0
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorEC
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorE8
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorE4
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorE0
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorDC
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorD8
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorD4
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorD0
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorCC
+ARM GAS  C:\msys64\tmp\ccL1iYJ4.s 			page 21
 
 
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorC8
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorC4
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorC0
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorBC
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorB8
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorB4
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorB0
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorAC
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorA8
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorA4
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 VectorA0
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector9C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector98
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector94
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector90
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector8C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector88
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector84
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector80
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector7C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector78
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector74
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector70
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector6C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector68
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector64
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector60
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector5C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector58
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector54
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector50
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector4C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector48
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector44
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector40
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 SysTick_Handler
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 PendSV_Handler
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector34
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 DebugMon_Handler
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 SVC_Handler
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector28
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector24
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector20
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 Vector1C
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 UsageFault_Handler
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 BusFault_Handler
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 MemManage_Handler
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 HardFault_Handler
-C:\msys64\tmp\ccjjiDBh.s:26     .text._unhandled_exception:00000000 NMI_Handler
-C:\msys64\tmp\ccjjiDBh.s:251    .vectors:00000000 _vectors
-C:\msys64\tmp\ccjjiDBh.s:248    .vectors:00000000 $d
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorC8
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorC4
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorC0
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorBC
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorB8
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorB4
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorB0
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorAC
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorA8
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorA4
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 VectorA0
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector9C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector98
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector94
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector90
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector8C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector88
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector84
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector80
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector7C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector78
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector74
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector70
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector6C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector68
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector64
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector60
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector5C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector58
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector54
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector50
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector4C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector48
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector44
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector40
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 SysTick_Handler
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 PendSV_Handler
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector34
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 DebugMon_Handler
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 SVC_Handler
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector28
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector24
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector20
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 Vector1C
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 UsageFault_Handler
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 BusFault_Handler
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 MemManage_Handler
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 HardFault_Handler
+C:\msys64\tmp\ccL1iYJ4.s:26     .text._unhandled_exception:00000000 NMI_Handler
+C:\msys64\tmp\ccL1iYJ4.s:251    .vectors:00000000 _vectors
+C:\msys64\tmp\ccL1iYJ4.s:248    .vectors:00000000 $d
 
 UNDEFINED SYMBOLS
 __main_stack_end__
