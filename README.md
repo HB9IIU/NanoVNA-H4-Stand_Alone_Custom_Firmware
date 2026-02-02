@@ -1,6 +1,5 @@
 # NanoVNA-H4-Stand_Alone_Custom_Firmware
 Stand Alone Firmware or Tuning Magnetic Loop Antenna
-
 ---------------------------------------------------------
   KEYBOARD SHORTCUTS (Custom)
 ---------------------------------------------------------
