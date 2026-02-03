@@ -32,7 +32,8 @@ This firmware focuses on what you actually need at the antenna: quick resonance 
 
 ## 🎥 Demo Video
 
-- YouTube: https://www.youtube.com/watch?v=NZVbPHmsltQ
+[![Demo video](https://img.youtube.com/vi/QWX5kB1lw6w/0.jpg)](https://youtu.be/QWX5kB1lw6w)
+
 
 ---
 
@@ -87,8 +88,4 @@ The compiled firmware can be found here:
 build/H4.bin
 ```
 
----
 
-## 📌 Status
-
-Visible: **0% → 100%**
