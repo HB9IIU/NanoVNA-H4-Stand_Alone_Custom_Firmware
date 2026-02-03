@@ -1,5 +1,12 @@
-# NanoVNA-H4-Stand_Alone_Custom_Firmware
-Stand Alone Firmware or Tuning Magnetic Loop Antenna
+# NanoVNA-H4 Custom Firmware for Tuning Magnetic Loop Antenna
+
+Download latest bin from here (https://github.com/HB9IIU/NanoVNA-H4-Stand_Alone_Custom_Firmware/blob/main/build/H4.bin)
+
+It will not brick your nanovna, but use at your own risk
+
+
+
+Note to developpers
 ---------------------------------------------------------
   KEYBOARD SHORTCUTS (Custom)
 ---------------------------------------------------------

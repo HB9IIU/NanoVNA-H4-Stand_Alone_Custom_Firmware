@@ -1708,6 +1708,9 @@ static THD_FUNCTION(Thread1, arg)
 
     if (HB9II_mode == 1)
     {
+            shell_printf("CC MODE 1 We are in Mode 1\r\n");
+
+
       doOnceOnly_In_Mode2 = true;
       bool completed = false;
       uint16_t mask = get_sweep_mask();
@@ -1960,6 +1963,13 @@ static THD_FUNCTION(Thread1, arg)
         if (!in_mla_stability_phase && (mla_no_dip_count == 0))
         {
           request_to_redraw(REDRAW_PLOT);
+
+ 
+    shell_printf("AA MODE 1 Plot redraw\r\n");
+
+
+
+
           draw_all();
 
           bool centered = mla_is_resonance_centered();
@@ -1995,6 +2005,8 @@ static THD_FUNCTION(Thread1, arg)
       {
         targetting_mode = true;
         MLA_UART_LOG("[MLA] We are in Mode 2\r\n");
+            shell_printf("BB MODE 2 We are in Mode 2\r\n");
+
         set_sweep_frequency(ST_START, target_frequency);
         set_sweep_frequency(ST_STOP, target_frequency);
 
@@ -2003,6 +2015,9 @@ static THD_FUNCTION(Thread1, arg)
 
         lcd_set_colors(LCD_BG_COLOR, LCD_BG_COLOR);
         lcd_fill(0, 0, LCD_WIDTH, LCD_HEIGHT);
+
+       
+
       }
 
       bool completed = false;
@@ -2019,11 +2034,12 @@ static THD_FUNCTION(Thread1, arg)
         float rl = (mag > 0.0f) ? -20.0f * log10f(mag) : 0.0f;
         float swr = (mag < 0.999f) ? (1.0f + mag) / (1.0f - mag) : 9999.0f;
 
-        // MLA_UART_LOG("F=14.200 MHz | SWR=%.2f | RL=%.1f dB\r\n",swr, rl);
+       shell_printf("DD MODE 2 We are inside Loop of HB9II_mode 2\r\n");
 
         drawBarGraph(swr);
         displaySWR(swr);
         doOnceOnly_In_Mode2 = false;
+ 
       }
       int evt = touch_checkHB9IIU();
 
@@ -2169,7 +2185,7 @@ static THD_FUNCTION(Thread1, arg)
       float swr = (mag < 0.999f) ? (1.0f + mag) / (1.0f - mag) : 9999.0f;
 
       // MLA_UART_LOG("F=14.200 MHz | SWR=%.2f | RL=%.1f dB\r\n",swr, rl);
-
+shell_printf("F=14.200 MHz | SWR=%.2f | RL=%.1f dB\r\n",swr, rl);
       drawBarGraph(swr);
       displaySWR(swr);
     }
@@ -2191,6 +2207,8 @@ static THD_FUNCTION(Thread1, arg)
           py >= SWR_TOUCH_Y0 && py < (SWR_TOUCH_Y0 + SWR_TOUCH_H))
       {
         MLA_UART_LOG("SWR AREA PRESSED  x=%d y=%d\r\n", px, py);
+        shell_printf("SWR AREA PRESSED  x=%d y=%d\r\n", px, py);
+
       }
       else
       {
@@ -2710,10 +2728,17 @@ transform_domain(uint16_t ch_mask)
 }
 
 // Shell commands output
+
+
+static bool shell_check_connect(void);   // add this prototype above shell_printf
+
 int shell_printf(const char *fmt, ...)
 {
-  if (shell_stream == NULL)
-    return 0;
+  
+  return 0; //XXXXXXXXXXXXX  REMOVE THIS TO DEBUG WHILE PUTTY IS CONNECTED
+  
+
+
   va_list ap;
   int formatted_bytes;
   va_start(ap, fmt);
@@ -5604,7 +5629,11 @@ VNA_SHELL_FUNCTION(cmd_help)
 
 // Before start process command from shell, need select input stream
 // #define PREPARE_STREAM shell_stream = VNA_MODE(VNA_MODE_CONNECTION) ? (BaseSequentialStream *)&SD1 : (BaseSequentialStream *)&SDU1;
-#define PREPARE_STREAM shell_stream = (BaseSequentialStream *)&SD1;
+//#define PREPARE_STREAM shell_stream = (BaseSequentialStream *)&SD1;
+
+#define PREPARE_STREAM shell_stream = (BaseSequentialStream *)&SDU1;
+
+
 
 // Update Serial connection speed and settings
 void shell_update_speed(uint32_t speed)
@@ -5648,6 +5677,8 @@ static bool shell_check_connect(void)
    // USB connection can be USB_SUSPENDED
    return usb_IsActive();
  */
+  return SDU1.config->usbp->state == USB_ACTIVE; //XXXXXXXXXXXXX
+
   return true;
 }
 
@@ -5977,6 +6008,15 @@ int main(void)
    */
   shell_init_connection();
 
+
+
+for (int i = 0; i < 5; i++) {
+  shell_printf("hello world %d\r\n", i + 1);
+  chThdSleepMilliseconds(10);
+}
+
+
+
 #ifdef __USE_SERIAL_CONSOLE__
   serial_shell_printf("\r\n[MLA ToolBox] NanoVNA H4 Booting...\r\n");
 #endif
@@ -6019,6 +6059,11 @@ int main(void)
    */
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO - 1, Thread1, NULL);
 
+
+
+
+/*
+  
   while (1)
   {
     if (shell_check_connect())
@@ -6045,4 +6090,10 @@ int main(void)
     }
     chThdSleepMilliseconds(1000);
   }
+*/
+  while (1)
+  {
+    chThdSleepMilliseconds(1000);
+  }
+
 }

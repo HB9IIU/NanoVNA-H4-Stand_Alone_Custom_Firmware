@@ -25,15 +25,9 @@
 #include <string.h>
 #include "si5351.h"
 
-
-
 extern bool targetting_mode;
 extern uint32_t target_frequency;
 extern int HB9II_mode;
-
-
-
-
 
 // Use size optimization (UI not need fast speed, better have smallest size)
 #pragma GCC optimize("Os")
@@ -563,15 +557,11 @@ static int touch_check(void)
   return stat ? EVT_TOUCH_DOWN : EVT_TOUCH_NONE;
 }
 
-//proto
+// proto
 static void touch_position(int *x, int *y);
-
-
-
 
 volatile int g_touch_px = 0;
 volatile int g_touch_py = 0;
-
 
 int touch_checkHB9IIU(void)
 {
@@ -590,12 +580,10 @@ int touch_checkHB9IIU(void)
       last_touch_y = y;
 
       int px, py;
-      touch_position(&px, &py);              // uses existing calibration
+      touch_position(&px, &py); // uses existing calibration
 
-
-g_touch_px = px;
-g_touch_py = py;
-
+      g_touch_px = px;
+      g_touch_py = py;
 
       UI_UART_LOG("touch: x=%d y=%d\r\n", px, py);
     }
@@ -622,9 +610,6 @@ g_touch_py = py;
 
   return stat ? EVT_TOUCH_DOWN : EVT_TOUCH_NONE;
 }
-
-
-
 
 //*******************************************************************************
 // End Software Touch module
@@ -788,24 +773,135 @@ void ui_touch_draw_test(void)
   }
 }
 
-
 // 31x31 QR code image
 // https://github.com/HB9IIU/NanoVNA-MLA-ToolBox
 // 31x31 QR bitmap, 124 bytes
 static const uint8_t qr_code_map[] = {
-  0xff,  0xff,  0xff,  0xfe,  0x80,  0xee,  0xce,  0x02,  0xbe,  0xdd,  0x52,  0xfa,
-  0xa2,  0xb7,  0xfa,  0x8a,  0xa2,  0xdb,  0xca,  0x8a,  0xa2,  0xd8,  0xc2,  0x8a,
-  0xbe,  0xe0,  0x16,  0xfa,  0x80,  0xaa,  0xaa,  0x02,  0xff,  0xb4,  0x0f,  0xfe,
-  0x88,  0x3b,  0x38,  0xee,  0xb3,  0x10,  0x02,  0xda,  0xe4,  0x63,  0xf8,  0xa2,
-  0xbb,  0x49,  0x07,  0x36,  0x88,  0xe5,  0x00,  0xd2,  0x85,  0xa7,  0xf0,  0xda,
-  0xa2,  0x0d,  0xde,  0x92,  0xa7,  0xb4,  0x48,  0xd6,  0x86,  0xa9,  0xb2,  0x52,
-  0xc1,  0x13,  0x3c,  0xca,  0xb4,  0xb1,  0x9d,  0x32,  0xc1,  0xf8,  0x90,  0x16,
-  0xbe,  0x41,  0x10,  0x3e,  0xff,  0xb7,  0x13,  0xa2,  0x80,  0x8b,  0xa2,  0x92,
-  0xbe,  0xa5,  0x8b,  0x9e,  0xa2,  0x97,  0xd8,  0x36,  0xa2,  0xe9,  0x3b,  0x22,
-  0xa2,  0xac,  0xd7,  0x1a,  0xbe,  0x89,  0x91,  0xb6,  0x80,  0x91,  0x11,  0x32,
-  0xff,  0xff,  0xff,  0xfe,
+    0xff,
+    0xff,
+    0xff,
+    0xfe,
+    0x80,
+    0xee,
+    0xce,
+    0x02,
+    0xbe,
+    0xdd,
+    0x52,
+    0xfa,
+    0xa2,
+    0xb7,
+    0xfa,
+    0x8a,
+    0xa2,
+    0xdb,
+    0xca,
+    0x8a,
+    0xa2,
+    0xd8,
+    0xc2,
+    0x8a,
+    0xbe,
+    0xe0,
+    0x16,
+    0xfa,
+    0x80,
+    0xaa,
+    0xaa,
+    0x02,
+    0xff,
+    0xb4,
+    0x0f,
+    0xfe,
+    0x88,
+    0x3b,
+    0x38,
+    0xee,
+    0xb3,
+    0x10,
+    0x02,
+    0xda,
+    0xe4,
+    0x63,
+    0xf8,
+    0xa2,
+    0xbb,
+    0x49,
+    0x07,
+    0x36,
+    0x88,
+    0xe5,
+    0x00,
+    0xd2,
+    0x85,
+    0xa7,
+    0xf0,
+    0xda,
+    0xa2,
+    0x0d,
+    0xde,
+    0x92,
+    0xa7,
+    0xb4,
+    0x48,
+    0xd6,
+    0x86,
+    0xa9,
+    0xb2,
+    0x52,
+    0xc1,
+    0x13,
+    0x3c,
+    0xca,
+    0xb4,
+    0xb1,
+    0x9d,
+    0x32,
+    0xc1,
+    0xf8,
+    0x90,
+    0x16,
+    0xbe,
+    0x41,
+    0x10,
+    0x3e,
+    0xff,
+    0xb7,
+    0x13,
+    0xa2,
+    0x80,
+    0x8b,
+    0xa2,
+    0x92,
+    0xbe,
+    0xa5,
+    0x8b,
+    0x9e,
+    0xa2,
+    0x97,
+    0xd8,
+    0x36,
+    0xa2,
+    0xe9,
+    0x3b,
+    0x22,
+    0xa2,
+    0xac,
+    0xd7,
+    0x1a,
+    0xbe,
+    0x89,
+    0x91,
+    0xb6,
+    0x80,
+    0x91,
+    0x11,
+    0x32,
+    0xff,
+    0xff,
+    0xff,
+    0xfe,
 };
-
 
 void ui_show_versionNEW(void)
 {
@@ -824,7 +920,6 @@ static void ui_show_version(void)
 {
   int x = 5, y = 5, i = 1;
   int str_height = FONT_STR_HEIGHT + 2;
-
 
   lcd_clear_screen();
   uint16_t shift = 0b00010010000;
@@ -851,7 +946,7 @@ static void ui_show_version(void)
   // lcd_printf(LCD_WIDTH - FONT_STR_WIDTH(20), LCD_HEIGHT - FONT_STR_HEIGHT - 2, SET_FGCOLOR(\x16) "In memory of Maya" SET_FGCOLOR(\x01));
   y += str_height * 2;
 
-  lcd_blitBitmapScale(LCD_WIDTH - 32 * 3, 240-5-32, 31, 31, 3, qr_code_map);
+  lcd_blitBitmapScale(LCD_WIDTH - 32 * 3, 240 - 5 - 32, 31, 31, 3, qr_code_map);
   // Update battery and time
   uint16_t cnt = 0;
   while (true)
@@ -869,7 +964,6 @@ static void ui_show_version(void)
     lcd_printf(x, y + str_height, "Batt: %d.%03d" S_VOLT, vbat / 1000, vbat % 1000);
 #endif
   }
-  
 }
 
 #ifdef __DFU_SOFTWARE_MODE__
@@ -1051,13 +1145,12 @@ static UI_FUNCTION_CALLBACK(menu_dfu_cb)
 
 static UI_FUNCTION_CALLBACK(menu_reboot_cb)
 {
-  chSysDisable();          // optional
+  chSysDisable(); // optional
   NVIC_SystemReset();
-  while (1) {}             // never returns
-
+  while (1)
+  {
+  } // never returns
 }
-
-
 
 #endif
 
@@ -1648,15 +1741,10 @@ static UI_FUNCTION_ADV_CALLBACK(menu_measure_acb)
 static UI_FUNCTION_CALLBACK(menu_measure_cb)
 {
 
-HB9II_mode=2;
+  HB9II_mode = 2;
 
-
- // (void)data;
- // menu_push_submenu(menu_measure_list[current_props._measure]);
-
-
-
-
+  // (void)data;
+  // menu_push_submenu(menu_measure_list[current_props._measure]);
 }
 #endif
 
@@ -3180,7 +3268,7 @@ const menuitem_t menu_top[] = {
     //{MT_SUBMENU, 0, "CALIBRATE", menu_cal},
     //{MT_SUBMENU, 0, "RECALL", menu_recall},
     // #ifdef __VNA_MEASURE_MODULE__
-    { MT_CALLBACK,0, "TUNE",   menu_measure_cb },
+    {MT_CALLBACK, 0, "TUNE", menu_measure_cb},
     // #endif
     // #ifdef __USE_SD_CARD__
     //{ MT_SUBMENU, 0, "SD CARD",   menu_sdcard },
@@ -3191,11 +3279,10 @@ const menuitem_t menu_top[] = {
     //{MT_SUBMENU, 0, "CONFIG", menu_config},
     //{ MT_ADV_CALLBACK, 0, "%s\nSWEEP", menu_pause_acb },
     {MT_CALLBACK, 0, "ENTER DFU", menu_dfu_cb},
-        { MT_CALLBACK,0, "REBOOT",   menu_reboot_cb },
+    {MT_CALLBACK, 0, "REBOOT", menu_reboot_cb},
 
     {MT_NEXT, 0, NULL, NULL} // sentinel
 };
-
 
 #define MENU_STACK_DEPTH_MAX 5
 const menuitem_t *menu_stack[MENU_STACK_DEPTH_MAX] = {
@@ -4698,7 +4785,6 @@ static void ui_process_touch(void)
   {
     touch_position(&touch_x, &touch_y);
 
-
     ui_handler[ui_mode].touch(touch_x, touch_y);
   }
 }
@@ -4728,9 +4814,8 @@ void handle_button_interrupt(uint16_t channel)
 void handle_touch_interrupt(void)
 {
 
-if (targetting_mode)
-return;
-
+  if (targetting_mode)
+    return;
 
   operation_requested |= OP_TOUCH;
   //  systime_t n_time = chVTGetSystemTimeX();
@@ -4798,7 +4883,6 @@ void ui_init()
 #endif
 }
 
-
 // Close any UI overlay (menu/keypad/browser), and reset menu stack to top.
 void ui_close_all(void)
 {
@@ -4809,10 +4893,10 @@ void ui_close_all(void)
     menu_stack[i] = NULL;
 
   selection = -1;
-  ensure_selection();          // recompute menu_button_height safely
+  ensure_selection(); // recompute menu_button_height safely
 
   // Leave any UI overlay state
-  ui_mode = UI_NORMAL;         // force "normal"
+  ui_mode = UI_NORMAL; // force "normal"
   set_area_size(AREA_WIDTH_NORMAL, AREA_HEIGHT_NORMAL);
 
   // Optional: clear keypad buffer if you want "close all" to also abort typing

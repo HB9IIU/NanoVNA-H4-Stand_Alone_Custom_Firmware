@@ -48,14 +48,16 @@ int serial_shell_printf(const char *fmt, ...)
   {                       \
   } while (0)
 #endif
+void ui_close_all(void);
+bool doOnceOnly_In_Mode2;
 
 // =======================================================================
 // FUNCTION PROTOTYPES FOR main.c
 // =======================================================================
 int touch_checkHB9IIU(void);
-
-
-bool  targetting_mode= true;
+int HB9II_mode;
+bool targetting_mode = true;
+uint32_t target_frequency;
 // ---- Sweep Engine ----
 static bool sweep(bool break_on_operation, uint16_t ch_mask);
 
@@ -179,7 +181,6 @@ static volatile vna_shellcmd_t shell_function = 0;
 static void apply_CH0_error_term(float data[4], float c_data[CAL_TYPE_COUNT][2]);
 static void apply_CH1_error_term(float data[4], float c_data[CAL_TYPE_COUNT][2]);
 static void cal_interpolate(int idx, freq_t f, float data[CAL_TYPE_COUNT][2]);
-
 static uint16_t get_sweep_mask(void);
 static void update_frequencies(void);
 static int set_frequency(freq_t freq);
@@ -192,16 +193,6 @@ int shell_printf(const char *fmt, ...);
 
 // We will use this to return to the original wide sweep
 void reset_sweep_frequency(void);
-
-// =======================================================================
-// MLA AUTOTUNE GLOBAL VARIABLES
-// Used for resonance detection, stability confirmation, bandwidth/Q
-// estimation, and automatic sweep zooming for magnetic loop antennas.
-// =======================================================================
-
-// -----------------------------------------------------------------------
-// 1. RESONANCE DETECTION (per-sweep results)
-// -----------------------------------------------------------------------
 
 // Index and frequency of the detected resonance dip.
 // mla_res_idx = -1 → no usable resonance detected.
@@ -312,15 +303,6 @@ freq_t mla_bw_swr2 = 0;        // BW in Hz (mla_bw_high - mla_bw_low)
 static float mla_Q_factor = 0.0f;      // Q = f_res / BW
 static float mla_bw_rel = 0.0f;        // Relative BW = BW / f_res
 static char mla_band_name[12] = "n/a"; // Simple band label (“40m”, etc.)
-
-// =======================================================================
-// END OF MLA AUTOTUNE GLOBAL VARIABLES
-// =======================================================================
-
-// =======================================================================
-// SWEEP ENGINE RUNTIME STATE
-// Handles per-sweep execution, indexing, and measurement storage.
-// =======================================================================
 
 // Sweep operating mode (SWEEP_ENABLE = continuous sweep).
 uint8_t sweep_mode = SWEEP_ENABLE;
@@ -1167,28 +1149,24 @@ static void compute_first_resonance(void)
 }
 
 #undef VERSION
-#define VERSION "HB9IIUBeta 2025-12-01"
+#define VERSION "Beta 28.12.2025"
 
 // Version text, displayed in Config->Version menu, also sent by info command
 const char *info_about[] = {
-    "Board: " BOARD_NAME,
+    "Dummy Line",
     "Based on 2019-2024 NanoVNA-D by DiSlord",
-    "Based on original work by edy555",
-    "HB9IIU MLA ToolBox December 2025",
+    "(original work by edy555)",
     "Status: Work In Progress",
     "Licensed under GPL.",
-    "https://github.com/DiSlord/NanoVNA-D",
-    "Version: " VERSION " ["
-    "p:" define_to_STR(SWEEP_POINTS_MAX) ", "
-                                         "IF:" define_to_STR(FREQUENCY_IF_K) "k, "
-                                                                             "ADC:" define_to_STR(AUDIO_ADC_FREQ_K1) "k, "
-                                                                                                                     "Lcd:" define_to_STR(LCD_WIDTH) "x" define_to_STR(LCD_HEIGHT) "]",
+    "Source code will be distributed once polished, and readable.",
+    "Version: " VERSION,
     "Build Time: " __DATE__ " - " __TIME__,
     "Kernel: " CH_KERNEL_VERSION,
     "Compiler: " PORT_COMPILER_NAME,
     "Architecture: " PORT_ARCHITECTURE_NAME " Core Variant: " PORT_CORE_VARIANT_NAME,
     "Port Info: " PORT_INFO,
     "Platform: " PLATFORM_NAME,
+
     0 // sentinel
 };
 
@@ -1295,6 +1273,10 @@ static THD_WORKING_AREA(waThread1, 1024);
 void drawBarGraph(float value)
 {
   static int prevActive = -1; // force init on first call
+  if (doOnceOnly_In_Mode2 == true)
+  {
+    prevActive = -1;
+  }
 
   if (value < SWR_MIN)
     value = SWR_MIN;
@@ -1376,20 +1358,41 @@ void drawBarGraph(float value)
   prevActive = active;
 }
 
-#define SWR_TEXT_Y_POS (LCD_HEIGHT / 2 - 40)
-#define SWR_TEXT_HEIGHT 60 // must fit big font
-#define SWR_TEXT_SCALE 3   // same size as title
-
-#define SWR_AVG_ALPHA 0.2f
-#define SWR_UPDATE_DIV 10
-
 void displaySWR(float swr)
 {
+
   static int last_swr_int = -1;
   static int label_drawn = 0;
+  static uint16_t last_color = 0xFFFF;
 
-  /* quantize SWR to 0.1 resolution */
-  int swr_int = (int)(swr * 10.0f + 0.5f);
+  if (doOnceOnly_In_Mode2)
+  {
+    label_drawn = 0;
+  }
+
+  /* 250ms averaging + rate limit (NanoVNA / ChibiOS ticks) */
+  static float acc = 0.0f;
+  static uint16_t n = 0;
+  static systime_t t0 = 0;
+
+  systime_t now = chVTGetSystemTimeX();
+  if (t0 == 0)
+    t0 = now;
+
+  /* accumulate */
+  acc += swr;
+  if (n != 0xFFFF)
+    n++;
+
+  /* only update every 250ms (assuming 1kHz system tick = 1ms) */
+  if ((systime_t)(now - t0) < (systime_t)250)
+    return;
+
+  /* compute average, reset window */
+  float avg = (n ? (acc / (float)n) : swr);
+  acc = 0.0f;
+  n = 0;
+  t0 = now;
 
   /* draw label ONCE */
   if (!label_drawn)
@@ -1400,23 +1403,57 @@ void displaySWR(float swr)
     label_drawn = 1;
   }
 
-  /* do nothing if value did not change */
-  if (swr_int == last_swr_int)
-    return;
+  /* overflow / invalid filter */
+  int overflow = 0;
+  if (!(avg > 0.0f) || (avg != avg) || (avg > 9.9f)) /* <=0, NaN, or too large */
+    overflow = 1;
+
+  /* choose color (keep your bar-graph thresholds) */
+  uint16_t color;
+  if (overflow)
+    color = LCD_TRACE_5_COLOR; // red
+  else if (avg <= 1.5f)
+    color = LCD_TRACE_3_COLOR; // green
+  else if (avg <= 3.0f)
+    color = LCD_TRACE_1_COLOR; // yellow
+  else
+    color = LCD_TRACE_5_COLOR; // red
+
+  /* quantize only if not overflow */
+  int swr_int = overflow ? -9999 : (int)(avg * 10.0f + 0.5f);
+
+  /* do nothing if nothing changed */
+  if (!overflow)
+  {
+    if ((swr_int == last_swr_int) && (color == last_color))
+      return;
+  }
+  else
+  {
+    /* if already showing overflow in red, no need to redraw */
+    if ((last_swr_int == -9999) && (last_color == color))
+      return;
+  }
 
   last_swr_int = swr_int;
-
-  /* split value */
-  int swr_whole = swr_int / 10;
-  int swr_frac = swr_int % 10;
+  last_color = color;
 
   /* clear ONLY number area */
   lcd_set_background(LCD_BG_COLOR);
-  lcd_fill(200, (LCD_HEIGHT / 2) - 30, 140, 50);
+  lcd_fill(250, (LCD_HEIGHT / 2) - 30, 140, 50);
 
-  lcd_set_foreground(LCD_FG_COLOR);
+  lcd_set_foreground(color);
 
-  /* draw number manually */
+  if (overflow)
+  {
+    lcd_drawstring_size("!!!", 240, (LCD_HEIGHT / 2) - 20, 3);
+    return;
+  }
+
+  /* split value */
+  int swr_whole = swr_int / 10; /* 0..9 */
+  int swr_frac = swr_int % 10;  /* 0..9 */
+
   char buf[4];
   buf[0] = '0' + swr_whole;
   buf[1] = '.';
@@ -1426,19 +1463,17 @@ void displaySWR(float swr)
   lcd_drawstring_size(buf, 240, (LCD_HEIGHT / 2) - 20, 3);
 }
 
+#define FREQ_X_BASE 200 // must match lcd_drawstring_size(buf, X, yp, 3)
+#define FREQ_Y_BASE 35  // or use yp
+#define FREQ_SCALE 3
 
+#define HIT_TOP_H 18    // height of upper (increment) zone
+#define HIT_BOT_H 18    // height of lower (decrement) zone
+#define HIT_GAP 4       // gap between top and bottom zones
+#define HIT_Y_OFFSET -6 // move zones up/down to align with digits
 
-#define FREQ_X_BASE        200     // must match lcd_drawstring_size(buf, X, yp, 3)
-#define FREQ_Y_BASE        35      // or use yp
-#define FREQ_SCALE         3
-
-#define HIT_TOP_H          18      // height of upper (increment) zone
-#define HIT_BOT_H          18      // height of lower (decrement) zone
-#define HIT_GAP            4       // gap between top and bottom zones
-#define HIT_Y_OFFSET       -6      // move zones up/down to align with digits
-
-#define HIT_W              14      // width of one digit hit zone (tune!)
-#define HIT_SPACING        16      // distance between digit zones (tune!)
+#define HIT_W 14       // width of one digit hit zone (tune!)
+#define HIT_SPACING 16 // distance between digit zones (tune!)
 
 // Draw debug hitboxes ABOVE and BELOW each digit in the rendered frequency string.
 // Uses the same font metrics and scale as lcd_drawstring_size().
@@ -1447,12 +1482,12 @@ void displaySWR(float swr)
 // Uses existing NanoVNA font cell macros + the same scale as lcd_drawstring_size().
 static void drawTargetFreqHitboxes(const char *s, int xBase, int yBase, int scale)
 {
-  bool showBoxes = false;   // <-- set true to show red debug rectangles
+  bool showBoxes = false; // <-- set true to show red debug rectangles
 
   const int cw = FONT_WIDTH * scale;
   const int ch = FONT_GET_HEIGHT * scale;
 
-  const int gap  = 2;
+  const int gap = 2;
   const int boxH = (ch * 2) / 3;
   const int boxW = cw - 2;
 
@@ -1479,14 +1514,14 @@ static void drawTargetFreqHitboxes(const char *s, int xBase, int yBase, int scal
       }
 
       // Draw triangles in foreground color
-lcd_set_colors(LCD_MENU_ACTIVE_COLOR, LCD_MENU_ACTIVE_COLOR);   
+      lcd_set_colors(LCD_MENU_ACTIVE_COLOR, LCD_MENU_ACTIVE_COLOR);
       int cx = x + (cw / 2);
 
       // --- UP triangle (filled, drawn with horizontal fills) ---
       // apex at (cx, triUpY)
       for (int i = 0; i < triH; i++)
       {
-        int half = (triW * i) / (2 * triH);   // grows from 0 to triW/2
+        int half = (triW * i) / (2 * triH); // grows from 0 to triW/2
         lcd_fill(cx - half, triUpY + i, 2 * half + 1, 1);
       }
 
@@ -1509,37 +1544,31 @@ lcd_set_colors(LCD_MENU_ACTIVE_COLOR, LCD_MENU_ACTIVE_COLOR);
   }
 }
 
-
 extern volatile int g_touch_px;
 extern volatile int g_touch_py;
-
-
 
 void displayTargetFrequency(uint32_t target_frequency)
 {
   static uint32_t last_freq = 0;
   static int label_drawn = 0;
-
-  int yp=35;
-
+  if (doOnceOnly_In_Mode2 == true)
+  {
+    label_drawn = 0;
+  }
+  int yp = 35;
 
   /* draw label ONCE */
   if (!label_drawn)
   {
-lcd_set_background(LCD_BG_COLOR);
-lcd_set_foreground(LCD_FG_COLOR);
+    lcd_set_background(LCD_BG_COLOR);
+    lcd_set_foreground(LCD_FG_COLOR);
 
-char label[16] = "Target  ";  // 2 spaces after Target
-label[8]  = 0x18;              // put glyph AFTER the spaces
-label[9] = 0;                 // terminator
+    char label[16] = "Target  "; // 2 spaces after Target
+    label[8] = 0x18;             // put glyph AFTER the spaces
+    label[9] = 0;                // terminator
 
-lcd_drawstring_size(label, 10, yp, 3);
-label_drawn = 1;
-
-
-
-
-
+    lcd_drawstring_size(label, 10, yp, 3);
+    label_drawn = 1;
   }
 
   /* do nothing if value did not change */
@@ -1573,14 +1602,13 @@ label_drawn = 1;
   buf[8] = '0' + ((hz / 10) % 10);
   buf[9] = '0' + (hz % 10);
   buf[10] = ' ';
-   buf[11] = 'H';
+  buf[11] = 'H';
   buf[12] = 'z';
   buf[13] = 0;
 
   lcd_drawstring_size(buf, 200, yp, 3);
-// DEBUG overlay rectangles (temporary)
-drawTargetFreqHitboxes(buf, 200, yp, 3);
-
+  // DEBUG overlay rectangles (temporary)
+  drawTargetFreqHitboxes(buf, 200, yp, 3);
 }
 
 // Returns signed delta in Hz depending on which hitbox was tapped.
@@ -1591,7 +1619,7 @@ static int32_t freq_hitbox_delta_hz(int px, int py, int xBase, int yBase, int sc
   const int ch = FONT_GET_HEIGHT * scale;
 
   // MUST match drawTargetFreqHitboxes()
-  const int gap  = 2;
+  const int gap = 2;
   const int boxH = (ch * 2) / 3;
   const int boxW = cw - 2;
 
@@ -1599,15 +1627,17 @@ static int32_t freq_hitbox_delta_hz(int px, int py, int xBase, int yBase, int sc
   const int botY = yBase + ch + gap;
 
   int dir = 0;
-  if (py >= topY && py < topY + boxH) dir = +1;        // upper = increment
-  else if (py >= botY && py < botY + boxH) dir = -1;   // lower = decrement
-  else return 0;
+  if (py >= topY && py < topY + boxH)
+    dir = +1; // upper = increment
+  else if (py >= botY && py < botY + boxH)
+    dir = -1; // lower = decrement
+  else
+    return 0;
 
   // Digit steps for "DD.DDD.DDD" (8 digits total):
   // 10MHz, 1MHz, 100k, 10k, 1k, 100, 10, 1
   static const int32_t stepHz[8] = {
-    10000000L, 1000000L, 100000L, 10000L, 1000L, 100L, 10L, 1L
-  };
+      10000000L, 1000000L, 100000L, 10000L, 1000L, 100L, 10L, 1L};
 
   int x = xBase;
   int digitIdx = -1;
@@ -1635,13 +1665,12 @@ static int32_t freq_hitbox_delta_hz(int px, int py, int xBase, int yBase, int sc
     }
     else
     {
-      x += (cw / 2);   // '.' is narrower (same as your working hitbox code)
+      x += (cw / 2); // '.' is narrower (same as your working hitbox code)
     }
   }
 
   return 0;
 }
-
 
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -1668,6 +1697,413 @@ static THD_FUNCTION(Thread1, arg)
 
   active_marker = MARKER_INVALID;
   request_to_redraw(REDRAW_MARKER | REDRAW_AREA);
+
+  // XXXXXXXXXXXXXXXXXXXXXXX   FINAL TENTATIVE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  HB9II_mode = 1;
+  targetting_mode = false; // to ignore screen touch on mode 2 , double usage, could be replaced by HB9II_mode
+  doOnceOnly_In_Mode2 = true;
+
+  while (1)
+  {
+
+    if (HB9II_mode == 1)
+    {
+      doOnceOnly_In_Mode2 = true;
+      bool completed = false;
+      uint16_t mask = get_sweep_mask();
+
+      /* ----------------------------------------------------------
+       * Sweep execution
+       * ---------------------------------------------------------- */
+      if (sweep_mode & (SWEEP_ENABLE | SWEEP_ONCE))
+      {
+        completed = sweep(true, mask);
+        sweep_mode &= ~SWEEP_ONCE;
+      }
+      else
+      {
+        __WFI();
+      }
+
+      /* ----------------------------------------------------------
+       * Run shell commands in sweep thread
+       * ---------------------------------------------------------- */
+      while (shell_function)
+      {
+        shell_function(shell_nargs - 1, &shell_args[1]);
+        shell_function = 0;
+        osalThreadDequeueNextI(&shell_thread, MSG_OK);
+      }
+
+      /* ----------------------------------------------------------
+       * UI processing
+       * ---------------------------------------------------------- */
+      sweep_mode |= SWEEP_UI_MODE;
+      ui_process();
+      sweep_mode &= ~SWEEP_UI_MODE;
+
+      /* ----------------------------------------------------------
+       * Post-sweep processing
+       * ---------------------------------------------------------- */
+      if (completed)
+      {
+
+        /* --------------------------------------------------------
+         * 2LA calculations after sweep
+         * -------------------------------------------------------- */
+        mla_calc_resonance_after_sweep();
+        target_frequency = mla_res_freq;
+        mla_res_swr = mla_calc_swr_at_resonance_after_sweep();
+        mla_update_bandwidth_swr2();
+        mla_calc_q_after_sweep();
+        mla_rate_q_after_sweep();
+
+        /* --------------------------------------------------------
+         * Resonance detection / locking logic
+         * -------------------------------------------------------- */
+        if (!mla_resonance_locked)
+        {
+          if (mla_no_dip_count < MLA_NO_DIP_LIMIT)
+            ui_show_check_amtenna_hint();
+
+          mla_update_good_dip_flag();
+
+          if (mla_has_good_resonance)
+          {
+            uint32_t f = mla_res_freq;
+
+            mla_no_dip_count = 0;
+            ui_hide_no_resonance_hint();
+
+            if (mla_res_stable_count == 0)
+            {
+              mla_res_ref_freq = f;
+              mla_res_stable_count = 1;
+            }
+            else
+            {
+              uint32_t delta =
+                  (f > mla_res_ref_freq) ? (f - mla_res_ref_freq) : (mla_res_ref_freq - f);
+
+              if (delta <= MLA_RESONANCE_STABILITY_HZ)
+              {
+                if (mla_res_stable_count < MLA_STABLE_SWEEPS_REQUIRED)
+                  mla_res_stable_count++;
+              }
+              else
+              {
+                mla_res_ref_freq = f;
+                mla_res_stable_count = 1;
+              }
+            }
+
+            if (mla_res_stable_count >= MLA_STABLE_SWEEPS_REQUIRED)
+            {
+              mla_resonance_locked = true;
+              mla_res_freq = mla_res_ref_freq;
+
+              ui_hide_check_amtenna_hint();
+              ui_hide_no_resonance_hint();
+            }
+          }
+          else
+          {
+            mla_res_stable_count = 0;
+
+            if (mla_no_dip_count < MLA_NO_DIP_LIMIT)
+              mla_no_dip_count++;
+
+            if (mla_no_dip_count >= MLA_NO_DIP_LIMIT)
+            {
+              ui_hide_check_amtenna_hint();
+              ui_show_no_resonance_hint();
+            }
+          }
+        }
+
+        /* --------------------------------------------------------
+         * MLA refinement stages
+         * -------------------------------------------------------- */
+        if (mla_resonance_locked && mla_autozone_stage < 3)
+          compute_first_resonance();
+
+        /* --------------------------------------------------------
+         * AUTOSCALE — EVERY completed sweep (no flags)
+         * -------------------------------------------------------- */
+
+        /* === S11 autoscale (trace 0) === */
+        {
+          const uint8_t t = 0;
+          int type = trace[t].type;
+          get_value_cb_t cb = trace_info_list[type].get_value_cb;
+          if (cb)
+          {
+            int ch = trace[t].channel;
+            float (*array)[2] = measured[ch];
+
+            float min_v = 0.0f, max_v = 0.0f;
+            bool first = true;
+
+            for (int i = 0; i < sweep_points; i++)
+            {
+              float v = cb(i, array[i]);
+              if (vna_fabsf(v) == infinityf())
+                break;
+
+              if (first)
+              {
+                min_v = max_v = v;
+                first = false;
+              }
+              else
+              {
+                if (v < min_v)
+                  min_v = v;
+                if (v > max_v)
+                  max_v = v;
+              }
+            }
+
+            float span = max_v - min_v;
+            if (span < 1e-6f)
+              span = 2.0f;
+
+            float y_max = (1.0f - 0.10f) * NGRIDY;
+            float y_min = 0.02f * NGRIDY;
+            float dy = y_max - y_min;
+            if (dy < 0.1f)
+              dy = 0.1f;
+
+            float scale = span / dy;
+            float refpos = y_max - (max_v / scale);
+
+            if (trace[t].scale <= 0.0f ||
+                vna_fabsf(scale - trace[t].scale) > trace[t].scale * 0.03f)
+              set_trace_scale(t, scale);
+
+            if (vna_fabsf(refpos - trace[t].refpos) > 0.02f)
+              set_trace_refpos(t, refpos);
+          }
+        }
+
+        /* === SWR autoscale (trace 3) === */
+        {
+          const uint8_t t = 3;
+          int type = trace[t].type;
+          get_value_cb_t cb = trace_info_list[type].get_value_cb;
+          if (cb)
+          {
+            int ch = trace[t].channel;
+            float (*array)[2] = measured[ch];
+
+            float min_p = 0.0f, max_p = 0.0f;
+            bool first = true;
+
+            for (int i = 0; i < sweep_points; i++)
+            {
+              float swr = cb(i, array[i]);
+              if (vna_fabsf(swr) == infinityf())
+                break;
+
+              if (swr < 1.0f)
+                swr = 1.0f;
+              float p = swr - 1.0f;
+
+              if (first)
+              {
+                min_p = max_p = p;
+                first = false;
+              }
+              else
+              {
+                if (p < min_p)
+                  min_p = p;
+                if (p > max_p)
+                  max_p = p;
+              }
+            }
+
+            float span = max_p - min_p;
+            if (span < 1e-6f)
+              span = 0.5f;
+
+            float y_max = (1.0f - 0.10f) * NGRIDY;
+            float y_min = 0.05f * NGRIDY;
+            float dy = y_max - y_min;
+            if (dy < 0.1f)
+              dy = 0.1f;
+
+            float scale = span / dy;
+            float refpos = y_max - (max_p / scale);
+
+            if (trace[t].scale <= 0.0f ||
+                vna_fabsf(scale - trace[t].scale) > trace[t].scale * 0.03f)
+              set_trace_scale(t, scale);
+
+            if (vna_fabsf(refpos - trace[t].refpos) > 0.02f)
+              set_trace_refpos(t, refpos);
+          }
+
+          drawTheSWRLines = false;
+        }
+
+        request_to_redraw(REDRAW_BACKUP | REDRAW_AREA);
+
+        /* --------------------------------------------------------
+         * Plot freeze logic + plotting
+         * -------------------------------------------------------- */
+        bool in_mla_stability_phase =
+            (!mla_resonance_locked &&
+             (mla_res_stable_count > 0) &&
+             (mla_res_stable_count < MLA_STABLE_SWEEPS_REQUIRED));
+
+        if (!in_mla_stability_phase && (mla_no_dip_count == 0))
+        {
+          request_to_redraw(REDRAW_PLOT);
+          draw_all();
+
+          bool centered = mla_is_resonance_centered();
+
+          if (!centered)
+          {
+            /* ----------------------------------------------------------
+             * Force sweep window around resonance
+             * ---------------------------------------------------------- */
+
+            const uint32_t SPAN_HZ = 1 * 1000000UL; // e.g. 1 MHz
+            uint32_t start, stop;
+
+            start = mla_res_freq - (SPAN_HZ / 2);
+            stop = mla_res_freq + (SPAN_HZ / 2);
+
+            set_sweep_frequency(ST_START, start);
+            set_sweep_frequency(ST_STOP, stop);
+
+            mla_autozone_stage = 1;
+          }
+
+          // chThdSleepMilliseconds(1000);
+        }
+      }
+    }
+
+    //*************************************************************************************************************************** */
+    if (HB9II_mode == 2)
+    {
+
+      if (doOnceOnly_In_Mode2 == true)
+      {
+        targetting_mode = true;
+        MLA_UART_LOG("[MLA] We are in Mode 2\r\n");
+        set_sweep_frequency(ST_START, target_frequency);
+        set_sweep_frequency(ST_STOP, target_frequency);
+
+        // Make sure only one point is used
+        sweep_points = 1;
+
+        lcd_set_colors(LCD_BG_COLOR, LCD_BG_COLOR);
+        lcd_fill(0, 0, LCD_WIDTH, LCD_HEIGHT);
+      }
+
+      bool completed = false;
+      uint16_t mask = get_sweep_mask();
+      completed = sweep(true, mask);
+      displayTargetFrequency(target_frequency);
+
+      if (completed)
+      {
+        float re = measured[0][0][0];
+        float im = measured[0][0][1];
+
+        float mag = sqrtf(re * re + im * im);
+        float rl = (mag > 0.0f) ? -20.0f * log10f(mag) : 0.0f;
+        float swr = (mag < 0.999f) ? (1.0f + mag) / (1.0f - mag) : 9999.0f;
+
+        // MLA_UART_LOG("F=14.200 MHz | SWR=%.2f | RL=%.1f dB\r\n",swr, rl);
+
+        drawBarGraph(swr);
+        displaySWR(swr);
+        doOnceOnly_In_Mode2 = false;
+      }
+      int evt = touch_checkHB9IIU();
+
+      if (evt == 2) // PRESSED
+      {
+
+#define SWR_TOUCH_X0 0
+#define SWR_TOUCH_Y0 ((LCD_HEIGHT / 2) - 30)
+#define SWR_TOUCH_W LCD_WIDTH
+#define SWR_TOUCH_H 50
+
+        int px = g_touch_px;
+        int py = g_touch_py;
+
+        // 1) SWR area click?
+        if (px >= SWR_TOUCH_X0 && px < (SWR_TOUCH_X0 + SWR_TOUCH_W) &&
+            py >= SWR_TOUCH_Y0 && py < (SWR_TOUCH_Y0 + SWR_TOUCH_H))
+        {
+          MLA_UART_LOG("SWR AREA PRESSED  x=%d y=%d\r\n", px, py);
+
+          HB9II_mode = 1;
+          targetting_mode = false;
+
+          /* 1) HARD RESET of sweep/page state (DO NOT OR into old flags) */
+          sweep_mode = 0; // <-- critical: purge stale sweep flags
+          drawTheSWRLines = false;
+          redraw_request = REDRAW_ALL; // <-- critical: don't OR with old redraw bits
+
+          /* 2) Reset resonance / autozone gating so no “go to resonance point” blocks you */
+          mla_resonance_locked = false;
+          mla_res_ref_freq = 0;
+          mla_res_stable_count = 0;
+          mla_no_dip_count = 0;
+          mla_autozone_stage = 0;
+          mla_autoscale_pending = false;
+
+          /* 3) Set the full-band sweep params BEFORE plot_init() (plot may scale from them) */
+          sweep_points = 401;
+          set_sweep_points(401);
+          set_sweep_frequency(ST_START, 3000000); // 3 MHz
+          set_sweep_frequency(ST_STOP, 30000000); // 30 MHz
+
+          lcd_clear_screen();
+          ui_close_all();
+          plot_init();
+          /* FORCE menu to be closed (menu may be logically open even if not drawn) */
+
+          /* 5) Now arm + run exactly one sweep */
+          sweep_mode = (SWEEP_ENABLE | SWEEP_ONCE);
+          // 5) Force redraw AFTER geometry + init
+          redraw_request |= REDRAW_ALL;
+        }
+        else
+        {
+          // 2) Otherwise, check frequency digit hotspots
+          int32_t dHz = freq_hitbox_delta_hz(px, py, 200, 35, 3);
+
+          if (dHz != 0)
+          {
+            int64_t nf = (int64_t)target_frequency + dHz;
+
+            if (nf < 8000)
+              nf = 8000;
+            if (nf > 160000000)
+              nf = 160000000;
+
+            target_frequency = (uint32_t)nf;
+
+            set_sweep_frequency(ST_START, target_frequency);
+            set_sweep_frequency(ST_STOP, target_frequency);
+
+            MLA_UART_LOG("NEW FREQ = %lu (dHz=%ld)\r\n",
+                         (unsigned long)target_frequency, (long)dHz);
+          }
+        }
+      }
+
+      chThdSleepMilliseconds(40);
+    }
+  }
 
   // BAR GRAPH TEST
   /*
@@ -1702,8 +2138,8 @@ static THD_FUNCTION(Thread1, arg)
   // TEST------------------------------------------------------------------
 
   // --- FIXED FREQUENCY TEST MODE ---
-  uint32_t target_frequency = 14123456; // 14.2 MHz
- targetting_mode= true;
+
+  targetting_mode = true;
 
   set_sweep_frequency(ST_START, target_frequency);
   set_sweep_frequency(ST_STOP, target_frequency);
@@ -1720,12 +2156,8 @@ static THD_FUNCTION(Thread1, arg)
   {
     bool completed = false;
     uint16_t mask = get_sweep_mask();
-
     completed = sweep(true, mask);
-    //sweep_mode |= SWEEP_UI_MODE;
-    //ui_process();
-    //sweep_mode &= ~SWEEP_UI_MODE;
-    displayTargetFrequency(target_frequency); // ← HERE
+    displayTargetFrequency(target_frequency);
 
     if (completed)
     {
@@ -1736,48 +2168,57 @@ static THD_FUNCTION(Thread1, arg)
       float rl = (mag > 0.0f) ? -20.0f * log10f(mag) : 0.0f;
       float swr = (mag < 0.999f) ? (1.0f + mag) / (1.0f - mag) : 9999.0f;
 
-      MLA_UART_LOG(
-          "F=14.200 MHz | SWR=%.2f | RL=%.1f dB\r\n",
-          swr, rl);
+      // MLA_UART_LOG("F=14.200 MHz | SWR=%.2f | RL=%.1f dB\r\n",swr, rl);
 
       drawBarGraph(swr);
       displaySWR(swr);
     }
+    int evt = touch_checkHB9IIU();
 
-int evt = touch_checkHB9IIU();
+    if (evt == 2) // PRESSED
+    {
 
-if (evt == 2) // PRESSED (from your log)
-{
-  int32_t dHz = freq_hitbox_delta_hz(g_touch_px, g_touch_py, 200, 35, 3);
+#define SWR_TOUCH_X0 0
+#define SWR_TOUCH_Y0 ((LCD_HEIGHT / 2) - 30)
+#define SWR_TOUCH_W LCD_WIDTH
+#define SWR_TOUCH_H 50
 
-  if (dHz != 0)
-  {
-    int64_t nf = (int64_t)target_frequency + dHz;
+      int px = g_touch_px;
+      int py = g_touch_py;
 
-    // clamp if you want (optional)
-    if (nf < 8000) nf = 8000;
-    if (nf > 160000000) nf = 160000000;
+      // 1) SWR area click?
+      if (px >= SWR_TOUCH_X0 && px < (SWR_TOUCH_X0 + SWR_TOUCH_W) &&
+          py >= SWR_TOUCH_Y0 && py < (SWR_TOUCH_Y0 + SWR_TOUCH_H))
+      {
+        MLA_UART_LOG("SWR AREA PRESSED  x=%d y=%d\r\n", px, py);
+      }
+      else
+      {
+        // 2) Otherwise, check frequency digit hotspots
+        int32_t dHz = freq_hitbox_delta_hz(px, py, 200, 35, 3);
 
-    target_frequency = (uint32_t)nf;
+        if (dHz != 0)
+        {
+          int64_t nf = (int64_t)target_frequency + dHz;
 
-    set_sweep_frequency(ST_START, target_frequency);
-    set_sweep_frequency(ST_STOP,  target_frequency);
+          if (nf < 8000)
+            nf = 8000;
+          if (nf > 160000000)
+            nf = 160000000;
 
-    MLA_UART_LOG("NEW FREQ = %lu (dHz=%ld)\r\n",
-                 (unsigned long)target_frequency, (long)dHz);
+          target_frequency = (uint32_t)nf;
+
+          set_sweep_frequency(ST_START, target_frequency);
+          set_sweep_frequency(ST_STOP, target_frequency);
+
+          MLA_UART_LOG("NEW FREQ = %lu (dHz=%ld)\r\n",
+                       (unsigned long)target_frequency, (long)dHz);
+        }
+      }
+    }
+
+    chThdSleepMilliseconds(20);
   }
-}
-
-chThdSleepMilliseconds(100);
-
-  }
-
-
-
-
-
-
-
 
   /* ------------------------------------------------------------
    * Main sweep thread loop
@@ -2753,10 +3194,10 @@ static void load_default_properties(void)
   current_props._frequency0 = 50000;     // start =  50kHz
   current_props._frequency1 = 900000000; // end   = 900MHz
   current_props._var_freq = 0;
-  current_props._sweep_points = POINTS_COUNT_DEFAULT;     // Set default points count
-  current_props._cal_frequency0 = 50000;                  // calibration start =  50kHz
-  current_props._cal_frequency1 = 900000000;              // calibration end   = 900MHz
-  current_props._cal_sweep_points = POINTS_COUNT_DEFAULT; // Set calibration default points count
+  current_props._sweep_points = 401;         // Set default points count
+  current_props._cal_frequency0 = 50000;     // calibration start =  50kHz
+  current_props._cal_frequency1 = 900000000; // calibration end   = 900MHz
+  current_props._cal_sweep_points = 401;     // Set calibration default points count
   current_props._cal_status = 0;
   //=============================================
   memcpy(current_props._trace, def_trace, sizeof(def_trace));
@@ -5498,7 +5939,7 @@ int main(void)
    */
   set_sweep_frequency(ST_START, 3000000); // 3 MHz
   set_sweep_frequency(ST_STOP, 30000000); // 30 MHz
-
+  set_sweep_points(401);
   /*
    * MLA Toolbox: enable only S11 logmag & S21 phase at startup
    * trace 0: S11 logmag (keep enabled)

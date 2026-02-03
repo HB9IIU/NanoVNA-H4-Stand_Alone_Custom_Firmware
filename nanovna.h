@@ -57,7 +57,7 @@
 // Use unique serial string for USB
 #define __USB_UID__
 // If enabled serial in halconf.h, possible enable serial console control
-#define __USE_SERIAL_CONSOLE__
+// #define __USE_SERIAL_CONSOLE__   HB9IIU XXXXXX
 // Add show y grid line values option
 #define __USE_GRID_VALUES__
 // Add remote desktop option
